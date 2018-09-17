@@ -56,6 +56,12 @@ public class HandTest {
     }
 
     @Test
+    public void readFromInputFile() {
+        boolean result = true;
+        assertTrue(result);
+    }
+
+    @Test
     public void score() {
 
     }

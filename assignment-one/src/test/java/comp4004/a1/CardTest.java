@@ -11,11 +11,11 @@ public class CardTest {
 
     @Test
     public void valueAccess() {
-        assertEquals("value", new Card("suit", "value").getValue());
+        assertEquals(0, new Card("S", "A").rank);
     }
 
     @Test
     public void suitAccess() {
-        assertEquals("suit", new Card("suit", "value").getSuit());
+        assertEquals(3, new Card("S", "A").suit);
     }
 }
