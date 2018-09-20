@@ -1,6 +1,10 @@
 package comp4004.a1;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 
 public class Hand {
 
@@ -9,12 +13,30 @@ public class Hand {
     ArrayList<Card> cards;
 
     /* Constructors */
-    // TODO: Read in file and create cards from there.
     Hand(ArrayList cards) {
         if (cards.size() != 5) {
             throw new IllegalArgumentException("The required number of cards in a hand is 5.");
         }
+        this.cards = cards;
+    }
 
+    // Reads in file and reads cards from there!
+    Hand(String path) {
+        ArrayList<Card> cards = new ArrayList<Card>();
+        String fileContent = readInFile(path);
+        String[] stringCards = fileContent.split(" ");
+        Card card;
+
+        for(int x = 0; x < stringCards.length; x++) {
+            System.out.println(stringCards[x].substring(1));
+            card = new Card(stringCards[x].substring(0, 1), stringCards[x].substring(1));
+            card.printCard();
+            cards.add(card);
+        }
+
+        if (cards.size() != 5) {
+            throw new IllegalArgumentException("The required number of cards in a hand is 5. Cards from " + path);
+        }
         this.cards = cards;
     }
 
@@ -22,6 +44,22 @@ public class Hand {
     private Hand improveHand() {
        return this;
     }
+
+   private String readInFile(String path) {
+
+       ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+
+       File file = new File(classLoader.getResource(path).getFile());
+
+       String content = null;
+       try {
+           content = new String(Files.readAllBytes(file.toPath()));
+       } catch (IOException e) {
+           e.printStackTrace();
+       }
+       return content.toString();
+   }
+
 
     /* Methods */
 
@@ -32,35 +70,35 @@ public class Hand {
         return false;
     }
 
-    private boolean isRoyalFlush() {
+    public boolean isRoyalFlush() {
         return true;
     }
 
-    private boolean isStraightFlush() {
+    public boolean isStraightFlush() {
         return true;
     }
 
-    private boolean isFullHouse() {
+    public boolean isFullHouse() {
         return true;
     }
 
-    private boolean isFlush() {
+    public boolean isFlush() {
         return true;
     }
 
-    private boolean isStraight() {
+    public boolean isStraight() {
         return true;
     }
 
-    private boolean isFourOfAKind() {
+    public boolean isFourOfAKind() {
         return true;
     }
 
-    private boolean isThreeOfAKind() {
+    public boolean isThreeOfAKind() {
         return true;
     }
 
-    private boolean isTwoOfAKind() {
+    public boolean isTwoOfAKind() {
         return true;
     }
 

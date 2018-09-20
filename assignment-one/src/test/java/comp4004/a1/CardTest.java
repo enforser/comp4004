@@ -11,7 +11,7 @@ public class CardTest {
 
     @Test
     public void valueAccess() {
-        assertEquals(0, new Card("S", "A").rank);
+        assertEquals(1, new Card("S", "3").rank);
     }
 
     @Test

@@ -9,6 +9,38 @@ import static org.junit.Assert.*;
 
 public class HandTest {
 
+    /***** UTILITY FUNCTIONS *****/
+
+    // checks if cards in the hand all exist in the array list of card
+    public boolean sameCards(Hand hand, ArrayList<Card> cards) {
+        ArrayList<Card> cardsInHands = hand.cards;
+        for(int x = 0; x < cardsInHands.size(); x++) {
+            Card card1, card2;
+            boolean inHand = false;
+            for(int y = 0; y < cards.size(); y++) {
+                card1 = cardsInHands.get(x);
+                card2 = cards.get(y);
+                if (card1.rank == card2.rank && card1.suit == card2.suit) {
+                    inHand = true;
+                }
+            }
+            if (inHand == false) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public ArrayList<Card> generateCards(String[] suits, String[] ranks) {
+        ArrayList<Card> cards = new ArrayList<>();
+        for (int x = 0; x < suits.length; x++) {
+            cards.add(new Card(suits[x], ranks[x]));
+        }
+        return cards;
+    }
+
+    /******* END UTILITY FUNCTIONS *****/
+
     @Test
     public void validHandSize() {
         // init a list with 5 cards
@@ -56,9 +88,23 @@ public class HandTest {
     }
 
     @Test
-    public void readFromInputFile() {
-        boolean result = true;
-        assertTrue(result);
+    public void getCardsFromFileTest() {
+        String[] suits = {"S", "S", "D", "H", "S"};
+        String[] ranks = {"A", "2", "10", "J", "K"};
+        generateCards(suits, ranks);
+
+        Hand hand = new Hand("fixture1.txt");
+        assertTrue(sameCards(hand, generateCards(suits, ranks)));
+    }
+
+    @Test
+    public void isRoyalFlushTest() {
+        Hand royalFlushHand = new Hand("royalFlush.txt");
+        Hand sameSuitsHand = new Hand("sameSuits.txt");
+        Hand royalWithDifferentSuits = new Hand("royalWithDifferentSuits.txt");
+        assertTrue(royalFlushHand.isRoyalFlush());
+        assertFalse(sameSuitsHand.isRoyalFlush());
+        assertFalse(royalWithDifferentSuits.isRoyalFlush());
     }
 
     @Test
