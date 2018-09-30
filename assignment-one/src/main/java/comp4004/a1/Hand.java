@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.HashSet;
 
 public class Hand {
 
@@ -28,9 +29,7 @@ public class Hand {
         Card card;
 
         for(int x = 0; x < stringCards.length; x++) {
-            System.out.println(stringCards[x].substring(1));
             card = new Card(stringCards[x].substring(0, 1), stringCards[x].substring(1));
-            card.printCard();
             cards.add(card);
         }
 
@@ -87,7 +86,28 @@ public class Hand {
     }
 
     public boolean isStraight() {
-        return true;
+        int lowestRank = 1000;
+        int highestRank = 0;
+        HashSet ranks = new HashSet();
+        System.out.println("doing a thing");
+        for (int x = 0; x < cards.size(); x++) {
+            if (cards.get(x).rank > highestRank) {
+                highestRank = cards.get(x).rank;
+            }
+            if (cards.get(x).rank < lowestRank) {
+                lowestRank = cards.get(x).rank;
+            }
+            ranks.add(cards.get(x).rank);
+        }
+        // if all ranks are unique and the difference between the lowest
+        // and highest is 4 then it must be a straight.
+        System.out.print(ranks.size());
+        System.out.print(lowestRank);
+        System.out.print(highestRank);
+        if(ranks.size() == 5 && (highestRank - lowestRank) == 4) {
+            return true;
+        }
+        return false;
     }
 
     public boolean isFourOfAKind() {
