@@ -108,6 +108,15 @@ public class HandTest {
     }
 
     @Test
+    public void isStraight() {
+        assertTrue(new Hand("orderedStraight.txt").isStraight());
+        assertTrue(new Hand("unorderedStraight.txt").isStraight());
+        assertFalse(new Hand("fromHighestToLowestRank.txt").isStraight());
+        assertFalse(new Hand("fourOrderedRanks.txt").isStraight());
+        assertFalse(new Hand("noOrderedRanks.txt").isStraight());
+    }
+
+    @Test
     public void testHandsWithPairs() {
         Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
         Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
