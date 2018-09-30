@@ -82,9 +82,15 @@ public class Hand {
     }
 
     public boolean isFlush() {
+        for (int x = 0; x < cards.size() - 1; x++) {
+            if (cards.get(x).suit != cards.get(x + 1).suit) {
+                return false;
+            }
+        }
         return true;
     }
 
+    // TODO: confirm/test the ace rule (bottom, top, or both?)
     public boolean isStraight() {
         int lowestRank = 1000;
         int highestRank = 0;
