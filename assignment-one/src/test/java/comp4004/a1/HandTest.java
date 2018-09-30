@@ -108,6 +108,13 @@ public class HandTest {
     }
 
     @Test
+    public void isFlush() {
+        assertTrue(new Hand("flush.txt").isFlush());
+        assertFalse(new Hand("oneDifferentSuit.txt").isFlush());
+        assertFalse(new Hand("allSuits.txt").isFlush());
+    }
+
+    @Test
     public void isStraight() {
         assertTrue(new Hand("orderedStraight.txt").isStraight());
         assertTrue(new Hand("unorderedStraight.txt").isStraight());
