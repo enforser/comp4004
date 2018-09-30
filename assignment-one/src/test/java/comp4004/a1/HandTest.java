@@ -108,6 +108,50 @@ public class HandTest {
     }
 
     @Test
+    public void testHandsWithPairs() {
+        Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
+        Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
+        Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
+        Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
+        Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
+        assertTrue(handWithPairTogether.isTwoOfAKind());
+        assertTrue(handWithPairNotTogether.isTwoOfAKind());
+        assertFalse(handWithNoPairs.isTwoOfAKind());
+        assertTrue(handWithFourOfAKind.isTwoOfAKind());
+        assertTrue(handWithThreeOfAKind.isTwoOfAKind());
+    }
+
+    @Test
+    public void testHandsWithThreeOfSameRank() {
+        Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
+        Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
+        Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
+        Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
+        Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
+        // TODO: Add test for when the three are not grouped together in hand
+        assertFalse(handWithPairTogether.isThreeOfAKind());
+        assertFalse(handWithPairNotTogether.isThreeOfAKind());
+        assertFalse(handWithNoPairs.isThreeOfAKind());
+        assertTrue(handWithFourOfAKind.isThreeOfAKind());
+        assertTrue(handWithThreeOfAKind.isThreeOfAKind());
+    }
+
+    @Test
+    public void testHandsWithFourOfSameRank() {
+        Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
+        Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
+        Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
+        Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
+        Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
+        // TODO: Add test for when the four cards are not grouped together
+        assertFalse(handWithPairTogether.isFourOfAKind());
+        assertFalse(handWithPairNotTogether.isFourOfAKind());
+        assertFalse(handWithNoPairs.isFourOfAKind());
+        assertFalse(handWithThreeOfAKind.isFourOfAKind());
+        assertTrue(handWithFourOfAKind.isFourOfAKind());
+    }
+
+    @Test
     public void score() {
 
     }

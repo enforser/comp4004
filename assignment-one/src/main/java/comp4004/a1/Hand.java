@@ -91,15 +91,44 @@ public class Hand {
     }
 
     public boolean isFourOfAKind() {
-        return true;
+        return isNOfAKind(4);
     }
 
     public boolean isThreeOfAKind() {
-        return true;
+        return isNOfAKind(3);
     }
 
     public boolean isTwoOfAKind() {
-        return true;
+        return isNOfAKind(2);
+    }
+
+    private boolean isNOfAKind(int n) {
+        for (int x = 0; x < cards.size(); x++) {
+            if (numberOfRankInstances(cards.get(x).rank) >= n) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private int numberOfRankInstances(int rank) {
+        int n = 0;
+        for (int x = 0; x < cards.size(); x++) {
+            if (cards.get(x).rank == rank) {
+                n = n + 1;
+            }
+        }
+        return n;
+    }
+
+    private int numberOfSuitInstances(int suit) {
+        int n = 0;
+        for (int x = 0; x < cards.size(); x++) {
+            if (cards.get(x).suit == suit) {
+                n = n + 1;
+            }
+        }
+        return n;
     }
 
     public int score() {
