@@ -108,6 +108,15 @@ public class HandTest {
     }
 
     @Test
+    public void isStraightFlush() {
+        assertTrue(new Hand("straightFlush.txt").isStraightFlush());
+        assertTrue(new Hand("royalFlush.txt").isStraightFlush());
+        assertFalse(new Hand("orderedStraight.txt").isStraightFlush());
+        assertFalse(new Hand("straightWithFourSameSuit.txt").isStraightFlush());
+        assertFalse(new Hand("noSimilarRanks.txt").isStraightFlush());
+    }
+
+    @Test
     public void isFullHouse() {
         assertTrue(new Hand("fullHouse.txt").isFullHouse());
         assertFalse(new Hand("handWithThreeOfAKind.txt").isFullHouse());
