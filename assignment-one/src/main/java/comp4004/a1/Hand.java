@@ -78,7 +78,25 @@ public class Hand {
     }
 
     public boolean isFullHouse() {
-        return true;
+        int rank1 = -1;
+        int rank2 = -1;
+        int currCardRank;
+
+        // check for three of a kind first - don't bother iterate if there is none.
+        // makes any check where hand is not full house faster, but will slightly
+        // increase check for success. This is a sacrifice I'm willing to make.
+        if (!this.isThreeOfAKind()) { return false; }
+
+        for (int x = 0; x < cards.size(); x++) {
+            currCardRank = cards.get(x).rank;
+            if (rank1 != -1 && currCardRank != rank1 && numberOfRankInstances(currCardRank) == 2) {
+               return true;
+            }
+            if (rank1 == -1 && numberOfRankInstances(currCardRank) == 3) {
+                rank1 = currCardRank;
+            }
+        }
+        return false;
     }
 
     public boolean isFlush() {
