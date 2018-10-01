@@ -113,7 +113,7 @@ public class HandTest {
         assertTrue(new Hand("royalFlush.txt").isStraightFlush());
         assertFalse(new Hand("orderedStraight.txt").isStraightFlush());
         assertFalse(new Hand("straightWithFourSameSuit.txt").isStraightFlush());
-        assertFalse(new Hand("noSimilarRanks.txt").isStraightFlush());
+        assertFalse(new Hand("noOrderedRanks.txt").isStraightFlush());
     }
 
     @Test

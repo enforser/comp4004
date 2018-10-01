@@ -70,11 +70,24 @@ public class Hand {
     }
 
     public boolean isRoyalFlush() {
+        if (!this.isStraightFlush()) { return false; }
+
+        boolean result;
+        String[] ranks = {"10", "J", "Q", "K", "A"};
+        for (int x = 0; x < ranks.length; x++) {
+            result = false;
+            for (int y = 0; y < ranks.length; y++) {
+                 if (ranks[x].equals(cards.get(y).getRankAsString())) {
+                     result = true;
+                 }
+            }
+            if (!result) { return false; }
+        }
         return true;
     }
 
     public boolean isStraightFlush() {
-        return true;
+        return ((this.isStraight() && numberOfSuitInstances(cards.get(0).suit) == 5) ? true : false);
     }
 
     public boolean isFullHouse() {

@@ -29,6 +29,10 @@ public class Card {
         return 0;
     }
 
+    public String getRankAsString() {
+        return ranks[rank];
+    }
+
     public void printCard() {
         System.out.println("Printing Card value: " + suits[this.suit] + ranks[this.rank]);
     }
