@@ -108,6 +108,14 @@ public class HandTest {
     }
 
     @Test
+    public void isFullHouse() {
+        assertTrue(new Hand("fullHouse.txt").isFullHouse());
+        assertFalse(new Hand("handWithThreeOfAKind.txt").isFullHouse());
+        assertFalse(new Hand("handWithPairTogether.txt").isFullHouse());
+        assertFalse(new Hand("handWithNoPairs.txt").isFullHouse());
+    }
+
+    @Test
     public void isFlush() {
         assertTrue(new Hand("flush.txt").isFlush());
         assertFalse(new Hand("oneDifferentSuit.txt").isFlush());
