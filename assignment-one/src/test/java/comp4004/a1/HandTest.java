@@ -3,7 +3,6 @@ package comp4004.a1;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -24,7 +23,7 @@ public class HandTest {
                     inHand = true;
                 }
             }
-            if (inHand == false) {
+            if (!inHand) {
                 return false;
             }
         }
@@ -186,6 +185,11 @@ public class HandTest {
 
     @Test
     public void score() {
+
+    }
+
+    @Test
+    public void improveHand() {
 
     }
 }
