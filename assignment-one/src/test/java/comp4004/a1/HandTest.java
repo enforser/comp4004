@@ -192,4 +192,17 @@ public class HandTest {
     public void improveHand() {
 
     }
+
+    @Test
+    public void equalsTest() {
+        Hand flush = new Hand("flush.txt");
+        Hand flushDup = new Hand("flush.txt");
+        Hand fullHouse = new Hand("fullHouse.txt");
+
+        assertFalse(flush.equals(fullHouse));
+        assertFalse(fullHouse.equals(flush));
+        assertFalse(flush.equals("not-a-hand-object"));
+        assertTrue(flush.equals(flush));
+        assertTrue(flush.equals(flushDup));
+    }
 }
