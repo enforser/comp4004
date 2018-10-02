@@ -39,11 +39,6 @@ public class Hand {
         this.cards = cards;
     }
 
-    // Called on the AI hand to apply the improving logic.
-    private Hand improveHand() {
-       return this;
-    }
-
    private String readInFile(String path) {
 
        ClassLoader classLoader = ClassLoader.getSystemClassLoader();
@@ -190,5 +185,38 @@ public class Hand {
 
     public int score() {
         return 0;
+    }
+
+    public void improveHand() {
+        System.out.println("Improving Hand!");
+        // Don't improve if straight or better. Note that special versions of hands are encompassed
+        // by the following. Example: Royal Flush will be caught by a check for a non-Royal Flush.
+        if (this.isStraight() || this.isFlush() || this.isFullHouse() || this.isFourOfAKind()) {
+
+        }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == this) {
+            return true;
+        }
+        if (!(o instanceof Hand)) {
+            return false;
+        }
+        Hand hand = (Hand) o;
+        boolean inHand;
+        for (int x = 0; x < this.cards.size(); x++) {
+            inHand = false;
+            for (int y = 0; y < hand.cards.size(); y++) {
+                if (this.cards.get(x).equals(hand.cards.get(y))) {
+                    inHand = true;
+                }
+            }
+            if (!inHand) {
+                return false;
+            }
+        }
+        return true;
     }
 }
