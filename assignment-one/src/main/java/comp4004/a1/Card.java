@@ -33,6 +33,21 @@ public class Card {
         return ranks[rank];
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (o == this) {
+            return true;
+        }
+        if (!(o instanceof Card)) {
+            return false;
+        }
+        Card card = (Card) o;
+        if (this.suit == card.suit && this.rank == card.rank) {
+            return true;
+        }
+        return false;
+    }
+
     public void printCard() {
         System.out.println("Printing Card value: " + suits[this.suit] + ranks[this.rank]);
     }
