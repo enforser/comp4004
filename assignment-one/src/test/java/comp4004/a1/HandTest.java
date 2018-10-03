@@ -229,6 +229,12 @@ public class HandTest {
         h2 = new Hand("threeOfSameSuit.txt");
         h2.improveHand();
         assertEquals(2, numberOfDifferentCards(h2, h1));
+
+        h1 = new Hand("threeCardsInSequence.txt");
+        h2 = new Hand("threeCardsInSequence.txt");
+        h2.improveHand();
+        assertEquals(2, numberOfDifferentCards(h2, h1));
+
     }
 
     @Test

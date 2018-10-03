@@ -220,22 +220,36 @@ public class Hand {
     }
 
     public void improveHand() {
-        System.out.println("Improving Hand!");
         Deck deck = new Deck();
         deck.removeCards(this.cards);
-        System.out.println("AAA" + this.oneOff());
         // Don't improve if straight or better. Note that special versions of hands are encompassed
         // by the following. Example: Royal Flush will be caught by a check for a non-Royal Flush.
         if (this.isStraight() || this.isFlush() || this.isFullHouse() || this.isFourOfAKind()) {
-            System.out.println("Not improving");
             // do nothing if straight or better
         }
         // if one off from straight, full house, or flush then exchange that card
         else if (-1 != this.oneOff()) {
-            System.out.println("AAA");
             this.cards.remove(this.oneOff());
             this.cards.add(deck.draw());
         }
+        else if (-1 != this.hasThreeOfSameSuit()) {
+            for (int x = 0; x < this.cards.size(); x++) {
+                if (cards.get(x).suit != this.hasThreeOfSameSuit()) {
+                    this.cards.remove(x);
+                    // add to front so that rest of the cards are still checked
+                    this.cards.add(0, deck.draw());
+                }
+            }
+        }
+    }
+
+    private int hasThreeOfSameSuit() {
+        for (int x = 0; x < 4; x++) {
+            if (numberOfSuitInstances(x) == 3) {
+                return x;
+            }
+        }
+        return -1;
     }
 
     @Override
