@@ -30,6 +30,21 @@ public class HandTest {
         return true;
     }
 
+    public int numberOfDifferentCards(Hand hand1, Hand hand2) {
+        int count = 0;
+        boolean existsIn;
+        for (int i = 0; i < hand1.cards.size(); i++) {
+            existsIn = false;
+            for (int q = 0; q < hand2.cards.size(); q++) {
+                if (hand2.cards.get(i).equals(hand1.cards.get(q))) {
+                    existsIn = true;
+                }
+            }
+            if (!existsIn) { count = count + 1; }
+        }
+        return count;
+    }
+
     public ArrayList<Card> generateCards(String[] suits, String[] ranks) {
         ArrayList<Card> cards = new ArrayList<>();
         for (int x = 0; x < suits.length; x++) {
@@ -208,9 +223,12 @@ public class HandTest {
         h1 = new Hand("oneOffFromStraight.txt");
         h2 = new Hand("oneOffFromStraight.txt");
         h2.improveHand();
-        assertFalse(h1.equals(h2));
+        assertEquals(1, numberOfDifferentCards(h2, h1));
 
-        
+        h1 = new Hand("threeOfSameSuit.txt");
+        h2 = new Hand("threeOfSameSuit.txt");
+        h2.improveHand();
+        assertEquals(2, numberOfDifferentCards(h2, h1));
     }
 
     @Test
