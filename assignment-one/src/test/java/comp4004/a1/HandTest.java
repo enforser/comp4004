@@ -216,4 +216,18 @@ public class HandTest {
         assertTrue(flush.equals(flush));
         assertTrue(flush.equals(flushDup));
     }
+
+    @Test
+    public void oneOff() {
+        Hand oneOffFromStraight = new Hand("oneOffFromStraight.txt");
+        assertEquals(0, oneOffFromStraight.oneOff());
+
+        Hand oneOffFromFullHouse = new Hand("oneOffFromFullHouse.txt");
+        assertEquals(2, oneOffFromFullHouse.oneOff());
+
+        Hand oneOffFromFlush = new Hand("oneOffFromFlush.txt");
+        assertEquals(4, oneOffFromFlush.oneOff());
+
+        assertEquals(-1, new Hand("highestCard.txt").oneOff());
+    }
 }
