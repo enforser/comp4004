@@ -11,6 +11,11 @@ public class Card {
         this.rank = lookupRank(value);
     }
 
+    Card(Integer suit, Integer rank) {
+        this.suit = suit;
+        this.rank = rank;
+    }
+
     public int lookupSuit(String suit) {
         for (int x = 0; x < suits.length; x++) {
             if(suits[x].equals(suit)) {
