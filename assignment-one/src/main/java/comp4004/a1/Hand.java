@@ -187,12 +187,43 @@ public class Hand {
         return 0;
     }
 
+    // returns the index at which to swap out a card, -1 if no action should be taken.
+    public int oneOff() {
+        Deck deck = new Deck();
+        deck.removeCards(this.cards);
+
+        Hand testingHand;
+
+        for (int x = 0; x < deck.cards.size(); x++) {
+            for (int y = 0; y < this.cards.size(); y++) {
+                testingHand = this.makeCopy();
+                testingHand.cards.remove(y);
+                testingHand.cards.add(deck.cards.get(x));
+                if (testingHand.isStraight() || testingHand.isFlush() || testingHand.isFullHouse()) {
+                    return y;
+                }
+            }
+        }
+        return -1;
+    }
+
+    public Hand makeCopy() {
+        ArrayList<Card> cards = new ArrayList<>();
+        for (int i = 0; i < this.cards.size(); i++) {
+            cards.add(this.cards.get(i).makeCopy());
+        }
+        return new Hand(cards);
+    }
+
     public void improveHand() {
         System.out.println("Improving Hand!");
         // Don't improve if straight or better. Note that special versions of hands are encompassed
         // by the following. Example: Royal Flush will be caught by a check for a non-Royal Flush.
         if (this.isStraight() || this.isFlush() || this.isFullHouse() || this.isFourOfAKind()) {
-
+            // do nothing if straight or better
+        }
+        else if (true) {
+            // if one of from straight, full house, or flush then exchange that card
         }
     }
 

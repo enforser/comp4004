@@ -16,6 +16,10 @@ public class Card {
         this.rank = rank;
     }
 
+    public Card makeCopy() {
+        return new Card(this.suit, this.rank);
+    }
+
     public int lookupSuit(String suit) {
         for (int x = 0; x < suits.length; x++) {
             if(suits[x].equals(suit)) {
