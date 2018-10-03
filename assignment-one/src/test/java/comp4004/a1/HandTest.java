@@ -202,6 +202,15 @@ public class HandTest {
         h2 = new Hand("royalFlush.txt");
         h2.improveHand();
         assertTrue(h1.equals(h2));
+
+        // If one off then we expect the hand to change with one new Card.
+        // other oneOff hands are covered in oneOff tests.
+        h1 = new Hand("oneOffFromStraight.txt");
+        h2 = new Hand("oneOffFromStraight.txt");
+        h2.improveHand();
+        assertFalse(h1.equals(h2));
+
+        
     }
 
     @Test
