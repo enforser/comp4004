@@ -194,6 +194,10 @@ public class Hand {
 
         Hand testingHand;
 
+        // This is a crappy way to do this but...
+        // swaps out each card with every card of the deck to see if
+        // if any hands where one card is changed are a Straight or better
+        // but excluding four of a kind
         for (int x = 0; x < deck.cards.size(); x++) {
             for (int y = 0; y < this.cards.size(); y++) {
                 testingHand = this.makeCopy();
@@ -217,13 +221,20 @@ public class Hand {
 
     public void improveHand() {
         System.out.println("Improving Hand!");
+        Deck deck = new Deck();
+        deck.removeCards(this.cards);
+        System.out.println("AAA" + this.oneOff());
         // Don't improve if straight or better. Note that special versions of hands are encompassed
         // by the following. Example: Royal Flush will be caught by a check for a non-Royal Flush.
         if (this.isStraight() || this.isFlush() || this.isFullHouse() || this.isFourOfAKind()) {
+            System.out.println("Not improving");
             // do nothing if straight or better
         }
-        else if (true) {
-            // if one of from straight, full house, or flush then exchange that card
+        // if one off from straight, full house, or flush then exchange that card
+        else if (-1 != this.oneOff()) {
+            System.out.println("AAA");
+            this.cards.remove(this.oneOff());
+            this.cards.add(deck.draw());
         }
     }
 
