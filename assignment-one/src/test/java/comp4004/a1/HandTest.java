@@ -190,7 +190,18 @@ public class HandTest {
 
     @Test
     public void improveHand() {
+        Hand h1, h2;
 
+        // Test that improve hand does not change anything above a straight
+        h1 = new Hand("orderedStraight.txt");
+        h2 = new Hand("orderedStraight.txt");
+        h2.improveHand();
+        assertTrue(h1.equals(h2));
+
+        h1 = new Hand("royalFlush.txt");
+        h2 = new Hand("royalFlush.txt");
+        h2.improveHand();
+        assertTrue(h1.equals(h2));
     }
 
     @Test
