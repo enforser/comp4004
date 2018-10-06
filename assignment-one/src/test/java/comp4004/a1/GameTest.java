@@ -21,7 +21,8 @@ public class GameTest {
        Hand highCard = new Hand("highestCard.txt");
 
        // size of 9.
-       Hand[] orderedHands = {royalFlush, straightFlush, fourOfAKind, fullHouse, flush, straight, threeOfAKind, twoOfAKind, highCard};
+       Hand[] orderedHands = {highCard, twoOfAKind, threeOfAKind, straight, flush, fullHouse, fourOfAKind, straightFlush, royalFlush};
+
 
        for (int x = 1; x < orderedHands.length; x++) { // defines root hand
            for (int y = x - 1; y >= 0; y--) { // compare all lower ranked hands to root hand

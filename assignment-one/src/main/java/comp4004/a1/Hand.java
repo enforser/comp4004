@@ -365,4 +365,10 @@ public class Hand {
         }
         return true;
     }
+
+    public void print() {
+        for (int x = 0; x < this.cards.size(); x++) {
+            this.cards.get(x).printCard();
+        }
+    }
 }
