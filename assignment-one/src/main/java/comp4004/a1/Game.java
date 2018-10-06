@@ -27,6 +27,8 @@ public class Game {
                 case 9: // royal flush
                     return isBetterSuit();
                 case 8: // straight flush
+                    return specialCaseForStraightFlush();
+                case 7:
                     return isBetterHighestCard();
             }
         }
@@ -71,7 +73,22 @@ public class Game {
                 bestUserCard = this.userHand.cards.get(x);
             }
         }
+        return (bestAICard.greaterThan(bestUserCard));
+    }
 
-        return ((bestAICard.greaterThan(bestUserCard)) ? true : false);
+    private boolean specialCaseForStraightFlush() {
+        boolean AIHasAce = false, userHasAce = false;
+
+        for (int x = 0; x < this.AIHand.cards.size(); x++) {
+            if (AIHand.cards.get(x).getRankAsString().equals("A")) {
+                AIHasAce = true;
+            }
+            if (userHand.cards.get(x).getRankAsString().equals("A")) {
+                userHasAce = true;
+            }
+        }
+        if (userHasAce && !AIHasAce) { return true; }
+        if (!userHasAce && AIHasAce) { return false; }
+        return isBetterHighestCard();
     }
 }
