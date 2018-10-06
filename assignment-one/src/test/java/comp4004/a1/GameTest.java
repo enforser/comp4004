@@ -20,9 +20,7 @@ public class GameTest {
        Hand twoOfAKind = new Hand("handWithPairTogether.txt");
        Hand highCard = new Hand("highestCard.txt");
 
-       // size of 9.
        Hand[] orderedHands = {highCard, twoOfAKind, threeOfAKind, straight, flush, fullHouse, fourOfAKind, straightFlush, royalFlush};
-
 
        for (int x = 1; x < orderedHands.length; x++) { // defines root hand
            for (int y = x - 1; y >= 0; y--) { // compare all lower ranked hands to root hand
@@ -31,4 +29,22 @@ public class GameTest {
            }
        }
    }
+
+    // Test to make sure that royal flush is ordered by suit.
+    @Test
+    public void isBetterRoyalFlush() {
+        Game testGame;
+        Hand heartsRoyalFlush = new Hand("heartsRoyalFlush.txt");
+        Hand spadesRoyalFlush = new Hand("spadesRoyalFlush.txt");
+
+        // ensure both hands are actually royal flushes
+        assertTrue(heartsRoyalFlush.isRoyalFlush());
+        assertTrue(spadesRoyalFlush.isRoyalFlush());
+
+        testGame = new Game(heartsRoyalFlush, spadesRoyalFlush);
+        assertFalse(testGame.isBetter());
+
+        testGame = new Game(spadesRoyalFlush, heartsRoyalFlush);
+        assertTrue(testGame.isBetter());
+    }
 }
