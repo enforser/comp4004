@@ -64,9 +64,14 @@ public class Game {
         Card bestUserCard = new Card(0,0);
 
         for (int x = 0; x < 5; x++) {
-
-
+            if (this.AIHand.cards.get(x).greaterThan(bestAICard)) {
+                bestAICard = this.AIHand.cards.get(x);
+            }
+            if (this.userHand.cards.get(x).greaterThan(bestUserCard)) {
+                bestUserCard = this.userHand.cards.get(x);
+            }
         }
-        return false;
+
+        return ((bestAICard.greaterThan(bestUserCard)) ? true : false);
     }
 }
