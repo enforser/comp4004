@@ -47,4 +47,24 @@ public class GameTest {
         testGame = new Game(spadesRoyalFlush, heartsRoyalFlush);
         assertTrue(testGame.isBetter());
     }
+
+    @Test
+    public void isBetterHigherCardTest() {
+        Game testGame;
+
+        Hand heartsStraightFlush = new Hand("heartsStraightFlush.txt");
+        Hand spadesStraightFlush = new Hand("spadesStraightFlush.txt");
+        Hand lowerRankedStraight = new Hand("lowerRankedStraightFlush.txt");
+        Hand higherRankedStraight = new Hand("higherRankedStraightFlush.txt");
+
+        // ensure both are straight flushes
+        assertTrue(heartsStraightFlush.isStraightFlush());
+        assertTrue(spadesStraightFlush.isStraightFlush());
+
+        assertFalse(new Game(heartsStraightFlush, spadesStraightFlush).isBetter());
+        assertTrue(new Game(spadesStraightFlush, heartsStraightFlush).isBetter());
+
+        assertTrue(new Game(higherRankedStraight, lowerRankedStraight).isBetter());
+        assertFalse(new Game(lowerRankedStraight, higherRankedStraight).isBetter());
+    }
 }
