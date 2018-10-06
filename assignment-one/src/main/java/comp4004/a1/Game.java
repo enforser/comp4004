@@ -1,5 +1,7 @@
 package comp4004.a1;
 
+import com.sun.media.sound.AiffFileReader;
+
 public class Game {
 
     Hand AIHand, userHand;
@@ -14,7 +16,25 @@ public class Game {
         int AIrank = handRank(this.AIHand);
         int userRank = handRank(this.userHand);
 
-        if (AIrank > userRank) { return true; }
+        if (AIrank > userRank) { // ai is better rank
+            return true;
+        }
+        else if (AIrank < userRank) { // user is better rank
+            return false;
+        }
+        else { // ranks must be tied (uh oh!!!)
+            switch (AIrank) {
+                case 9: // royal flush
+                    return isBetterSuit();
+            }
+        }
+
+        try {
+            throw new Exception("Could not identify a winner between the AI and User hands");
+        }
+        catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
 
         return false;
     }
@@ -30,5 +50,10 @@ public class Game {
         else if (hand.isThreeOfAKind()) { return 3; }
         else if (hand.isTwoOfAKind()) { return 2; }
         else {return 1;}
+    }
+
+    // assuming both hands have all cards of the same suit, returns if AI hand is better.
+    private boolean isBetterSuit() {
+        return AIHand.cards.get(0).suit > userHand.cards.get(0).suit;
     }
 }
