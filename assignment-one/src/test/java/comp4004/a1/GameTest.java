@@ -48,6 +48,7 @@ public class GameTest {
         assertTrue(testGame.isBetter());
     }
 
+    // TODO: Ace in straight needs to be considered as lowest rank
     @Test
     public void isBetterHigherCardTest() {
         Game testGame;
@@ -56,6 +57,7 @@ public class GameTest {
         Hand spadesStraightFlush = new Hand("spadesStraightFlush.txt");
         Hand lowerRankedStraight = new Hand("lowerRankedStraightFlush.txt");
         Hand higherRankedStraight = new Hand("higherRankedStraightFlush.txt");
+        Hand aceStraightFlush = new Hand("aceStraightFlush.txt");
 
         // ensure both are straight flushes
         assertTrue(heartsStraightFlush.isStraightFlush());
@@ -66,5 +68,7 @@ public class GameTest {
 
         assertTrue(new Game(higherRankedStraight, lowerRankedStraight).isBetter());
         assertFalse(new Game(lowerRankedStraight, higherRankedStraight).isBetter());
+
+        assertTrue(new Game(heartsStraightFlush, aceStraightFlush).isBetter());
     }
 }
