@@ -235,6 +235,45 @@ public class HandTest {
         h2.improveHand();
         assertEquals(2, numberOfDifferentCards(h2, h1));
 
+        h1 = new Hand("threeCardsInSequenceUnordered.txt");
+        h2 = new Hand("threeCardsInSequenceUnordered.txt");
+        h2.improveHand();
+        assertEquals(2, numberOfDifferentCards(h2, h1));
+
+        h1 = new Hand("threeCardsInSequenceAtEnd.txt");
+        h2 = new Hand("threeCardsInSequenceAtEnd.txt");
+        h2.improveHand();
+        assertEquals(2, numberOfDifferentCards(h2, h1));
+
+        h1 = new Hand("handWithPairTogether.txt");
+        h2 = new Hand("handWithPairTogether.txt");
+        h2.improveHand();
+        assertEquals(3, numberOfDifferentCards(h2, h1));
+
+        h1 = new Hand("handWithPairNotTogether.txt");
+        h2 = new Hand("handWithPairNotTogether.txt");
+        h2.improveHand();
+        assertEquals(3, numberOfDifferentCards(h2, h1));
+
+        h1 = new Hand("keepTwoHighestCards.txt");
+        h2 = new Hand("keepTwoHighestCards.txt");
+        h2.improveHand();
+        assertFalse(h1.equals(h2));
+        assertEquals(3, numberOfDifferentCards(h1, h2));
+        boolean highestCard = false, secondHighest = false;
+        Card c;
+        for (int x = 0; x < h2.cards.size(); x++) {
+            c = h2.cards.get(x);
+            if (c.rank == 9 && c.suit == 3) {
+                highestCard = true;
+            }
+            if (c.rank == 7 && c.suit == 1) {
+                secondHighest = true;
+            }
+        }
+        assertTrue(highestCard && secondHighest);
+
+
     }
 
     @Test
