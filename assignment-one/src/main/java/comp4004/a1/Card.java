@@ -57,6 +57,13 @@ public class Card {
         return false;
     }
 
+    public boolean greaterThan(Card c) {
+        if (this.rank > c.rank || (this.rank == c.rank && this.suit > c.suit)) {
+            return true;
+        }
+        return false;
+    }
+
     public void printCard() {
         System.out.println("Printing Card value: " + suits[this.suit] + ranks[this.rank]);
     }

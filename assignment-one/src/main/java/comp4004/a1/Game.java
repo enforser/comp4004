@@ -26,6 +26,8 @@ public class Game {
             switch (AIrank) {
                 case 9: // royal flush
                     return isBetterSuit();
+                case 8: // straight flush
+                    return isBetterHighestCard();
             }
         }
 
@@ -55,5 +57,16 @@ public class Game {
     // assuming both hands have all cards of the same suit, returns if AI hand is better.
     private boolean isBetterSuit() {
         return AIHand.cards.get(0).suit > userHand.cards.get(0).suit;
+    }
+
+    private boolean isBetterHighestCard() {
+        Card bestAICard = new Card(0,0);
+        Card bestUserCard = new Card(0,0);
+
+        for (int x = 0; x < 5; x++) {
+
+
+        }
+        return false;
     }
 }
