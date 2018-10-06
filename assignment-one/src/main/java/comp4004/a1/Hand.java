@@ -121,7 +121,6 @@ public class Hand {
         int lowestRank = 1000;
         int highestRank = 0;
         HashSet ranks = new HashSet();
-        System.out.println("doing a thing");
         for (int x = 0; x < cards.size(); x++) {
             if (cards.get(x).rank > highestRank) {
                 highestRank = cards.get(x).rank;
@@ -133,9 +132,6 @@ public class Hand {
         }
         // if all ranks are unique and the difference between the lowest
         // and highest is 4 then it must be a straight.
-        System.out.print(ranks.size());
-        System.out.print(lowestRank);
-        System.out.print(highestRank);
         if(ranks.size() == 5 && (highestRank - lowestRank) == 4) {
             return true;
         }
@@ -241,6 +237,100 @@ public class Hand {
                 }
             }
         }
+        else if (threeInSequence()) {
+            this.cards.remove(this.cards.size() - 1);
+            this.cards.remove(this.cards.size() - 1);
+            this.cards.add(deck.draw());
+            this.cards.add(deck.draw());
+        }
+        // if hand has two pairs then it must be one card away from full house,
+        // so no need to implement that requirement here.
+        else if (this.isTwoOfAKind()) {
+            Card firstInPair, secondInPair, c;
+            for (int x = 0; x < this.cards.size(); x++) {
+                for (int y = 0; y < this.cards.size(); y++) {
+                    if (this.cards.get(x).rank == this.cards.get(y).rank && !this.cards.get(x).equals(this.cards.get(y))) {
+                        firstInPair = this.cards.get(x);
+                        secondInPair = this.cards.get(y);
+
+                        System.out.println("doing it");
+
+                        for (int i = 0; i < this.cards.size(); i++) {
+                            c = this.cards.get(i);
+                            if (c.equals(firstInPair) || c.equals(secondInPair)) {
+                                // do nothing
+                            }
+                            else {
+                                c.printCard();
+                                Card newCard = deck.draw();
+                                newCard.printCard();
+                                this.cards.remove(c);
+                                this.cards.add(0, newCard);
+                            }
+                        }
+                        return;
+                    }
+                }
+            }
+        } else {
+            Card highest = new Card(0,0);
+            Card secondHighest = new Card(0,0);
+
+            for (int x = 0; x < this.cards.size(); x++) {
+                if (highest.rank < this.cards.get(x).rank) {
+                    highest = this.cards.get(x);
+                }
+                else if (highest.rank == this.cards.get(x).rank && highest.suit < this.cards.get(x).suit) {
+                    highest = this.cards.get(x);
+                }
+            }
+
+            for (int x = 0; x < this.cards.size(); x++) {
+                if (!this.cards.get(x).equals(highest)) {
+                    this.cards.get(x).printCard();
+                    if (secondHighest.rank < this.cards.get(x).rank) {
+                        secondHighest = this.cards.get(x);
+                    }
+                    // no need to check for the same rank but different suit priorities because if there was a pair
+                    // of ranks then improveHand won't get here.
+                }
+            }
+            // remove all cards
+            for (int i = 0; i < 5; i++) {
+                this.cards.remove(0);
+            }
+            // add back two highest
+            this.cards.add(highest);
+            this.cards.add(secondHighest);
+            // draw three new cards
+            for (int i = 0; i < 3; i++) {
+                this.cards.add(deck.draw());
+            }
+        }
+    }
+
+    private boolean threeInSequence() {
+        ArrayList<Card> cards = new ArrayList<>();
+
+        // order cards by rank
+        for (int x = 12; x >= 0; x--) {
+            for (int y = 0; y < this.cards.size(); y++) {
+                if (this.cards.get(y).rank == x) {
+                    cards.add(0, this.cards.get(y).makeCopy());
+                }
+            }
+        }
+
+        // if there is any group of three cards that are in order and rank
+        // increments by 1 then we have a sequence of three.
+        for (int x = 0; x <= 2; x++) {
+            if (cards.get(x).rank + 1 == cards.get(x + 1).rank &&
+                cards.get(x + 1).rank + 1 == cards.get(x + 2).rank) {
+                this.cards = cards;
+                return true;
+            }
+        }
+        return false;
     }
 
     private int hasThreeOfSameSuit() {

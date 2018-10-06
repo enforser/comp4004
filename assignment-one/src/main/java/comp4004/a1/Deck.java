@@ -20,8 +20,9 @@ public class Deck {
     }
 
     public void removeCards(ArrayList<Card> cards) {
-        for (int x = 0; x < this.cards.size(); x++) {
-            for (int y = 0; y < cards.size(); y++) {
+        ArrayList<Integer> toBeRemoved = new ArrayList<>();
+        for (int y = 0; y < cards.size(); y++) {
+            for (int x = this.cards.size() - 1; x >= 0; x--) {
                 if (this.cards.get(x).equals(cards.get(y))) {
                     this.cards.remove(x);
                 }
