@@ -32,7 +32,7 @@ public class Game {
                     return isBetterSuit();
                 case 8: // straight flush
                     return specialCaseForStraightFlush();
-                case 7: // REDO - 4 of a kind, need to exclude stuff
+                case 7: // four of a kind
                     return bestOfFourOfAKind(); //isBetterHighestCard();
                 case 3: case 6: // full house & three of a kind
                     return bestOfThreeOfAKind();
