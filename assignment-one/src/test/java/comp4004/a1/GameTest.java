@@ -73,6 +73,23 @@ public class GameTest {
     }
 
     @Test
+    public void comparingFlushesTest() {
+        Game testgame;
+
+        Hand flushWithTenHighCard = new Hand("flushWithTenHighCard.txt");
+        Hand worseFlushWithTenHighCard = new Hand("worseFlushWithTenHighCard.txt");
+        Hand flushWithJokerHighCard = new Hand("flushWithJokerHighCard.txt");
+        Hand flushWithTenHighCardBetterSuit = new Hand("flushWithTenHighCardBetterSuit.txt");
+
+        assertTrue(new Game(flushWithTenHighCard, worseFlushWithTenHighCard).isBetter());
+        assertFalse(new Game(worseFlushWithTenHighCard, flushWithTenHighCard).isBetter());
+        assertTrue(new Game(flushWithJokerHighCard, flushWithTenHighCard).isBetter());
+        assertFalse(new Game(flushWithTenHighCard,flushWithJokerHighCard).isBetter());
+        assertTrue(new Game(flushWithTenHighCardBetterSuit, flushWithTenHighCard).isBetter());
+        assertFalse(new Game(flushWithTenHighCard, flushWithTenHighCardBetterSuit).isBetter());
+    }
+
+    @Test
     public void fourOfAKindTest() {
         Game testgame;
 
