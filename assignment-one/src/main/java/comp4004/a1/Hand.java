@@ -366,6 +366,25 @@ public class Hand {
         return true;
     }
 
+    public void sortByRank() {
+        ArrayList<Card> c = new ArrayList<>();
+        Card highestCard;
+        int highestIndex;
+        for (int x = 0; x < this.cards.size(); x++) {
+            highestCard = this.cards.get(x);
+            highestIndex = x;
+            for (int y = x; y < this.cards.size(); y++) {
+                if (highestCard.rank <= this.cards.get(y).rank) {
+                    highestCard = this.cards.get(y).makeCopy();
+                    highestIndex = y;
+                }
+            }
+            this.cards.remove(highestIndex);
+            this.cards.add(0, highestCard);
+        }
+
+    }
+
     public void print() {
         for (int x = 0; x < this.cards.size(); x++) {
             this.cards.get(x).printCard();

@@ -36,6 +36,8 @@ public class Game {
                     return bestOfFourOfAKind(); //isBetterHighestCard();
                 case 3: case 6: // full house & three of a kind
                     return bestOfThreeOfAKind();
+                case 5:
+                    return bestFlush();
             }
         }
 
@@ -122,5 +124,19 @@ public class Game {
             }
         }
         return cards;
+    }
+
+    private boolean bestFlush() {
+        this.AIHand.sortByRank();
+        this.userHand.sortByRank();
+
+        for (int x = 0; x < this.AIHand.cards.size(); x++) {
+            if (this.AIHand.cards.get(x).rank != this.userHand.cards.get(x).rank) {
+                return (this.AIHand.cards.get(x).rank > this.userHand.cards.get(x).rank);
+            }
+        }
+
+        return (this.AIHand.cards.get(0).suit > this.userHand.cards.get(0).suit);
+
     }
 }
