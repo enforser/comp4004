@@ -74,8 +74,6 @@ public class GameTest {
 
     @Test
     public void comparingFlushesTest() {
-        Game testgame;
-
         Hand flushWithTenHighCard = new Hand("flushWithTenHighCard.txt");
         Hand worseFlushWithTenHighCard = new Hand("worseFlushWithTenHighCard.txt");
         Hand flushWithJokerHighCard = new Hand("flushWithJokerHighCard.txt");
@@ -87,6 +85,19 @@ public class GameTest {
         assertFalse(new Game(flushWithTenHighCard,flushWithJokerHighCard).isBetter());
         assertTrue(new Game(flushWithTenHighCardBetterSuit, flushWithTenHighCard).isBetter());
         assertFalse(new Game(flushWithTenHighCard, flushWithTenHighCardBetterSuit).isBetter());
+    }
+
+    @Test
+    public void comparingStraightHands() {
+        Hand highRankStraight = new Hand("highRankStraight.txt");
+        Hand lowRankStraight = new Hand("lowRankStraight.txt");
+        Hand betterSuitStraight = new Hand("betterSuitStraight.txt");
+        Hand worseSuitStraight = new Hand("worseSuitStraight.txt");
+
+        assertTrue(new Game(highRankStraight, lowRankStraight).isBetter());
+        assertFalse(new Game(lowRankStraight, highRankStraight).isBetter());
+        assertTrue(new Game(betterSuitStraight, worseSuitStraight).isBetter());
+        assertFalse(new Game(worseSuitStraight, betterSuitStraight).isBetter());
     }
 
     @Test
