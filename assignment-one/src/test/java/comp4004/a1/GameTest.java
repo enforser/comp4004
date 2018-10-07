@@ -157,4 +157,17 @@ public class GameTest {
         assertTrue(new Game(pairOfFives, pairOfFoursWithOtherHighCards).isBetter());
         assertFalse(new Game(pairOfFoursWithOtherHighCards, pairOfFives).isBetter());
     }
+
+    @Test
+    public void highestCardTest() {
+        Hand highestCardTen = new Hand("highestCardTen.txt");
+        Hand highestCardTenWorseSuit = new Hand("highestCardTenWorseSuit.txt");
+        Hand highestCardNine = new Hand("highestCardNine.txt");
+
+        assertTrue(new Game(highestCardTen, highestCardTenWorseSuit).isBetter());
+        assertFalse(new Game(highestCardTenWorseSuit, highestCardTen).isBetter());
+
+        assertTrue(new Game(highestCardTen, highestCardNine).isBetter());
+        assertFalse(new Game(highestCardNine, highestCardTen).isBetter());
+    }
 }
