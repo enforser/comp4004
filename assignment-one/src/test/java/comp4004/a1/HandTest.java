@@ -302,4 +302,18 @@ public class HandTest {
 
         assertEquals(-1, new Hand("highestCard.txt").oneOff());
     }
+
+    @Test
+    public void hasTwoPairs() {
+        Hand hasTwoPairs = new Hand("hasTwoPairs.txt");
+        Hand fullHouse = new Hand("fullHouse.txt");
+        Hand noPairs = new Hand("straight.txt");
+        Hand onePair = new Hand("handWithPairTogether.txt");
+
+        assertTrue(hasTwoPairs.isTwoPairs());
+        assertTrue(fullHouse.isTwoPairs());
+        assertFalse(noPairs.isTwoPairs());
+        assertFalse(onePair.isTwoPairs());
+
+    }
 }
