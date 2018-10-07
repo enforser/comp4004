@@ -40,6 +40,8 @@ public class Game {
                     return bestFlush();
                 case 5:
                     return isBetterHighestCard();
+                case 3:
+                    return isBetterTwoPairs();
             }
         }
 
@@ -141,5 +143,13 @@ public class Game {
 
         return (this.AIHand.cards.get(0).suit > this.userHand.cards.get(0).suit);
 
+    }
+
+    private boolean isBetterTwoPairs() {
+        ArrayList<Card> h1filteredCards = filterCardsByRankCount(2, this.AIHand);
+        ArrayList<Card> h2filteredCards = filterCardsByRankCount(2, this.userHand);
+        AIHand.cards = h1filteredCards;
+        userHand.cards = h2filteredCards;
+        return isBetterHighestCard();
     }
 }
