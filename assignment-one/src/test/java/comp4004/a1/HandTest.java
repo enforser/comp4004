@@ -307,11 +307,13 @@ public class HandTest {
     public void hasTwoPairs() {
         Hand hasTwoPairs = new Hand("hasTwoPairs.txt");
         Hand fullHouse = new Hand("fullHouse.txt");
-        Hand noPairs = new Hand("straight.txt");
+        Hand fourOfAKind = new Hand("handWithFourOfAKind.txt");
+        Hand noPairs = new Hand("worseSuitStraight.txt");
         Hand onePair = new Hand("handWithPairTogether.txt");
 
         assertTrue(hasTwoPairs.isTwoPairs());
         assertTrue(fullHouse.isTwoPairs());
+        assertTrue(fourOfAKind.isTwoPairs());
         assertFalse(noPairs.isTwoPairs());
         assertFalse(onePair.isTwoPairs());
 

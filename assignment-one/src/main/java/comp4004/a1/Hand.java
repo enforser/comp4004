@@ -390,4 +390,17 @@ public class Hand {
             this.cards.get(x).printCard();
         }
     }
+
+    public boolean isTwoPairs() {
+        int cardsInPairs = 0;
+        for (int x = 0; x < this.cards.size(); x++) {
+            if (numberOfRankInstances(this.cards.get(x).rank) >= 2) {
+                cardsInPairs = cardsInPairs + 1;
+            }
+        }
+        // if there exists 4 cards where their rank occurs 2 or more times then
+        // there must be at least 2 pairs.
+        // this would count sequences of 4 cards of the same rank
+        return (cardsInPairs >= 4);
+    }
 }
