@@ -2,6 +2,10 @@ package comp4004.a1;
 
 import com.sun.media.sound.AiffFileReader;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Game {
 
     Hand AIHand, userHand;
@@ -22,14 +26,16 @@ public class Game {
         else if (AIrank < userRank) { // user is better rank
             return false;
         }
-        else { // ranks must be tied (uh oh!!!)
+        else { // ranks must be tied (THIS IS THE WILD PART!!!)
             switch (AIrank) {
                 case 9: // royal flush
                     return isBetterSuit();
                 case 8: // straight flush
                     return specialCaseForStraightFlush();
-                case 7:
-                    return isBetterHighestCard();
+                case 7: // REDO - 4 of a kind, need to exclude stuff
+                    return bestOfFourOfAKind(); //isBetterHighestCard();
+                case 3: case 6: // full house & three of a kind
+                    return bestOfThreeOfAKind();
             }
         }
 
@@ -65,7 +71,7 @@ public class Game {
         Card bestAICard = new Card(0,0);
         Card bestUserCard = new Card(0,0);
 
-        for (int x = 0; x < 5; x++) {
+        for (int x = 0; x < this.AIHand.cards.size(); x++) {
             if (this.AIHand.cards.get(x).greaterThan(bestAICard)) {
                 bestAICard = this.AIHand.cards.get(x);
             }
@@ -90,5 +96,31 @@ public class Game {
         if (userHasAce && !AIHasAce) { return true; }
         if (!userHasAce && AIHasAce) { return false; }
         return isBetterHighestCard();
+    }
+
+    private boolean bestOfThreeOfAKind() {
+        ArrayList<Card> h1filteredCards = filterCardsByRankCount(3, this.AIHand);
+        ArrayList<Card> h2filteredCards = filterCardsByRankCount(3, this.userHand);
+        AIHand.cards = h1filteredCards;
+        userHand.cards = h2filteredCards;
+        return isBetterHighestCard();
+    }
+
+    private boolean bestOfFourOfAKind() {
+        ArrayList<Card> h1filteredCards = filterCardsByRankCount(4, this.AIHand);
+        ArrayList<Card> h2filteredCards = filterCardsByRankCount(4, this.userHand);
+        AIHand.cards = h1filteredCards;
+        userHand.cards = h2filteredCards;
+        return isBetterHighestCard();
+    }
+
+    private ArrayList<Card> filterCardsByRankCount(Integer n, Hand h) {
+        ArrayList<Card> cards = new ArrayList<>();
+        for (int x = 0; x < h.cards.size(); x++) {
+            if (n == h.numberOfRankInstances(h.cards.get(x).rank)) {
+                cards.add(h.cards.get(x));
+            }
+        }
+        return cards;
     }
 }

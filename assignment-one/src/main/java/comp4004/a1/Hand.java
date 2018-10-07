@@ -159,7 +159,7 @@ public class Hand {
         return false;
     }
 
-    private int numberOfRankInstances(int rank) {
+    public int numberOfRankInstances(int rank) {
         int n = 0;
         for (int x = 0; x < cards.size(); x++) {
             if (cards.get(x).rank == rank) {
@@ -169,7 +169,7 @@ public class Hand {
         return n;
     }
 
-    private int numberOfSuitInstances(int suit) {
+    public int numberOfSuitInstances(int suit) {
         int n = 0;
         for (int x = 0; x < cards.size(); x++) {
             if (cards.get(x).suit == suit) {
