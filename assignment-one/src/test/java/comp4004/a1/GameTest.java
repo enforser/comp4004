@@ -5,30 +5,30 @@ import static org.junit.Assert.*;
 
 public class GameTest {
 
-   @Test
-   public void isBetterHandTypes() {
-       Game testGame;
+    @Test
+    public void isBetterHandTypes() {
+        Game testGame;
 
-       // initialized in order of winners vs. losers
-       Hand royalFlush = new Hand("royalFlush.txt");
-       Hand straightFlush = new Hand("straightFlush.txt");
-       Hand fourOfAKind = new Hand("handWithFourOfAKind.txt");
-       Hand fullHouse = new Hand("fullHouse.txt");
-       Hand flush = new Hand("flush.txt");
-       Hand straight = new Hand("unorderedStraight.txt");
-       Hand threeOfAKind = new Hand("handWithThreeOfAKind.txt");
-       Hand twoOfAKind = new Hand("handWithPairTogether.txt");
-       Hand highCard = new Hand("highestCard.txt");
+        // initialized in order of winners vs. losers
+        Hand royalFlush = new Hand("royalFlush.txt");
+        Hand straightFlush = new Hand("straightFlush.txt");
+        Hand fourOfAKind = new Hand("handWithFourOfAKind.txt");
+        Hand fullHouse = new Hand("fullHouse.txt");
+        Hand flush = new Hand("flush.txt");
+        Hand straight = new Hand("unorderedStraight.txt");
+        Hand threeOfAKind = new Hand("handWithThreeOfAKind.txt");
+        Hand twoOfAKind = new Hand("handWithPairTogether.txt");
+        Hand highCard = new Hand("highestCard.txt");
 
-       Hand[] orderedHands = {highCard, twoOfAKind, threeOfAKind, straight, flush, fullHouse, fourOfAKind, straightFlush, royalFlush};
+        Hand[] orderedHands = {highCard, twoOfAKind, threeOfAKind, straight, flush, fullHouse, fourOfAKind, straightFlush, royalFlush};
 
-       for (int x = 1; x < orderedHands.length; x++) { // defines root hand
-           for (int y = x - 1; y >= 0; y--) { // compare all lower ranked hands to root hand
-              testGame = new Game(orderedHands[x], orderedHands[y]);
-              assertTrue(testGame.isBetter());
-           }
-       }
-   }
+        for (int x = 1; x < orderedHands.length; x++) { // defines root hand
+            for (int y = x - 1; y >= 0; y--) { // compare all lower ranked hands to root hand
+                testGame = new Game(orderedHands[x], orderedHands[y]);
+                assertTrue(testGame.isBetter());
+            }
+        }
+    }
 
     // Test to make sure that royal flush is ordered by suit.
     @Test
@@ -74,9 +74,13 @@ public class GameTest {
 
     @Test
     public void fourOfAKindTest() {
-       Game testgame;
+        Game testgame;
 
+        Hand fourOfAKind = new Hand("fourOfAKind.txt");
+        Hand worseFourOfAKindWithHigherCard = new Hand("fourOfAKindHigherCard.txt");
 
+        assertFalse(new Game(worseFourOfAKindWithHigherCard, fourOfAKind).isBetter());
+        assertTrue(new Game(fourOfAKind, worseFourOfAKindWithHigherCard).isBetter());
     }
 
     @Test
