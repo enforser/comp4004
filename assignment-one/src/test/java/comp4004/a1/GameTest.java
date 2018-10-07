@@ -102,8 +102,6 @@ public class GameTest {
 
     @Test
     public void fourOfAKindTest() {
-        Game testgame;
-
         Hand fourOfAKind = new Hand("fourOfAKind.txt");
         Hand worseFourOfAKindWithHigherCard = new Hand("fourOfAKindHigherCard.txt");
 
@@ -113,8 +111,6 @@ public class GameTest {
 
     @Test
     public void threeOfAKindTest() {
-        Game testgame;
-
         Hand fullHouse = new Hand("fullHouse.txt");
         Hand betterFullHouse = new Hand("betterFullHouse.txt");
         Hand threeOfAKind = new Hand("threeOfAKind.txt");
@@ -124,5 +120,23 @@ public class GameTest {
         assertFalse(new Game(fullHouse, betterFullHouse).isBetter());
         assertTrue(new Game(threeOfAKind, worseThreeOfAKindWithHigherCard).isBetter());
         assertFalse(new Game(worseThreeOfAKindWithHigherCard, threeOfAKind).isBetter());
+    }
+
+    @Test
+    public void twoPairsTest() {
+        Hand handWithTwoPairs = new Hand("hasTwoPairs.txt");
+        Hand handWithWorsePairs = new Hand("hasTwoWorsePairs.txt");
+        Hand handWithSamePairsBetterSuit = new Hand("handWithTwoPairsBetterSuits.txt");
+        Hand handWithBetterRankedSecondPair = new Hand("hasOneBetterPair.txt");
+
+        assertTrue(new Game(handWithTwoPairs, handWithWorsePairs).isBetter());
+        assertFalse(new Game(handWithWorsePairs, handWithTwoPairs).isBetter());
+
+        assertTrue(new Game(handWithSamePairsBetterSuit, handWithWorsePairs).isBetter());
+        assertFalse(new Game(handWithWorsePairs, handWithSamePairsBetterSuit).isBetter());
+
+        // rank of second pair doesnt matter, we only care about highest card between both pairs.
+        assertFalse(new Game(handWithBetterRankedSecondPair, handWithTwoPairs).isBetter());
+        assertTrue(new Game(handWithTwoPairs, handWithBetterRankedSecondPair).isBetter());
     }
 }
