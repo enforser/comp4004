@@ -38,6 +38,8 @@ public class Game {
                     return bestOfThreeOfAKind();
                 case 5:
                     return bestFlush();
+                case 4:
+                    return isBetterHighestCard();
             }
         }
 
