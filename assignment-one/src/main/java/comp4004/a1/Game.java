@@ -28,17 +28,17 @@ public class Game {
         }
         else { // ranks must be tied (THIS IS THE WILD PART!!!)
             switch (AIrank) {
-                case 9: // royal flush
+                case 10: // royal flush
                     return isBetterSuit();
-                case 8: // straight flush
+                case 9: // straight flush
                     return specialCaseForStraightFlush();
-                case 7: // four of a kind
+                case 8: // four of a kind
                     return bestOfFourOfAKind(); //isBetterHighestCard();
-                case 3: case 6: // full house & three of a kind
+                case 4: case 7: // full house & three of a kind
                     return bestOfThreeOfAKind();
-                case 5:
+                case 6:
                     return bestFlush();
-                case 4:
+                case 5:
                     return isBetterHighestCard();
             }
         }
@@ -55,13 +55,14 @@ public class Game {
 
     // returns an integer which represents the rank of the hand.
     private int handRank(Hand hand) {
-        if (hand.isRoyalFlush()) { return 9; }
-        else if (hand.isStraightFlush()) { return 8; }
-        else if (hand.isFourOfAKind()) { return 7; }
-        else if (hand.isFullHouse()) { return 6; }
-        else if (hand.isFlush()) { return 5; }
-        else if (hand.isStraight()) { return 4; }
-        else if (hand.isThreeOfAKind()) { return 3; }
+        if (hand.isRoyalFlush()) { return 10; }
+        else if (hand.isStraightFlush()) { return 9; }
+        else if (hand.isFourOfAKind()) { return 8; }
+        else if (hand.isFullHouse()) { return 7; }
+        else if (hand.isFlush()) { return 6; }
+        else if (hand.isStraight()) { return 5; }
+        else if (hand.isThreeOfAKind()) { return 4; }
+        else if (hand.isTwoPairs()) { return 3; }
         else if (hand.isTwoOfAKind()) { return 2; }
         else {return 1;}
     }
