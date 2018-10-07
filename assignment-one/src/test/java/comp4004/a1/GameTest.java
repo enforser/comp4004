@@ -135,8 +135,26 @@ public class GameTest {
         assertTrue(new Game(handWithSamePairsBetterSuit, handWithWorsePairs).isBetter());
         assertFalse(new Game(handWithWorsePairs, handWithSamePairsBetterSuit).isBetter());
 
-        // rank of second pair doesnt matter, we only care about highest card between both pairs.
+        // rank of second pair doesn't matter, we only care about highest card between both pairs.
         assertFalse(new Game(handWithBetterRankedSecondPair, handWithTwoPairs).isBetter());
         assertTrue(new Game(handWithTwoPairs, handWithBetterRankedSecondPair).isBetter());
+    }
+
+    // testing hands with only one pair each.
+    @Test
+    public void pairsTest() {
+        Hand pairOfFives = new Hand("pairOfFives.txt");
+        Hand betterPairOfFives = new Hand("betterPairOfFives.txt");
+        Hand pairOfFours = new Hand("pairOfFours.txt");
+        Hand pairOfFoursWithOtherHighCards = new Hand("pairOfFoursWithOtherHighCards.txt");
+
+        assertTrue(new Game(betterPairOfFives, pairOfFives).isBetter());
+        assertFalse(new Game(pairOfFives, betterPairOfFives).isBetter());
+
+        assertTrue(new Game(pairOfFives, pairOfFours).isBetter());
+        assertFalse(new Game(pairOfFours, pairOfFives).isBetter());
+
+        assertTrue(new Game(pairOfFives, pairOfFoursWithOtherHighCards).isBetter());
+        assertFalse(new Game(pairOfFoursWithOtherHighCards, pairOfFives).isBetter());
     }
 }
