@@ -71,4 +71,26 @@ public class GameTest {
 
         assertTrue(new Game(heartsStraightFlush, aceStraightFlush).isBetter());
     }
+
+    @Test
+    public void fourOfAKindTest() {
+       Game testgame;
+
+
+    }
+
+    @Test
+    public void threeOfAKindTest() {
+        Game testgame;
+
+        Hand fullHouse = new Hand("fullHouse.txt");
+        Hand betterFullHouse = new Hand("betterFullHouse.txt");
+        Hand threeOfAKind = new Hand("threeOfAKind.txt");
+        Hand worseThreeOfAKindWithHigherCard = new Hand("threeOfAKindWithKing.txt");
+
+        assertTrue(new Game(betterFullHouse, fullHouse).isBetter());
+        assertFalse(new Game(fullHouse, betterFullHouse).isBetter());
+        assertTrue(new Game(threeOfAKind, worseThreeOfAKindWithHigherCard).isBetter());
+        assertFalse(new Game(worseThreeOfAKindWithHigherCard, threeOfAKind).isBetter());
+    }
 }
