@@ -45,4 +45,18 @@ public class CardTest {
         // same suit but greater rank => true
         assertTrue(new Card("S", "5").greaterThan(new Card("S", "4")));
     }
+
+    @Test
+    public void testRanksAndSuitOrder() {
+        String[] suits = {"C", "D", "H", "S"};
+        String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
+        Card c = new Card("C", "2");
+
+        for (int x = 0; x < suits.length; x++) {
+            suits[x].equals(c.getSuits()[x]);
+        }
+        for (int x = 0; x < ranks.length; x++) {
+            ranks[x].equals(c.getRanks()[x]);
+        }
+    }
 }

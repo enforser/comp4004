@@ -116,6 +116,10 @@ public class HandTest {
         Hand royalFlushHand = new Hand("royalFlush.txt");
         Hand sameSuitsHand = new Hand("sameSuits.txt");
         Hand royalWithDifferentSuits = new Hand("royalWithDifferentSuits.txt");
+        Hand royalReverse = new Hand("royalFlushDifferentOrderOne.txt");
+        Hand royalRandom = new Hand("royalFlushDifferentOrderTwo.txt");
+        assertTrue(royalRandom.isRoyalFlush());
+        assertTrue(royalReverse.isRoyalFlush());
         assertTrue(royalFlushHand.isRoyalFlush());
         assertFalse(sameSuitsHand.isRoyalFlush());
         assertFalse(royalWithDifferentSuits.isRoyalFlush());
@@ -124,6 +128,7 @@ public class HandTest {
     @Test
     public void isStraightFlush() {
         assertTrue(new Hand("straightFlush.txt").isStraightFlush());
+        assertTrue(new Hand("straightFlushRandom.txt").isStraightFlush());
         assertTrue(new Hand("royalFlush.txt").isStraightFlush());
         assertFalse(new Hand("orderedStraight.txt").isStraightFlush());
         assertFalse(new Hand("straightWithFourSameSuit.txt").isStraightFlush());
@@ -155,6 +160,24 @@ public class HandTest {
     }
 
     @Test
+    public void testHandsWithTwoPairs() {
+        Hand handWithTwoPairs = new Hand("hasTwoWorsePairs.txt");
+        Hand otherHandWithTwoPairs = new Hand("hasTwoPairs.txt");
+        Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
+        Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
+        Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
+        Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
+        Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
+        assertTrue(handWithTwoPairs.isTwoPairs());
+        assertTrue(otherHandWithTwoPairs.isTwoPairs());
+        assertTrue(handWithFourOfAKind.isTwoPairs());
+        assertFalse(handWithPairTogether.isTwoPairs());
+        assertFalse(handWithPairNotTogether.isTwoPairs());
+        assertFalse(handWithNoPairs.isTwoPairs());
+        assertFalse(handWithThreeOfAKind.isTwoPairs());
+    }
+
+    @Test
     public void testHandsWithPairs() {
         Hand handWithPairTogether = new Hand("handWithPairTogether.txt");
         Hand handWithPairNotTogether = new Hand("handWithPairNotTogether.txt");
@@ -175,7 +198,6 @@ public class HandTest {
         Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
         Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
         Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
-        // TODO: Add test for when the three are not grouped together in hand
         assertFalse(handWithPairTogether.isThreeOfAKind());
         assertFalse(handWithPairNotTogether.isThreeOfAKind());
         assertFalse(handWithNoPairs.isThreeOfAKind());
@@ -190,7 +212,6 @@ public class HandTest {
         Hand handWithNoPairs = new Hand("handWithNoPairs.txt");
         Hand handWithThreeOfAKind = new Hand("handWithThreeOfAKind.txt");
         Hand handWithFourOfAKind = new Hand("handWithFourOfAKind.txt");
-        // TODO: Add test for when the four cards are not grouped together
         assertFalse(handWithPairTogether.isFourOfAKind());
         assertFalse(handWithPairNotTogether.isFourOfAKind());
         assertFalse(handWithNoPairs.isFourOfAKind());
@@ -316,6 +337,17 @@ public class HandTest {
         assertTrue(fourOfAKind.isTwoPairs());
         assertFalse(noPairs.isTwoPairs());
         assertFalse(onePair.isTwoPairs());
+
+    }
+
+    @Test
+    public void testfrominputfile() {
+        Hand h = new Hand();
+
+        Hand[] hands = h.handsFromInputFile(1, "testInputFile.txt");
+        Hand[] handsTwo = h.handsFromInputFile(2, "testInputFile.txt");
+        assertTrue(true);
+
 
     }
 }

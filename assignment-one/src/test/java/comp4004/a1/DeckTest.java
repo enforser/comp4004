@@ -15,6 +15,12 @@ public class DeckTest {
     }
 
     @Test
+    public void sizeOfDeck() {
+        Deck deck = new Deck();
+        assertEquals(deck.cards.size(), 52);
+    }
+
+    @Test
     public void draw() {
         Deck deck = new Deck();
         Card card = deck.draw();

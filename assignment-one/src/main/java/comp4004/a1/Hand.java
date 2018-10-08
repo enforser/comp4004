@@ -14,6 +14,9 @@ public class Hand {
     ArrayList<Card> cards;
 
     /* Constructors */
+    Hand() {
+    }
+
     Hand(ArrayList cards) {
         if (cards.size() != 5) {
             throw new IllegalArgumentException("The required number of cards in a hand is 5.");
@@ -116,7 +119,6 @@ public class Hand {
         return true;
     }
 
-    // TODO: confirm/test the ace rule (bottom, top, or both?)
     public boolean isStraight() {
         int lowestRank = 1000;
         int highestRank = 0;
@@ -253,8 +255,6 @@ public class Hand {
                         firstInPair = this.cards.get(x);
                         secondInPair = this.cards.get(y);
 
-                        System.out.println("doing it");
-
                         for (int i = 0; i < this.cards.size(); i++) {
                             c = this.cards.get(i);
                             if (c.equals(firstInPair) || c.equals(secondInPair)) {
@@ -387,6 +387,7 @@ public class Hand {
 
     public void print() {
         for (int x = 0; x < this.cards.size(); x++) {
+            System.out.print("  ");
             this.cards.get(x).printCard();
         }
     }
@@ -402,5 +403,27 @@ public class Hand {
         // there must be at least 2 pairs.
         // this would count sequences of 4 cards of the same rank
         return (cardsInPairs >= 4);
+    }
+
+    public Hand[] handsFromInputFile(int line, String path) {
+        String fileContent = readInFile(path);
+        System.out.println(fileContent);
+        String theLine = fileContent.split("\\r?\\n")[line - 1];
+        ArrayList<Card> AICards = new ArrayList<>();
+        ArrayList<Card> userCards = new ArrayList<>();
+
+        String[] splitCards = theLine.split(" ");
+
+        for (int x = 0; x < 5; x++) {
+           AICards.add(new Card(splitCards[x].substring(0,1), splitCards[x].substring(1)));
+        }
+
+        for (int x = 5; x < 10; x++) {
+            userCards.add(new Card(splitCards[x].substring(0,1), splitCards[x].substring(1)));
+        }
+
+        Hand[] hands = {new Hand(AICards), new Hand(userCards)};
+        return hands;
+
     }
 }

@@ -16,6 +16,14 @@ public class Card {
         this.rank = rank;
     }
 
+    public String[] getSuits() {
+        return suits;
+    }
+
+    public String[] getRanks() {
+        return ranks;
+    }
+
     public Card makeCopy() {
         return new Card(this.suit, this.rank);
     }
@@ -65,6 +73,6 @@ public class Card {
     }
 
     public void printCard() {
-        System.out.println("Printing Card value: " + suits[this.suit] + ranks[this.rank]);
+        System.out.println("Card value: " + suits[this.suit] + ranks[this.rank]);
     }
 }
