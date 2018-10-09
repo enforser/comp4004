@@ -3,6 +3,8 @@
 - *Class*: COMP4004
 - *Author*: Matthew Fors
 
+[https://github.com/enforser/comp4004/tree/master/assignment-one](Link to Repository)
+
 ### How to run
 
 Step #1: Clone the directory and navigate into assignment-one directory. 
