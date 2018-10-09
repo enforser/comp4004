@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="comp4004.a1.CardTest" time="0.001" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="comp4004.a1.GameTest" time="0.079" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,10 +62,15 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="suitAccess" classname="comp4004.a1.CardTest" time="0"/>
-  <testcase name="valueAccess" classname="comp4004.a1.CardTest" time="0"/>
-  <testcase name="shouldAnswerWithTrue" classname="comp4004.a1.CardTest" time="0"/>
-  <testcase name="equalsTest" classname="comp4004.a1.CardTest" time="0"/>
-  <testcase name="greaterThan" classname="comp4004.a1.CardTest" time="0"/>
-  <testcase name="testRanksAndSuitOrder" classname="comp4004.a1.CardTest" time="0"/>
+  <testcase name="isBetterRoyalFlush" classname="comp4004.a1.GameTest" time="0.009"/>
+  <testcase name="isBetterHigherCardTest" classname="comp4004.a1.GameTest" time="0.005"/>
+  <testcase name="pairsTest" classname="comp4004.a1.GameTest" time="0.006"/>
+  <testcase name="twoPairsTest" classname="comp4004.a1.GameTest" time="0.059"/>
+  <testcase name="comparingFlushesTest" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="highestCardTest" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="fourOfAKindTest" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="comparingStraightHands" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="isBetterStraightFlush" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="threeOfAKindTest" classname="comp4004.a1.GameTest" time="0"/>
+  <testcase name="isBetterHandTypes" classname="comp4004.a1.GameTest" time="0"/>
 </testsuite>

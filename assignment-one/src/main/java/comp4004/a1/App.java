@@ -11,6 +11,8 @@ public class App
         Hand AI;
         Hand user;
 
+        System.out.println("---------------------------------------");
+
         if (args.length == 2) {
             //Create hands for user and AI
             String pathToAICards = "hands/" + args[0];
@@ -21,7 +23,7 @@ public class App
         }
         else {
             Hand h = new Hand();
-            Hand[] hands = h.handsFromInputFile(1, args[0]);
+            Hand[] hands = h.handsFromFile(args[0]);
             AI = hands[0];
             user = hands[1];
         }
@@ -62,21 +64,6 @@ public class App
             System.out.println("User is the winner!");
         }
         System.out.println("---------------------------------------");
-    }
-
-    private String readInFile(String path) {
-
-        ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-
-        File file = new File(classLoader.getResource(path).getFile());
-
-        String content = null;
-        try {
-            content = new String(Files.readAllBytes(file.toPath()));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return content.toString();
     }
 }
 

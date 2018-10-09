@@ -4,8 +4,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.HashSet;
+import java.nio.file.*;
 
 public class Hand {
 
@@ -425,6 +425,40 @@ public class Hand {
 
         Hand[] hands = {new Hand(AICards), new Hand(userCards)};
         return hands;
+    }
+
+
+    public static String readFileAsString(String fileName) throws Exception {
+        String data = "";
+        data = new String(Files.readAllBytes(Paths.get(fileName)));
+        return data;
+    }
+
+    public Hand[] handsFromFile(String path) {
+        try {
+            System.out.println("Reading file: " + path);
+            String fileContent = readFileAsString(path);
+            String[] cards = fileContent.split(" ");
+            ArrayList<Card> AICards = new ArrayList<>();
+            ArrayList<Card> userCards = new ArrayList<>();
+            System.out.println("Contents of file: " + fileContent);
+
+            for (int x = 0; x < 5; x++) {
+                AICards.add(new Card(cards[x].substring(0,1), cards[x].substring(1)));
+            }
+
+            for (int x = 5; x < 10; x++) {
+                userCards.add(new Card(cards[x].substring(0,1), cards[x].substring(1)));
+            }
+
+            Hand[] hands = {new Hand(AICards), new Hand(userCards)};
+            return hands;
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+            Hand[] hands = {};
+            return hands;
+        }
 
     }
 }
