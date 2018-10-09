@@ -5,6 +5,10 @@
 
 [Link to Repository](https://github.com/enforser/comp4004/tree/master/assignment-one)
 
+### Correction Grid
+
+In this directory: `ForsMatthew-grid.xlsx`
+
 ### How to run
 
 Step #1: Clone the directory and navigate into assignment-one directory. 
