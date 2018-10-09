@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b17b961-90c7-41d1-a340-79dc79aa8dd5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testInputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testInputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/handWithPairNotTogether.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handWithPairNotTogether.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/comp4004/a1/CardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/comp4004/a1/CardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/comp4004/a1/HandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/comp4004/a1/HandTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment_one$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1539061602038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>comp4004.a1.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-873840210">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="39" />
+          <entry key="txt" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="39" />
+          <entry key="PLAIN_TEXT" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="45127" />
+          <entry key="txt" value="2796" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="45127" />
+          <entry key="PLAIN_TEXT" value="2796" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6875544">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="148">
+                  <caret line="435" column="14" lean-forward="true" selection-start-line="435" selection-start-column="14" selection-end-line="435" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/testInputFile.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="353">
+                  <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/threeCardsInSequenceUnordered.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/handWithPairNotTogether.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/keepTwoHighestCards.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/realhands/ai.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/realhands/user.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/spadesRoyalFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/heartsRoyalFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/spadesStraightFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/heartsStraightFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/lowerRankedStraightFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/higherRankedStraightFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/aceStraightFlush.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/betterFullHouse.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/fullHouse.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/threeOfAKind.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/threeOfAKindWithKing.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/fourOfAKind.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/fourOfAKindHigherCard.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/flushWithJokerHighCard.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/flushWithTenHighCardBetterSuit.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/worseflushWithTenHighCard.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/flushWithTenHighCard.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/highRankStraight.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/lowRankStraight.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/betterSuitStraight.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/worseSuitStraight.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/hasTwoPairs.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/hasOneBetterPair.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/handWithTwoPairsBetterSuits.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/hasTwoWorsePairs.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/pairOfFours.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/betterPairOfFives.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/pairOfFives.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/pairOfFoursWithOtherHighCards.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/highestCardTen.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/highestCardTenWorseSuit.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/highestCardNine.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hands/ai.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/CardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/royalFlushDifferentOrderOne.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/royalFlushDifferentOrderTwo.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/straightFlushRandom.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testInputFile.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="disabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539063163084" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="comp4004.a1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.comp4004.a1 in assignment-one">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp4004.a1.App" />
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="comp4004.a1" />
+      <option name="MAIN_CLASS_NAME" value="comp4004.a1.AppTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.comparingFlushesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="comp4004.a1" />
+      <option name="MAIN_CLASS_NAME" value="comp4004.a1.GameTest" />
+      <option name="METHOD_NAME" value="comparingFlushesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.highestCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="comp4004.a1" />
+      <option name="MAIN_CLASS_NAME" value="comp4004.a1.GameTest" />
+      <option name="METHOD_NAME" value="highestCardTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comp4004.a1 in assignment-one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="comp4004.a1" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GameTest.highestCardTest" />
+      <item itemvalue="JUnit.GameTest.comparingFlushesTest" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.comp4004.a1 in assignment-one" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.comp4004.a1 in assignment-one" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.GameTest.comparingFlushesTest" />
+        <item itemvalue="JUnit.GameTest.highestCardTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b17b961-90c7-41d1-a340-79dc79aa8dd5" name="Default Changelist" comment="" />
+      <created>1536768897863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536768897863</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GameTest_twoPairsTest - 2018.10.09 at 00h 42m 15s.xml">
+      <configuration name="GameTest.twoPairsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_twoPairsTest - 2018.10.09 at 00h 42m 42s.xml">
+      <configuration name="GameTest.twoPairsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_pairsTest - 2018.10.09 at 00h 45m 41s.xml">
+      <configuration name="GameTest.pairsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_pairsTest - 2018.10.09 at 00h 47m 13s.xml">
+      <configuration name="GameTest.pairsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_pairsTest - 2018.10.09 at 00h 47m 38s.xml">
+      <configuration name="GameTest.pairsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_highestCardTest - 2018.10.09 at 00h 54m 35s.xml">
+      <configuration name="GameTest.highestCardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_comparingFlushesTest - 2018.10.09 at 01h 01m 21s.xml">
+      <configuration name="GameTest.comparingFlushesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.09 at 01h 06m 31s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.09 at 01h 06m 43s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="comp4004_a1_in_assignment-one - 2018.10.09 at 01h 06m 59s.xml">
+      <configuration name="comp4004.a1 in assignment-one" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48640916" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.2253012" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5135909" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.490701" weight="0.32891566" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java</url>
+          <line>170</line>
+          <properties class="comp4004.a1.HandTest" method="isStraight">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java</url>
+          <line>8</line>
+          <properties class="comp4004.a1.DeckTest" method="removeCards">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java</url>
+          <line>23</line>
+          <properties class="comp4004.a1.DeckTest" method="draw">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java</url>
+          <line>252</line>
+          <properties class="comp4004.a1.HandTest" method="improveHand">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java</url>
+          <line>229</line>
+          <properties class="comp4004.a1.HandTest" method="testHandsWithFourOfSameRank">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keepTwoHighestCards.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spadesRoyalFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spadesStraightFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/heartsStraightFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/heartsRoyalFlush.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lowerRankedStraightFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/higherRankedStraightFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aceStraightFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/betterFullHouse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fullHouse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fourOfAKind.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/handWithFourOfAKind.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/threeOfAKindWithKing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/threeOfAKind.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fourOfAKindHigherCard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/flushWithJokerHighCard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/flushWithTenHighCardBetterSuit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/worseflushWithTenHighCard.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/flushWithTenHighCard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lowRankStraight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/betterSuitStraight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/worseSuitStraight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/highRankStraight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/handWithTwoPairsBetterSuits.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hasTwoWorsePairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hasTwoPairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hasOneBetterPair.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pairOfFours.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pairOfFives.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/betterPairOfFives.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/highestCardNine.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/highestCardTenWorseSuit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/highestCardTen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hands/ai.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hands/user.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pairOfFoursWithOtherHighCards.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/CardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/royalFlushDifferentOrderTwo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/royalFlushDifferentOrderOne.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/royalFlush.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/straightFlushRandom.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13307#13308#0" expanded="true" />
+            <element signature="e#13349#13350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testInputFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="435" column="14" lean-forward="true" selection-start-line="435" selection-start-column="14" selection-end-line="435" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment-one</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

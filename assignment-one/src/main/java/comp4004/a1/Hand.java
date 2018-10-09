@@ -104,6 +104,7 @@ public class Hand {
                return true;
             }
             if (rank1 == -1 && numberOfRankInstances(currCardRank) == 3) {
+                x = 0;
                 rank1 = currCardRank;
             }
         }
@@ -261,9 +262,7 @@ public class Hand {
                                 // do nothing
                             }
                             else {
-                                c.printCard();
                                 Card newCard = deck.draw();
-                                newCard.printCard();
                                 this.cards.remove(c);
                                 this.cards.add(0, newCard);
                             }
@@ -287,7 +286,6 @@ public class Hand {
 
             for (int x = 0; x < this.cards.size(); x++) {
                 if (!this.cards.get(x).equals(highest)) {
-                    this.cards.get(x).printCard();
                     if (secondHighest.rank < this.cards.get(x).rank) {
                         secondHighest = this.cards.get(x);
                     }
@@ -405,9 +403,12 @@ public class Hand {
         return (cardsInPairs >= 4);
     }
 
+    public Hand[] handsFromInputFile(int line) {
+        return handsFromInputFile(line, "testInputFile.txt");
+    }
+
     public Hand[] handsFromInputFile(int line, String path) {
         String fileContent = readInFile(path);
-        System.out.println(fileContent);
         String theLine = fileContent.split("\\r?\\n")[line - 1];
         ArrayList<Card> AICards = new ArrayList<>();
         ArrayList<Card> userCards = new ArrayList<>();
