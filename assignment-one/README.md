@@ -3,7 +3,7 @@
 - *Class*: COMP4004
 - *Author*: Matthew Fors
 
-[https://github.com/enforser/comp4004/tree/master/assignment-one](Link to Repository)
+[Link to Repository](https://github.com/enforser/comp4004/tree/master/assignment-one)
 
 ### How to run
 
