@@ -1,4 +1,4 @@
-## Software Quality Assurance - Assigment #1
+## Software Quality Assurance - Poker Game
 
 - *Class*: COMP4004
 - *Author*: Matthew Fors

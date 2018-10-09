@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b17b961-90c7-41d1-a340-79dc79aa8dd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/assignment-one-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/assignment-one-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.CardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.CardTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.DeckTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.DeckTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.GameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.GameTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.HandTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.HandTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.CardTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.CardTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.GameTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.GameTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.HandTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.HandTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,13 +57,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="45670" />
+          <entry key="java" value="45688" />
           <entry key="txt" value="2796" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="45670" />
+          <entry key="JAVA" value="45688" />
           <entry key="PLAIN_TEXT" value="2796" />
         </counts>
       </usages-collector>
@@ -73,11 +85,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="354">
+                  <caret line="67" selection-start-line="67" selection-end-line="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -109,11 +121,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="446" column="14" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+                <state relative-caret-position="176">
+                  <caret line="442" column="31" selection-start-line="442" selection-start-column="31" selection-end-line="442" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -201,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/HandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testInputFile.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/App.java" />
       </list>
     </option>
   </component>
@@ -308,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539121697927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539122527655" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -903,20 +915,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="126">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="442" column="31" selection-start-line="442" selection-start-column="31" selection-end-line="442" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -933,10 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="446" column="14" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+        <state relative-caret-position="354">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
