@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="comp4004.a1.CucumberRunnerTest" time="3.004" tests="1066" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/matthew.fors/school/comp4004/assignment-one/target/test-classes:/Users/matthew.fors/school/comp4004/assignment-one/target/classes:/Users/matthew.fors/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/matthew.fors/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-java/1.1.8/cucumber-java-1.1.8.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-core/1.1.8/cucumber-core-1.1.8.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-junit/1.1.8/cucumber-junit-1.1.8.jar:/Users/matthew.fors/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar:/Users/matthew.fors/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/matthew.fors/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/matthew.fors/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/matthew.fors/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="CA"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/matthew.fors/school/comp4004/assignment-one/target/surefire/surefirebooter2644392865261235923.jar /Users/matthew.fors/school/comp4004/assignment-one/target/surefire 2018-10-28T03-01-24_698-jvmRun1 surefire1829892205295366194tmp surefire_07848467033139437467tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="test" value="comp4004.a1.CucumberRunnerTest"/>
+    <property name="surefire.test.class.path" value="/Users/matthew.fors/school/comp4004/assignment-one/target/test-classes:/Users/matthew.fors/school/comp4004/assignment-one/target/classes:/Users/matthew.fors/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/matthew.fors/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-java/1.1.8/cucumber-java-1.1.8.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-core/1.1.8/cucumber-core-1.1.8.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/matthew.fors/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/matthew.fors/.m2/repository/info/cukes/cucumber-junit/1.1.8/cucumber-junit-1.1.8.jar:/Users/matthew.fors/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar:/Users/matthew.fors/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/matthew.fors/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/matthew.fors/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/matthew.fors/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/matthew.fors"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/matthew.fors/school/comp4004/assignment-one"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/matthew.fors/school/comp4004/assignment-one/target/surefire/surefirebooter2644392865261235923.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="user.name" value="matthew.fors"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/matthew.fors/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/qj/pvd1xb1119v85152f2k0472my6vdm7/T/"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="user.dir" value="/Users/matthew.fors/school/comp4004/assignment-one"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/matthew.fors/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.ext.dirs" value="/Users/matthew.fors/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;10 J Q K A&quot;" classname="| S S S S S | 10 J Q K A |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;10 J Q K A&quot;" classname="| S S S S S | 10 J Q K A |" time="0"/>
+  <testcase name="Then the hand should be a royal flush in any order" classname="| S S S S S | 10 J Q K A |" time="0"/>
+  <testcase name="| S S S S S | 10 J Q K A |" classname="| S S S S S | 10 J Q K A |" time="0"/>
+  <testcase name="| S S S S S | 10 J Q K A |" classname="| S S S S S | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;10 J Q K A&quot;" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;10 J Q K A&quot;" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="Then the hand should be a royal flush in any order" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="| C C C C C | 10 J Q K A |" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="| C C C C C | 10 J Q K A |" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;10 J Q K A&quot;" classname="| H H H H H | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;10 J Q K A&quot;" classname="| H H H H H | 10 J Q K A |" time="0"/>
+  <testcase name="Then the hand should be a royal flush in any order" classname="| H H H H H | 10 J Q K A |" time="0"/>
+  <testcase name="| H H H H H | 10 J Q K A |" classname="| H H H H H | 10 J Q K A |" time="0.003"/>
+  <testcase name="| H H H H H | 10 J Q K A |" classname="| H H H H H | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;10 J Q K A&quot;" classname="| D D D D D | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;10 J Q K A&quot;" classname="| D D D D D | 10 J Q K A |" time="0"/>
+  <testcase name="Then the hand should be a royal flush in any order" classname="| D D D D D | 10 J Q K A |" time="0"/>
+  <testcase name="| D D D D D | 10 J Q K A |" classname="| D D D D D | 10 J Q K A |" time="0"/>
+  <testcase name="| D D D D D | 10 J Q K A |" classname="| D D D D D | 10 J Q K A |" time="0.001"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;9 10 J Q K&quot;" classname="| S S S S S | 9 10 J Q K |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 9 10 J Q K |" time="0"/>
+  <testcase name="| S S S S S | 9 10 J Q K |" classname="| S S S S S | 9 10 J Q K |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;8 9 10 J Q&quot;" classname="| S S S S S | 8 9 10 J Q |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 8 9 10 J Q |" time="0"/>
+  <testcase name="| S S S S S | 8 9 10 J Q |" classname="| S S S S S | 8 9 10 J Q |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;7 8 9 10 J&quot;" classname="| S S S S S | 7 8 9 10 J |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 7 8 9 10 J |" time="0"/>
+  <testcase name="| S S S S S | 7 8 9 10 J |" classname="| S S S S S | 7 8 9 10 J |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;6 7 8 9 10&quot;" classname="| S S S S S | 6 7 8 9 10 |" time="0.001"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 6 7 8 9 10 |" time="0"/>
+  <testcase name="| S S S S S | 6 7 8 9 10 |" classname="| S S S S S | 6 7 8 9 10 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;5 6 7 8 9&quot;" classname="| S S S S S | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 5 6 7 8 9 |" time="0"/>
+  <testcase name="| S S S S S | 5 6 7 8 9 |" classname="| S S S S S | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;4 5 6 7 8&quot;" classname="| S S S S S | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 4 5 6 7 8 |" time="0"/>
+  <testcase name="| S S S S S | 4 5 6 7 8 |" classname="| S S S S S | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;3 4 5 6 7&quot;" classname="| S S S S S | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 3 4 5 6 7 |" time="0"/>
+  <testcase name="| S S S S S | 3 4 5 6 7 |" classname="| S S S S S | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;2 3 4 5 6&quot;" classname="| S S S S S | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | 2 3 4 5 6 |" time="0"/>
+  <testcase name="| S S S S S | 2 3 4 5 6 |" classname="| S S S S S | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;A 2 3 4 5&quot;" classname="| S S S S S | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| S S S S S | A 2 3 4 5 |" time="0"/>
+  <testcase name="| S S S S S | A 2 3 4 5 |" classname="| S S S S S | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;9 10 J Q K&quot;" classname="| D D D D D | 9 10 J Q K |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 9 10 J Q K |" time="0"/>
+  <testcase name="| D D D D D | 9 10 J Q K |" classname="| D D D D D | 9 10 J Q K |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;8 9 10 J Q&quot;" classname="| D D D D D | 8 9 10 J Q |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 8 9 10 J Q |" time="0"/>
+  <testcase name="| D D D D D | 8 9 10 J Q |" classname="| D D D D D | 8 9 10 J Q |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;7 8 9 10 J&quot;" classname="| D D D D D | 7 8 9 10 J |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 7 8 9 10 J |" time="0"/>
+  <testcase name="| D D D D D | 7 8 9 10 J |" classname="| D D D D D | 7 8 9 10 J |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;6 7 8 9 10&quot;" classname="| D D D D D | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 6 7 8 9 10 |" time="0"/>
+  <testcase name="| D D D D D | 6 7 8 9 10 |" classname="| D D D D D | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;5 6 7 8 9&quot;" classname="| D D D D D | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 5 6 7 8 9 |" time="0"/>
+  <testcase name="| D D D D D | 5 6 7 8 9 |" classname="| D D D D D | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;4 5 6 7 8&quot;" classname="| D D D D D | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 4 5 6 7 8 |" time="0"/>
+  <testcase name="| D D D D D | 4 5 6 7 8 |" classname="| D D D D D | 4 5 6 7 8 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;3 4 5 6 7&quot;" classname="| D D D D D | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 3 4 5 6 7 |" time="0"/>
+  <testcase name="| D D D D D | 3 4 5 6 7 |" classname="| D D D D D | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;2 3 4 5 6&quot;" classname="| D D D D D | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | 2 3 4 5 6 |" time="0"/>
+  <testcase name="| D D D D D | 2 3 4 5 6 |" classname="| D D D D D | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;A 2 3 4 5&quot;" classname="| D D D D D | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| D D D D D | A 2 3 4 5 |" time="0"/>
+  <testcase name="| D D D D D | A 2 3 4 5 |" classname="| D D D D D | A 2 3 4 5 |" time="0.001"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;9 10 J Q K&quot;" classname="| H H H H H | 9 10 J Q K |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 9 10 J Q K |" time="0"/>
+  <testcase name="| H H H H H | 9 10 J Q K |" classname="| H H H H H | 9 10 J Q K |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;8 9 10 J Q&quot;" classname="| H H H H H | 8 9 10 J Q |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 8 9 10 J Q |" time="0"/>
+  <testcase name="| H H H H H | 8 9 10 J Q |" classname="| H H H H H | 8 9 10 J Q |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;7 8 9 10 J&quot;" classname="| H H H H H | 7 8 9 10 J |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 7 8 9 10 J |" time="0"/>
+  <testcase name="| H H H H H | 7 8 9 10 J |" classname="| H H H H H | 7 8 9 10 J |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;6 7 8 9 10&quot;" classname="| H H H H H | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 6 7 8 9 10 |" time="0"/>
+  <testcase name="| H H H H H | 6 7 8 9 10 |" classname="| H H H H H | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;5 6 7 8 9&quot;" classname="| H H H H H | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 5 6 7 8 9 |" time="0"/>
+  <testcase name="| H H H H H | 5 6 7 8 9 |" classname="| H H H H H | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;4 5 6 7 8&quot;" classname="| H H H H H | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 4 5 6 7 8 |" time="0"/>
+  <testcase name="| H H H H H | 4 5 6 7 8 |" classname="| H H H H H | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;3 4 5 6 7&quot;" classname="| H H H H H | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 3 4 5 6 7 |" time="0"/>
+  <testcase name="| H H H H H | 3 4 5 6 7 |" classname="| H H H H H | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;2 3 4 5 6&quot;" classname="| H H H H H | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | 2 3 4 5 6 |" time="0"/>
+  <testcase name="| H H H H H | 2 3 4 5 6 |" classname="| H H H H H | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;A 2 3 4 5&quot;" classname="| H H H H H | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| H H H H H | A 2 3 4 5 |" time="0"/>
+  <testcase name="| H H H H H | A 2 3 4 5 |" classname="| H H H H H | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 10 J Q K A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 10 J Q K&quot;" classname="| C C C C C | 9 10 J Q K |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 9 10 J Q K |" time="0"/>
+  <testcase name="| C C C C C | 9 10 J Q K |" classname="| C C C C C | 9 10 J Q K |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 10 J Q&quot;" classname="| C C C C C | 8 9 10 J Q |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 8 9 10 J Q |" time="0"/>
+  <testcase name="| C C C C C | 8 9 10 J Q |" classname="| C C C C C | 8 9 10 J Q |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;7 8 9 10 J&quot;" classname="| C C C C C | 7 8 9 10 J |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 7 8 9 10 J |" time="0"/>
+  <testcase name="| C C C C C | 7 8 9 10 J |" classname="| C C C C C | 7 8 9 10 J |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 7 8 9 10&quot;" classname="| C C C C C | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 6 7 8 9 10 |" time="0"/>
+  <testcase name="| C C C C C | 6 7 8 9 10 |" classname="| C C C C C | 6 7 8 9 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;5 6 7 8 9&quot;" classname="| C C C C C | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 5 6 7 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 5 6 7 8 9 |" classname="| C C C C C | 5 6 7 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 5 6 7 8&quot;" classname="| C C C C C | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 4 5 6 7 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 5 6 7 8 |" classname="| C C C C C | 4 5 6 7 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;3 4 5 6 7&quot;" classname="| C C C C C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="| C C C C C | 3 4 5 6 7 |" classname="| C C C C C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 3 4 5 6&quot;" classname="| C C C C C | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | 2 3 4 5 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 3 4 5 6 |" classname="| C C C C C | 2 3 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;A 2 3 4 5&quot;" classname="| C C C C C | A 2 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight flush in any order" classname="| C C C C C | A 2 3 4 5 |" time="0"/>
+  <testcase name="| C C C C C | A 2 3 4 5 |" classname="| C C C C C | A 2 3 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H D C S&quot; and &quot;5 5 5 5 6&quot;" classname="| C H D C S | 5 5 5 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H D C S | 5 5 5 5 6 |" time="0"/>
+  <testcase name="| C H D C S | 5 5 5 5 6 |" classname="| C H D C S | 5 5 5 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S D S&quot; and &quot;2 2 A 2 2&quot;" classname="| C H S D S | 2 2 A 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H S D S | 2 2 A 2 2 |" time="0"/>
+  <testcase name="| C H S D S | 2 2 A 2 2 |" classname="| C H S D S | 2 2 A 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S D S&quot; and &quot;A 2 2 2 2&quot;" classname="| C H S D S | A 2 2 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H S D S | A 2 2 2 2 |" time="0"/>
+  <testcase name="| C H S D S | A 2 2 2 2 |" classname="| C H S D S | A 2 2 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S D S&quot; and &quot;2 A 2 2 2&quot;" classname="| C H S D S | 2 A 2 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H S D S | 2 A 2 2 2 |" time="0"/>
+  <testcase name="| C H S D S | 2 A 2 2 2 |" classname="| C H S D S | 2 A 2 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S D S&quot; and &quot;2 2 2 A 2&quot;" classname="| C H S D S | 2 2 2 A 2 |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H S D S | 2 2 2 A 2 |" time="0"/>
+  <testcase name="| C H S D S | 2 2 2 A 2 |" classname="| C H S D S | 2 2 2 A 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S D S&quot; and &quot;2 2 2 2 A&quot;" classname="| C H S D S | 2 2 2 2 A |" time="0"/>
+  <testcase name="Then the hand should be a four of a kind in any order" classname="| C H S D S | 2 2 2 2 A |" time="0"/>
+  <testcase name="| C H S D S | 2 2 2 2 A |" classname="| C H S D S | 2 2 2 2 A |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 2 4 4 4&quot;" classname="| C S H D C | 2 2 4 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 2 2 4 4 4 |" time="0.001"/>
+  <testcase name="| C S H D C | 2 2 4 4 4 |" classname="| C S H D C | 2 2 4 4 4 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 2 4 4&quot;" classname="| C S H D C | 2 4 2 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 2 4 2 4 4 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 2 4 4 |" classname="| C S H D C | 2 4 2 4 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 4 2 4&quot;" classname="| C S H D C | 2 4 4 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 2 4 4 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 4 2 4 |" classname="| C S H D C | 2 4 4 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 4 4 2&quot;" classname="| C S H D C | 2 4 4 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 2 4 4 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 4 4 2 |" classname="| C S H D C | 2 4 4 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 2 4 4&quot;" classname="| C S H D C | 4 2 2 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 2 2 4 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 2 4 4 |" classname="| C S H D C | 4 2 2 4 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 4 2 4&quot;" classname="| C S H D C | 4 2 4 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 2 4 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 4 2 4 |" classname="| C S H D C | 4 2 4 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 4 4 2&quot;" classname="| C S H D C | 4 2 4 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 2 4 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 4 4 2 |" classname="| C S H D C | 4 2 4 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 2 2 4&quot;" classname="| C S H D C | 4 4 2 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 4 2 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 2 2 4 |" classname="| C S H D C | 4 4 2 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 2 4 2&quot;" classname="| C S H D C | 4 4 2 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 4 2 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 2 4 2 |" classname="| C S H D C | 4 4 2 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 4 2 2&quot;" classname="| C S H D C | 4 4 4 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a full house in any order" classname="| C S H D C | 4 4 4 2 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 4 2 2 |" classname="| C S H D C | 4 4 4 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;S S S S S&quot; and &quot;2 2 4 5 9&quot;" classname="| S S S S S | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| S S S S S | 2 2 4 5 9 |" time="0"/>
+  <testcase name="| S S S S S | 2 2 4 5 9 |" classname="| S S S S S | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;D D D D D&quot; and &quot;2 2 4 5 9&quot;" classname="| D D D D D | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| D D D D D | 2 2 4 5 9 |" time="0"/>
+  <testcase name="| D D D D D | 2 2 4 5 9 |" classname="| D D D D D | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;H H H H H&quot; and &quot;2 2 4 5 9&quot;" classname="| H H H H H | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| H H H H H | 2 2 4 5 9 |" time="0"/>
+  <testcase name="| H H H H H | 2 2 4 5 9 |" classname="| H H H H H | 2 2 4 5 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 6 8 9&quot;" classname="| C C C C C | 2 4 6 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 6 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 6 8 9 |" classname="| C C C C C | 2 4 6 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 6 9 8&quot;" classname="| C C C C C | 2 4 6 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 6 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 6 9 8 |" classname="| C C C C C | 2 4 6 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 8 6 9&quot;" classname="| C C C C C | 2 4 8 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 8 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 8 6 9 |" classname="| C C C C C | 2 4 8 6 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 8 9 6&quot;" classname="| C C C C C | 2 4 8 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 8 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 8 9 6 |" classname="| C C C C C | 2 4 8 9 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 9 6 8&quot;" classname="| C C C C C | 2 4 9 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 9 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 9 6 8 |" classname="| C C C C C | 2 4 9 6 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 4 9 8 6&quot;" classname="| C C C C C | 2 4 9 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 4 9 8 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 4 9 8 6 |" classname="| C C C C C | 2 4 9 8 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 4 8 9&quot;" classname="| C C C C C | 2 6 4 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 4 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 4 8 9 |" classname="| C C C C C | 2 6 4 8 9 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 4 9 8&quot;" classname="| C C C C C | 2 6 4 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 4 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 4 9 8 |" classname="| C C C C C | 2 6 4 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 8 4 9&quot;" classname="| C C C C C | 2 6 8 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 8 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 8 4 9 |" classname="| C C C C C | 2 6 8 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 8 9 4&quot;" classname="| C C C C C | 2 6 8 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 8 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 8 9 4 |" classname="| C C C C C | 2 6 8 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 9 4 8&quot;" classname="| C C C C C | 2 6 9 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 9 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 9 4 8 |" classname="| C C C C C | 2 6 9 4 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 6 9 8 4&quot;" classname="| C C C C C | 2 6 9 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 6 9 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 6 9 8 4 |" classname="| C C C C C | 2 6 9 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 4 6 9&quot;" classname="| C C C C C | 2 8 4 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 4 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 8 4 6 9 |" classname="| C C C C C | 2 8 4 6 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 4 9 6&quot;" classname="| C C C C C | 2 8 4 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 4 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 8 4 9 6 |" classname="| C C C C C | 2 8 4 9 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 6 4 9&quot;" classname="| C C C C C | 2 8 6 4 9 |" time="0.001"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 6 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 2 8 6 4 9 |" classname="| C C C C C | 2 8 6 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 6 9 4&quot;" classname="| C C C C C | 2 8 6 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 6 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 8 6 9 4 |" classname="| C C C C C | 2 8 6 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 9 4 6&quot;" classname="| C C C C C | 2 8 9 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 9 4 6 |" time="0.001"/>
+  <testcase name="| C C C C C | 2 8 9 4 6 |" classname="| C C C C C | 2 8 9 4 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 8 9 6 4&quot;" classname="| C C C C C | 2 8 9 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 8 9 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 8 9 6 4 |" classname="| C C C C C | 2 8 9 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 4 6 8&quot;" classname="| C C C C C | 2 9 4 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 4 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 4 6 8 |" classname="| C C C C C | 2 9 4 6 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 4 8 6&quot;" classname="| C C C C C | 2 9 4 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 4 8 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 4 8 6 |" classname="| C C C C C | 2 9 4 8 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 6 4 8&quot;" classname="| C C C C C | 2 9 6 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 6 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 6 4 8 |" classname="| C C C C C | 2 9 6 4 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 6 8 4&quot;" classname="| C C C C C | 2 9 6 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 6 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 6 8 4 |" classname="| C C C C C | 2 9 6 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 8 4 6&quot;" classname="| C C C C C | 2 9 8 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 8 4 6 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 8 4 6 |" classname="| C C C C C | 2 9 8 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;2 9 8 6 4&quot;" classname="| C C C C C | 2 9 8 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 2 9 8 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 2 9 8 6 4 |" classname="| C C C C C | 2 9 8 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 6 8 9&quot;" classname="| C C C C C | 4 2 6 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 6 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 6 8 9 |" classname="| C C C C C | 4 2 6 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 6 9 8&quot;" classname="| C C C C C | 4 2 6 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 6 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 6 9 8 |" classname="| C C C C C | 4 2 6 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 8 6 9&quot;" classname="| C C C C C | 4 2 8 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 8 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 8 6 9 |" classname="| C C C C C | 4 2 8 6 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 8 9 6&quot;" classname="| C C C C C | 4 2 8 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 8 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 8 9 6 |" classname="| C C C C C | 4 2 8 9 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 9 6 8&quot;" classname="| C C C C C | 4 2 9 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 9 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 9 6 8 |" classname="| C C C C C | 4 2 9 6 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 2 9 8 6&quot;" classname="| C C C C C | 4 2 9 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 2 9 8 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 2 9 8 6 |" classname="| C C C C C | 4 2 9 8 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 2 8 9&quot;" classname="| C C C C C | 4 6 2 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 2 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 2 8 9 |" classname="| C C C C C | 4 6 2 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 2 9 8&quot;" classname="| C C C C C | 4 6 2 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 2 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 2 9 8 |" classname="| C C C C C | 4 6 2 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 8 2 9&quot;" classname="| C C C C C | 4 6 8 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 8 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 8 2 9 |" classname="| C C C C C | 4 6 8 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 8 9 2&quot;" classname="| C C C C C | 4 6 8 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 8 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 8 9 2 |" classname="| C C C C C | 4 6 8 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 9 2 8&quot;" classname="| C C C C C | 4 6 9 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 9 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 9 2 8 |" classname="| C C C C C | 4 6 9 2 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 6 9 8 2&quot;" classname="| C C C C C | 4 6 9 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 6 9 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 6 9 8 2 |" classname="| C C C C C | 4 6 9 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 2 6 9&quot;" classname="| C C C C C | 4 8 2 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 2 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 2 6 9 |" classname="| C C C C C | 4 8 2 6 9 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 2 9 6&quot;" classname="| C C C C C | 4 8 2 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 2 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 2 9 6 |" classname="| C C C C C | 4 8 2 9 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 6 2 9&quot;" classname="| C C C C C | 4 8 6 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 6 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 6 2 9 |" classname="| C C C C C | 4 8 6 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 6 9 2&quot;" classname="| C C C C C | 4 8 6 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 6 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 6 9 2 |" classname="| C C C C C | 4 8 6 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 9 2 6&quot;" classname="| C C C C C | 4 8 9 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 9 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 9 2 6 |" classname="| C C C C C | 4 8 9 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 8 9 6 2&quot;" classname="| C C C C C | 4 8 9 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 8 9 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 8 9 6 2 |" classname="| C C C C C | 4 8 9 6 2 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 2 6 8&quot;" classname="| C C C C C | 4 9 2 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 2 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 2 6 8 |" classname="| C C C C C | 4 9 2 6 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 2 8 6&quot;" classname="| C C C C C | 4 9 2 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 2 8 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 2 8 6 |" classname="| C C C C C | 4 9 2 8 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 6 2 8&quot;" classname="| C C C C C | 4 9 6 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 6 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 6 2 8 |" classname="| C C C C C | 4 9 6 2 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 6 8 2&quot;" classname="| C C C C C | 4 9 6 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 6 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 6 8 2 |" classname="| C C C C C | 4 9 6 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 8 2 6&quot;" classname="| C C C C C | 4 9 8 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 8 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 8 2 6 |" classname="| C C C C C | 4 9 8 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;4 9 8 6 2&quot;" classname="| C C C C C | 4 9 8 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 4 9 8 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 4 9 8 6 2 |" classname="| C C C C C | 4 9 8 6 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 4 8 9&quot;" classname="| C C C C C | 6 2 4 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 4 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 4 8 9 |" classname="| C C C C C | 6 2 4 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 4 9 8&quot;" classname="| C C C C C | 6 2 4 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 4 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 4 9 8 |" classname="| C C C C C | 6 2 4 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 8 4 9&quot;" classname="| C C C C C | 6 2 8 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 8 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 8 4 9 |" classname="| C C C C C | 6 2 8 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 8 9 4&quot;" classname="| C C C C C | 6 2 8 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 8 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 8 9 4 |" classname="| C C C C C | 6 2 8 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 9 4 8&quot;" classname="| C C C C C | 6 2 9 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 9 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 9 4 8 |" classname="| C C C C C | 6 2 9 4 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 2 9 8 4&quot;" classname="| C C C C C | 6 2 9 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 2 9 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 2 9 8 4 |" classname="| C C C C C | 6 2 9 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 2 8 9&quot;" classname="| C C C C C | 6 4 2 8 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 2 8 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 2 8 9 |" classname="| C C C C C | 6 4 2 8 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 2 9 8&quot;" classname="| C C C C C | 6 4 2 9 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 2 9 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 2 9 8 |" classname="| C C C C C | 6 4 2 9 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 8 2 9&quot;" classname="| C C C C C | 6 4 8 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 8 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 8 2 9 |" classname="| C C C C C | 6 4 8 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 8 9 2&quot;" classname="| C C C C C | 6 4 8 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 8 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 8 9 2 |" classname="| C C C C C | 6 4 8 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 9 2 8&quot;" classname="| C C C C C | 6 4 9 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 9 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 9 2 8 |" classname="| C C C C C | 6 4 9 2 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 4 9 8 2&quot;" classname="| C C C C C | 6 4 9 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 4 9 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 4 9 8 2 |" classname="| C C C C C | 6 4 9 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 2 4 9&quot;" classname="| C C C C C | 6 8 2 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 2 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 2 4 9 |" classname="| C C C C C | 6 8 2 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 2 9 4&quot;" classname="| C C C C C | 6 8 2 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 2 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 2 9 4 |" classname="| C C C C C | 6 8 2 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 4 2 9&quot;" classname="| C C C C C | 6 8 4 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 4 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 4 2 9 |" classname="| C C C C C | 6 8 4 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 4 9 2&quot;" classname="| C C C C C | 6 8 4 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 4 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 4 9 2 |" classname="| C C C C C | 6 8 4 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 9 2 4&quot;" classname="| C C C C C | 6 8 9 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 9 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 9 2 4 |" classname="| C C C C C | 6 8 9 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 8 9 4 2&quot;" classname="| C C C C C | 6 8 9 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 8 9 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 8 9 4 2 |" classname="| C C C C C | 6 8 9 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 2 4 8&quot;" classname="| C C C C C | 6 9 2 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 2 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 2 4 8 |" classname="| C C C C C | 6 9 2 4 8 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 2 8 4&quot;" classname="| C C C C C | 6 9 2 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 2 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 2 8 4 |" classname="| C C C C C | 6 9 2 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 4 2 8&quot;" classname="| C C C C C | 6 9 4 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 4 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 4 2 8 |" classname="| C C C C C | 6 9 4 2 8 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 4 8 2&quot;" classname="| C C C C C | 6 9 4 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 4 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 4 8 2 |" classname="| C C C C C | 6 9 4 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 8 2 4&quot;" classname="| C C C C C | 6 9 8 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 8 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 8 2 4 |" classname="| C C C C C | 6 9 8 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;6 9 8 4 2&quot;" classname="| C C C C C | 6 9 8 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 6 9 8 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 6 9 8 4 2 |" classname="| C C C C C | 6 9 8 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 4 6 9&quot;" classname="| C C C C C | 8 2 4 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 4 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 4 6 9 |" classname="| C C C C C | 8 2 4 6 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 4 9 6&quot;" classname="| C C C C C | 8 2 4 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 4 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 4 9 6 |" classname="| C C C C C | 8 2 4 9 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 6 4 9&quot;" classname="| C C C C C | 8 2 6 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 6 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 6 4 9 |" classname="| C C C C C | 8 2 6 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 6 9 4&quot;" classname="| C C C C C | 8 2 6 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 6 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 6 9 4 |" classname="| C C C C C | 8 2 6 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 9 4 6&quot;" classname="| C C C C C | 8 2 9 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 9 4 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 9 4 6 |" classname="| C C C C C | 8 2 9 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 2 9 6 4&quot;" classname="| C C C C C | 8 2 9 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 2 9 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 2 9 6 4 |" classname="| C C C C C | 8 2 9 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 2 6 9&quot;" classname="| C C C C C | 8 4 2 6 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 2 6 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 2 6 9 |" classname="| C C C C C | 8 4 2 6 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 2 9 6&quot;" classname="| C C C C C | 8 4 2 9 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 2 9 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 2 9 6 |" classname="| C C C C C | 8 4 2 9 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 6 2 9&quot;" classname="| C C C C C | 8 4 6 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 6 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 6 2 9 |" classname="| C C C C C | 8 4 6 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 6 9 2&quot;" classname="| C C C C C | 8 4 6 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 6 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 6 9 2 |" classname="| C C C C C | 8 4 6 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 9 2 6&quot;" classname="| C C C C C | 8 4 9 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 9 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 9 2 6 |" classname="| C C C C C | 8 4 9 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 4 9 6 2&quot;" classname="| C C C C C | 8 4 9 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 4 9 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 4 9 6 2 |" classname="| C C C C C | 8 4 9 6 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 2 4 9&quot;" classname="| C C C C C | 8 6 2 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 2 4 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 2 4 9 |" classname="| C C C C C | 8 6 2 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 2 9 4&quot;" classname="| C C C C C | 8 6 2 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 2 9 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 2 9 4 |" classname="| C C C C C | 8 6 2 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 4 2 9&quot;" classname="| C C C C C | 8 6 4 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 4 2 9 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 4 2 9 |" classname="| C C C C C | 8 6 4 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 4 9 2&quot;" classname="| C C C C C | 8 6 4 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 4 9 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 4 9 2 |" classname="| C C C C C | 8 6 4 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 9 2 4&quot;" classname="| C C C C C | 8 6 9 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 9 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 9 2 4 |" classname="| C C C C C | 8 6 9 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 6 9 4 2&quot;" classname="| C C C C C | 8 6 9 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 6 9 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 6 9 4 2 |" classname="| C C C C C | 8 6 9 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 2 4 6&quot;" classname="| C C C C C | 8 9 2 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 2 4 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 2 4 6 |" classname="| C C C C C | 8 9 2 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 2 6 4&quot;" classname="| C C C C C | 8 9 2 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 2 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 2 6 4 |" classname="| C C C C C | 8 9 2 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 4 2 6&quot;" classname="| C C C C C | 8 9 4 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 4 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 4 2 6 |" classname="| C C C C C | 8 9 4 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 4 6 2&quot;" classname="| C C C C C | 8 9 4 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 4 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 4 6 2 |" classname="| C C C C C | 8 9 4 6 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 6 2 4&quot;" classname="| C C C C C | 8 9 6 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 6 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 6 2 4 |" classname="| C C C C C | 8 9 6 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;8 9 6 4 2&quot;" classname="| C C C C C | 8 9 6 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 8 9 6 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 8 9 6 4 2 |" classname="| C C C C C | 8 9 6 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 4 6 8&quot;" classname="| C C C C C | 9 2 4 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 4 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 4 6 8 |" classname="| C C C C C | 9 2 4 6 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 4 8 6&quot;" classname="| C C C C C | 9 2 4 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 4 8 6 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 4 8 6 |" classname="| C C C C C | 9 2 4 8 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 6 4 8&quot;" classname="| C C C C C | 9 2 6 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 6 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 6 4 8 |" classname="| C C C C C | 9 2 6 4 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 6 8 4&quot;" classname="| C C C C C | 9 2 6 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 6 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 6 8 4 |" classname="| C C C C C | 9 2 6 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 8 4 6&quot;" classname="| C C C C C | 9 2 8 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 8 4 6 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 8 4 6 |" classname="| C C C C C | 9 2 8 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 2 8 6 4&quot;" classname="| C C C C C | 9 2 8 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 2 8 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 2 8 6 4 |" classname="| C C C C C | 9 2 8 6 4 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 2 6 8&quot;" classname="| C C C C C | 9 4 2 6 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 2 6 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 4 2 6 8 |" classname="| C C C C C | 9 4 2 6 8 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 2 8 6&quot;" classname="| C C C C C | 9 4 2 8 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 2 8 6 |" time="0.001"/>
+  <testcase name="| C C C C C | 9 4 2 8 6 |" classname="| C C C C C | 9 4 2 8 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 6 2 8&quot;" classname="| C C C C C | 9 4 6 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 6 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 4 6 2 8 |" classname="| C C C C C | 9 4 6 2 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 6 8 2&quot;" classname="| C C C C C | 9 4 6 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 6 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 4 6 8 2 |" classname="| C C C C C | 9 4 6 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 8 2 6&quot;" classname="| C C C C C | 9 4 8 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 8 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 9 4 8 2 6 |" classname="| C C C C C | 9 4 8 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 4 8 6 2&quot;" classname="| C C C C C | 9 4 8 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 4 8 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 4 8 6 2 |" classname="| C C C C C | 9 4 8 6 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 2 4 8&quot;" classname="| C C C C C | 9 6 2 4 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 2 4 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 2 4 8 |" classname="| C C C C C | 9 6 2 4 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 2 8 4&quot;" classname="| C C C C C | 9 6 2 8 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 2 8 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 2 8 4 |" classname="| C C C C C | 9 6 2 8 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 4 2 8&quot;" classname="| C C C C C | 9 6 4 2 8 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 4 2 8 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 4 2 8 |" classname="| C C C C C | 9 6 4 2 8 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 4 8 2&quot;" classname="| C C C C C | 9 6 4 8 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 4 8 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 4 8 2 |" classname="| C C C C C | 9 6 4 8 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 8 2 4&quot;" classname="| C C C C C | 9 6 8 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 8 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 8 2 4 |" classname="| C C C C C | 9 6 8 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 6 8 4 2&quot;" classname="| C C C C C | 9 6 8 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 6 8 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 6 8 4 2 |" classname="| C C C C C | 9 6 8 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 2 4 6&quot;" classname="| C C C C C | 9 8 2 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 2 4 6 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 2 4 6 |" classname="| C C C C C | 9 8 2 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 2 6 4&quot;" classname="| C C C C C | 9 8 2 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 2 6 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 2 6 4 |" classname="| C C C C C | 9 8 2 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 4 2 6&quot;" classname="| C C C C C | 9 8 4 2 6 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 4 2 6 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 4 2 6 |" classname="| C C C C C | 9 8 4 2 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 4 6 2&quot;" classname="| C C C C C | 9 8 4 6 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 4 6 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 4 6 2 |" classname="| C C C C C | 9 8 4 6 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 6 2 4&quot;" classname="| C C C C C | 9 8 6 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 6 2 4 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 6 2 4 |" classname="| C C C C C | 9 8 6 2 4 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C C C C C&quot; and &quot;9 8 6 4 2&quot;" classname="| C C C C C | 9 8 6 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a flush in any order" classname="| C C C C C | 9 8 6 4 2 |" time="0"/>
+  <testcase name="| C C C C C | 9 8 6 4 2 |" classname="| C C C C C | 9 8 6 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 5 6 7&quot;" classname="| C D H S C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 5 6 7 |" classname="| C D H S C | 3 4 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 5 7 6&quot;" classname="| C D H S C | 3 4 5 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 5 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 5 7 6 |" classname="| C D H S C | 3 4 5 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 6 5 7&quot;" classname="| C D H S C | 3 4 6 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 6 5 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 6 5 7 |" classname="| C D H S C | 3 4 6 5 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 6 7 5&quot;" classname="| C D H S C | 3 4 6 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 6 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 6 7 5 |" classname="| C D H S C | 3 4 6 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 7 5 6&quot;" classname="| C D H S C | 3 4 7 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 7 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 7 5 6 |" classname="| C D H S C | 3 4 7 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 4 7 6 5&quot;" classname="| C D H S C | 3 4 7 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 4 7 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 4 7 6 5 |" classname="| C D H S C | 3 4 7 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 4 6 7&quot;" classname="| C D H S C | 3 5 4 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 4 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 4 6 7 |" classname="| C D H S C | 3 5 4 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 4 7 6&quot;" classname="| C D H S C | 3 5 4 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 4 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 4 7 6 |" classname="| C D H S C | 3 5 4 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 6 4 7&quot;" classname="| C D H S C | 3 5 6 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 6 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 6 4 7 |" classname="| C D H S C | 3 5 6 4 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 6 7 4&quot;" classname="| C D H S C | 3 5 6 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 6 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 6 7 4 |" classname="| C D H S C | 3 5 6 7 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 7 4 6&quot;" classname="| C D H S C | 3 5 7 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 7 4 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 7 4 6 |" classname="| C D H S C | 3 5 7 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 5 7 6 4&quot;" classname="| C D H S C | 3 5 7 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 5 7 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 5 7 6 4 |" classname="| C D H S C | 3 5 7 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 4 5 7&quot;" classname="| C D H S C | 3 6 4 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 4 5 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 4 5 7 |" classname="| C D H S C | 3 6 4 5 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 4 7 5&quot;" classname="| C D H S C | 3 6 4 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 4 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 4 7 5 |" classname="| C D H S C | 3 6 4 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 5 4 7&quot;" classname="| C D H S C | 3 6 5 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 5 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 5 4 7 |" classname="| C D H S C | 3 6 5 4 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 5 7 4&quot;" classname="| C D H S C | 3 6 5 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 5 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 5 7 4 |" classname="| C D H S C | 3 6 5 7 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 7 4 5&quot;" classname="| C D H S C | 3 6 7 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 7 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 7 4 5 |" classname="| C D H S C | 3 6 7 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 6 7 5 4&quot;" classname="| C D H S C | 3 6 7 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 6 7 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 6 7 5 4 |" classname="| C D H S C | 3 6 7 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 4 5 6&quot;" classname="| C D H S C | 3 7 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 4 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 4 5 6 |" classname="| C D H S C | 3 7 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 4 6 5&quot;" classname="| C D H S C | 3 7 4 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 4 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 4 6 5 |" classname="| C D H S C | 3 7 4 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 5 4 6&quot;" classname="| C D H S C | 3 7 5 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 5 4 6 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 5 4 6 |" classname="| C D H S C | 3 7 5 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 5 6 4&quot;" classname="| C D H S C | 3 7 5 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 5 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 5 6 4 |" classname="| C D H S C | 3 7 5 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 6 4 5&quot;" classname="| C D H S C | 3 7 6 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 6 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 6 4 5 |" classname="| C D H S C | 3 7 6 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;3 7 6 5 4&quot;" classname="| C D H S C | 3 7 6 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 3 7 6 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 3 7 6 5 4 |" classname="| C D H S C | 3 7 6 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 5 6 7&quot;" classname="| C D H S C | 4 3 5 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 5 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 5 6 7 |" classname="| C D H S C | 4 3 5 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 5 7 6&quot;" classname="| C D H S C | 4 3 5 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 5 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 5 7 6 |" classname="| C D H S C | 4 3 5 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 6 5 7&quot;" classname="| C D H S C | 4 3 6 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 6 5 7 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 6 5 7 |" classname="| C D H S C | 4 3 6 5 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 6 7 5&quot;" classname="| C D H S C | 4 3 6 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 6 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 6 7 5 |" classname="| C D H S C | 4 3 6 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 7 5 6&quot;" classname="| C D H S C | 4 3 7 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 7 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 7 5 6 |" classname="| C D H S C | 4 3 7 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 3 7 6 5&quot;" classname="| C D H S C | 4 3 7 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 3 7 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 3 7 6 5 |" classname="| C D H S C | 4 3 7 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 3 6 7&quot;" classname="| C D H S C | 4 5 3 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 3 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 4 5 3 6 7 |" classname="| C D H S C | 4 5 3 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 3 7 6&quot;" classname="| C D H S C | 4 5 3 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 3 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 5 3 7 6 |" classname="| C D H S C | 4 5 3 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 6 3 7&quot;" classname="| C D H S C | 4 5 6 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 6 3 7 |" time="0.001"/>
+  <testcase name="| C D H S C | 4 5 6 3 7 |" classname="| C D H S C | 4 5 6 3 7 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 6 7 3&quot;" classname="| C D H S C | 4 5 6 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 6 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 5 6 7 3 |" classname="| C D H S C | 4 5 6 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 7 3 6&quot;" classname="| C D H S C | 4 5 7 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 7 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 5 7 3 6 |" classname="| C D H S C | 4 5 7 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 5 7 6 3&quot;" classname="| C D H S C | 4 5 7 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 5 7 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 5 7 6 3 |" classname="| C D H S C | 4 5 7 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 3 5 7&quot;" classname="| C D H S C | 4 6 3 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 3 5 7 |" time="0.001"/>
+  <testcase name="| C D H S C | 4 6 3 5 7 |" classname="| C D H S C | 4 6 3 5 7 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 3 7 5&quot;" classname="| C D H S C | 4 6 3 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 3 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 6 3 7 5 |" classname="| C D H S C | 4 6 3 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 5 3 7&quot;" classname="| C D H S C | 4 6 5 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 5 3 7 |" time="0"/>
+  <testcase name="| C D H S C | 4 6 5 3 7 |" classname="| C D H S C | 4 6 5 3 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 5 7 3&quot;" classname="| C D H S C | 4 6 5 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 5 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 6 5 7 3 |" classname="| C D H S C | 4 6 5 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 7 3 5&quot;" classname="| C D H S C | 4 6 7 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 7 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 6 7 3 5 |" classname="| C D H S C | 4 6 7 3 5 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 6 7 5 3&quot;" classname="| C D H S C | 4 6 7 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 6 7 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 6 7 5 3 |" classname="| C D H S C | 4 6 7 5 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 3 5 6&quot;" classname="| C D H S C | 4 7 3 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 3 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 3 5 6 |" classname="| C D H S C | 4 7 3 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 3 6 5&quot;" classname="| C D H S C | 4 7 3 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 3 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 3 6 5 |" classname="| C D H S C | 4 7 3 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 5 3 6&quot;" classname="| C D H S C | 4 7 5 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 5 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 5 3 6 |" classname="| C D H S C | 4 7 5 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 5 6 3&quot;" classname="| C D H S C | 4 7 5 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 5 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 5 6 3 |" classname="| C D H S C | 4 7 5 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 6 3 5&quot;" classname="| C D H S C | 4 7 6 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 6 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 6 3 5 |" classname="| C D H S C | 4 7 6 3 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;4 7 6 5 3&quot;" classname="| C D H S C | 4 7 6 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 4 7 6 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 4 7 6 5 3 |" classname="| C D H S C | 4 7 6 5 3 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 4 6 7&quot;" classname="| C D H S C | 5 3 4 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 4 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 4 6 7 |" classname="| C D H S C | 5 3 4 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 4 7 6&quot;" classname="| C D H S C | 5 3 4 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 4 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 4 7 6 |" classname="| C D H S C | 5 3 4 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 6 4 7&quot;" classname="| C D H S C | 5 3 6 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 6 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 6 4 7 |" classname="| C D H S C | 5 3 6 4 7 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 6 7 4&quot;" classname="| C D H S C | 5 3 6 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 6 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 6 7 4 |" classname="| C D H S C | 5 3 6 7 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 7 4 6&quot;" classname="| C D H S C | 5 3 7 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 7 4 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 7 4 6 |" classname="| C D H S C | 5 3 7 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 3 7 6 4&quot;" classname="| C D H S C | 5 3 7 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 3 7 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 3 7 6 4 |" classname="| C D H S C | 5 3 7 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 3 6 7&quot;" classname="| C D H S C | 5 4 3 6 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 3 6 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 3 6 7 |" classname="| C D H S C | 5 4 3 6 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 3 7 6&quot;" classname="| C D H S C | 5 4 3 7 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 3 7 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 3 7 6 |" classname="| C D H S C | 5 4 3 7 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 6 3 7&quot;" classname="| C D H S C | 5 4 6 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 6 3 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 6 3 7 |" classname="| C D H S C | 5 4 6 3 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 6 7 3&quot;" classname="| C D H S C | 5 4 6 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 6 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 6 7 3 |" classname="| C D H S C | 5 4 6 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 7 3 6&quot;" classname="| C D H S C | 5 4 7 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 7 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 7 3 6 |" classname="| C D H S C | 5 4 7 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 4 7 6 3&quot;" classname="| C D H S C | 5 4 7 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 4 7 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 4 7 6 3 |" classname="| C D H S C | 5 4 7 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 3 4 7&quot;" classname="| C D H S C | 5 6 3 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 3 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 3 4 7 |" classname="| C D H S C | 5 6 3 4 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 3 7 4&quot;" classname="| C D H S C | 5 6 3 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 3 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 3 7 4 |" classname="| C D H S C | 5 6 3 7 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 4 3 7&quot;" classname="| C D H S C | 5 6 4 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 4 3 7 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 4 3 7 |" classname="| C D H S C | 5 6 4 3 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 4 7 3&quot;" classname="| C D H S C | 5 6 4 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 4 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 4 7 3 |" classname="| C D H S C | 5 6 4 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 7 3 4&quot;" classname="| C D H S C | 5 6 7 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 7 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 7 3 4 |" classname="| C D H S C | 5 6 7 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 6 7 4 3&quot;" classname="| C D H S C | 5 6 7 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 6 7 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 6 7 4 3 |" classname="| C D H S C | 5 6 7 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 3 4 6&quot;" classname="| C D H S C | 5 7 3 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 3 4 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 3 4 6 |" classname="| C D H S C | 5 7 3 4 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 3 6 4&quot;" classname="| C D H S C | 5 7 3 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 3 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 3 6 4 |" classname="| C D H S C | 5 7 3 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 4 3 6&quot;" classname="| C D H S C | 5 7 4 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 4 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 4 3 6 |" classname="| C D H S C | 5 7 4 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 4 6 3&quot;" classname="| C D H S C | 5 7 4 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 4 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 4 6 3 |" classname="| C D H S C | 5 7 4 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 6 3 4&quot;" classname="| C D H S C | 5 7 6 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 6 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 6 3 4 |" classname="| C D H S C | 5 7 6 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;5 7 6 4 3&quot;" classname="| C D H S C | 5 7 6 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 5 7 6 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 5 7 6 4 3 |" classname="| C D H S C | 5 7 6 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 4 5 7&quot;" classname="| C D H S C | 6 3 4 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 4 5 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 4 5 7 |" classname="| C D H S C | 6 3 4 5 7 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 4 7 5&quot;" classname="| C D H S C | 6 3 4 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 4 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 4 7 5 |" classname="| C D H S C | 6 3 4 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 5 4 7&quot;" classname="| C D H S C | 6 3 5 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 5 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 5 4 7 |" classname="| C D H S C | 6 3 5 4 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 5 7 4&quot;" classname="| C D H S C | 6 3 5 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 5 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 5 7 4 |" classname="| C D H S C | 6 3 5 7 4 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 7 4 5&quot;" classname="| C D H S C | 6 3 7 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 7 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 7 4 5 |" classname="| C D H S C | 6 3 7 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 3 7 5 4&quot;" classname="| C D H S C | 6 3 7 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 3 7 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 3 7 5 4 |" classname="| C D H S C | 6 3 7 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 3 5 7&quot;" classname="| C D H S C | 6 4 3 5 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 3 5 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 3 5 7 |" classname="| C D H S C | 6 4 3 5 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 3 7 5&quot;" classname="| C D H S C | 6 4 3 7 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 3 7 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 3 7 5 |" classname="| C D H S C | 6 4 3 7 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 5 3 7&quot;" classname="| C D H S C | 6 4 5 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 5 3 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 5 3 7 |" classname="| C D H S C | 6 4 5 3 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 5 7 3&quot;" classname="| C D H S C | 6 4 5 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 5 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 5 7 3 |" classname="| C D H S C | 6 4 5 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 7 3 5&quot;" classname="| C D H S C | 6 4 7 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 7 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 7 3 5 |" classname="| C D H S C | 6 4 7 3 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 4 7 5 3&quot;" classname="| C D H S C | 6 4 7 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 4 7 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 4 7 5 3 |" classname="| C D H S C | 6 4 7 5 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 3 4 7&quot;" classname="| C D H S C | 6 5 3 4 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 3 4 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 3 4 7 |" classname="| C D H S C | 6 5 3 4 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 3 7 4&quot;" classname="| C D H S C | 6 5 3 7 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 3 7 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 3 7 4 |" classname="| C D H S C | 6 5 3 7 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 4 3 7&quot;" classname="| C D H S C | 6 5 4 3 7 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 4 3 7 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 4 3 7 |" classname="| C D H S C | 6 5 4 3 7 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 4 7 3&quot;" classname="| C D H S C | 6 5 4 7 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 4 7 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 4 7 3 |" classname="| C D H S C | 6 5 4 7 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 7 3 4&quot;" classname="| C D H S C | 6 5 7 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 7 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 7 3 4 |" classname="| C D H S C | 6 5 7 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 5 7 4 3&quot;" classname="| C D H S C | 6 5 7 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 5 7 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 5 7 4 3 |" classname="| C D H S C | 6 5 7 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 3 4 5&quot;" classname="| C D H S C | 6 7 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 3 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 3 4 5 |" classname="| C D H S C | 6 7 3 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 3 5 4&quot;" classname="| C D H S C | 6 7 3 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 3 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 3 5 4 |" classname="| C D H S C | 6 7 3 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 4 3 5&quot;" classname="| C D H S C | 6 7 4 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 4 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 4 3 5 |" classname="| C D H S C | 6 7 4 3 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 4 5 3&quot;" classname="| C D H S C | 6 7 4 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 4 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 4 5 3 |" classname="| C D H S C | 6 7 4 5 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 5 3 4&quot;" classname="| C D H S C | 6 7 5 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 5 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 5 3 4 |" classname="| C D H S C | 6 7 5 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;6 7 5 4 3&quot;" classname="| C D H S C | 6 7 5 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 6 7 5 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 6 7 5 4 3 |" classname="| C D H S C | 6 7 5 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 4 5 6&quot;" classname="| C D H S C | 7 3 4 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 4 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 4 5 6 |" classname="| C D H S C | 7 3 4 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 4 6 5&quot;" classname="| C D H S C | 7 3 4 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 4 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 4 6 5 |" classname="| C D H S C | 7 3 4 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 5 4 6&quot;" classname="| C D H S C | 7 3 5 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 5 4 6 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 5 4 6 |" classname="| C D H S C | 7 3 5 4 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 5 6 4&quot;" classname="| C D H S C | 7 3 5 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 5 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 5 6 4 |" classname="| C D H S C | 7 3 5 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 6 4 5&quot;" classname="| C D H S C | 7 3 6 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 6 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 6 4 5 |" classname="| C D H S C | 7 3 6 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 3 6 5 4&quot;" classname="| C D H S C | 7 3 6 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 3 6 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 3 6 5 4 |" classname="| C D H S C | 7 3 6 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 3 5 6&quot;" classname="| C D H S C | 7 4 3 5 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 3 5 6 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 3 5 6 |" classname="| C D H S C | 7 4 3 5 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 3 6 5&quot;" classname="| C D H S C | 7 4 3 6 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 3 6 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 3 6 5 |" classname="| C D H S C | 7 4 3 6 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 5 3 6&quot;" classname="| C D H S C | 7 4 5 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 5 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 5 3 6 |" classname="| C D H S C | 7 4 5 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 5 6 3&quot;" classname="| C D H S C | 7 4 5 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 5 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 5 6 3 |" classname="| C D H S C | 7 4 5 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 6 3 5&quot;" classname="| C D H S C | 7 4 6 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 6 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 6 3 5 |" classname="| C D H S C | 7 4 6 3 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 4 6 5 3&quot;" classname="| C D H S C | 7 4 6 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 4 6 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 4 6 5 3 |" classname="| C D H S C | 7 4 6 5 3 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 3 4 6&quot;" classname="| C D H S C | 7 5 3 4 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 3 4 6 |" time="0.001"/>
+  <testcase name="| C D H S C | 7 5 3 4 6 |" classname="| C D H S C | 7 5 3 4 6 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 3 6 4&quot;" classname="| C D H S C | 7 5 3 6 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 3 6 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 5 3 6 4 |" classname="| C D H S C | 7 5 3 6 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 4 3 6&quot;" classname="| C D H S C | 7 5 4 3 6 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 4 3 6 |" time="0"/>
+  <testcase name="| C D H S C | 7 5 4 3 6 |" classname="| C D H S C | 7 5 4 3 6 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 4 6 3&quot;" classname="| C D H S C | 7 5 4 6 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 4 6 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 5 4 6 3 |" classname="| C D H S C | 7 5 4 6 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 6 3 4&quot;" classname="| C D H S C | 7 5 6 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 6 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 5 6 3 4 |" classname="| C D H S C | 7 5 6 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 5 6 4 3&quot;" classname="| C D H S C | 7 5 6 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 5 6 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 5 6 4 3 |" classname="| C D H S C | 7 5 6 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 3 4 5&quot;" classname="| C D H S C | 7 6 3 4 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 3 4 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 3 4 5 |" classname="| C D H S C | 7 6 3 4 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 3 5 4&quot;" classname="| C D H S C | 7 6 3 5 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 3 5 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 3 5 4 |" classname="| C D H S C | 7 6 3 5 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 4 3 5&quot;" classname="| C D H S C | 7 6 4 3 5 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 4 3 5 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 4 3 5 |" classname="| C D H S C | 7 6 4 3 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 4 5 3&quot;" classname="| C D H S C | 7 6 4 5 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 4 5 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 4 5 3 |" classname="| C D H S C | 7 6 4 5 3 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 5 3 4&quot;" classname="| C D H S C | 7 6 5 3 4 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 5 3 4 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 5 3 4 |" classname="| C D H S C | 7 6 5 3 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C D H S C&quot; and &quot;7 6 5 4 3&quot;" classname="| C D H S C | 7 6 5 4 3 |" time="0"/>
+  <testcase name="Then the hand should be a straight in any order" classname="| C D H S C | 7 6 5 4 3 |" time="0"/>
+  <testcase name="| C D H S C | 7 6 5 4 3 |" classname="| C D H S C | 7 6 5 4 3 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 2 10 5&quot;" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 2 10 5&quot;" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 2 10 5 |" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 2 10 5 |" classname="| C H S S D | 2 2 2 10 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 2 5 10&quot;" classname="| C H S S D | 2 2 2 5 10 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 2 5 10 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 2 5 10 |" classname="| C H S S D | 2 2 2 5 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 5 2 10&quot;" classname="| C H S S D | 2 2 5 2 10 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 5 2 10 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 5 2 10 |" classname="| C H S S D | 2 2 5 2 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 5 10 2&quot;" classname="| C H S S D | 2 2 5 10 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 5 10 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 5 10 2 |" classname="| C H S S D | 2 2 5 10 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 10 2 5&quot;" classname="| C H S S D | 2 2 10 2 5 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 10 2 5 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 10 2 5 |" classname="| C H S S D | 2 2 10 2 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 2 10 5 2&quot;" classname="| C H S S D | 2 2 10 5 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 2 10 5 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 2 10 5 2 |" classname="| C H S S D | 2 2 10 5 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 5 2 2 10&quot;" classname="| C H S S D | 2 5 2 2 10 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 5 2 2 10 |" time="0"/>
+  <testcase name="| C H S S D | 2 5 2 2 10 |" classname="| C H S S D | 2 5 2 2 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 5 2 10 2&quot;" classname="| C H S S D | 2 5 2 10 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 5 2 10 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 5 2 10 2 |" classname="| C H S S D | 2 5 2 10 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 5 10 2 2&quot;" classname="| C H S S D | 2 5 10 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 5 10 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 5 10 2 2 |" classname="| C H S S D | 2 5 10 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 10 2 2 5&quot;" classname="| C H S S D | 2 10 2 2 5 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 10 2 2 5 |" time="0"/>
+  <testcase name="| C H S S D | 2 10 2 2 5 |" classname="| C H S S D | 2 10 2 2 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 10 2 5 2&quot;" classname="| C H S S D | 2 10 2 5 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 10 2 5 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 10 2 5 2 |" classname="| C H S S D | 2 10 2 5 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;2 10 5 2 2&quot;" classname="| C H S S D | 2 10 5 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 2 10 5 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 2 10 5 2 2 |" classname="| C H S S D | 2 10 5 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;5 2 2 2 10&quot;" classname="| C H S S D | 5 2 2 2 10 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 5 2 2 2 10 |" time="0"/>
+  <testcase name="| C H S S D | 5 2 2 2 10 |" classname="| C H S S D | 5 2 2 2 10 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;5 2 2 10 2&quot;" classname="| C H S S D | 5 2 2 10 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 5 2 2 10 2 |" time="0"/>
+  <testcase name="| C H S S D | 5 2 2 10 2 |" classname="| C H S S D | 5 2 2 10 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;5 2 10 2 2&quot;" classname="| C H S S D | 5 2 10 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 5 2 10 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 5 2 10 2 2 |" classname="| C H S S D | 5 2 10 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;5 10 2 2 2&quot;" classname="| C H S S D | 5 10 2 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 5 10 2 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 5 10 2 2 2 |" classname="| C H S S D | 5 10 2 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;10 2 2 2 5&quot;" classname="| C H S S D | 10 2 2 2 5 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 10 2 2 2 5 |" time="0"/>
+  <testcase name="| C H S S D | 10 2 2 2 5 |" classname="| C H S S D | 10 2 2 2 5 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;10 2 2 5 2&quot;" classname="| C H S S D | 10 2 2 5 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 10 2 2 5 2 |" time="0"/>
+  <testcase name="| C H S S D | 10 2 2 5 2 |" classname="| C H S S D | 10 2 2 5 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;10 2 5 2 2&quot;" classname="| C H S S D | 10 2 5 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 10 2 5 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 10 2 5 2 2 |" classname="| C H S S D | 10 2 5 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C H S S D&quot; and &quot;10 5 2 2 2&quot;" classname="| C H S S D | 10 5 2 2 2 |" time="0"/>
+  <testcase name="Then the hand should be a three of a kind in any order" classname="| C H S S D | 10 5 2 2 2 |" time="0"/>
+  <testcase name="| C H S S D | 10 5 2 2 2 |" classname="| C H S S D | 10 5 2 2 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 4 9 9&quot;" classname="| C S H D C | 2 4 4 9 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 4 4 9 9 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 4 9 9 |" classname="| C S H D C | 2 4 4 9 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 9 4 9&quot;" classname="| C S H D C | 2 4 9 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 4 9 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 9 4 9 |" classname="| C S H D C | 2 4 9 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 4 9 9 4&quot;" classname="| C S H D C | 2 4 9 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 4 9 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 2 4 9 9 4 |" classname="| C S H D C | 2 4 9 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 9 4 4 9&quot;" classname="| C S H D C | 2 9 4 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 9 4 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 2 9 4 4 9 |" classname="| C S H D C | 2 9 4 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 9 4 9 4&quot;" classname="| C S H D C | 2 9 4 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 9 4 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 2 9 4 9 4 |" classname="| C S H D C | 2 9 4 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;2 9 9 4 4&quot;" classname="| C S H D C | 2 9 9 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 2 9 9 4 4 |" time="0"/>
+  <testcase name="| C S H D C | 2 9 9 4 4 |" classname="| C S H D C | 2 9 9 4 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 4 9 9&quot;" classname="| C S H D C | 4 2 4 9 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 2 4 9 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 4 9 9 |" classname="| C S H D C | 4 2 4 9 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 9 4 9&quot;" classname="| C S H D C | 4 2 9 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 2 9 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 9 4 9 |" classname="| C S H D C | 4 2 9 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 2 9 9 4&quot;" classname="| C S H D C | 4 2 9 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 2 9 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 2 9 9 4 |" classname="| C S H D C | 4 2 9 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 2 9 9&quot;" classname="| C S H D C | 4 4 2 9 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 4 2 9 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 2 9 9 |" classname="| C S H D C | 4 4 2 9 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 9 2 9&quot;" classname="| C S H D C | 4 4 9 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 4 9 2 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 9 2 9 |" classname="| C S H D C | 4 4 9 2 9 |" time="0.001"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 4 9 9 2&quot;" classname="| C S H D C | 4 4 9 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 4 9 9 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 4 9 9 2 |" classname="| C S H D C | 4 4 9 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 2 4 9&quot;" classname="| C S H D C | 4 9 2 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 2 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 2 4 9 |" classname="| C S H D C | 4 9 2 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 2 9 4&quot;" classname="| C S H D C | 4 9 2 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 2 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 2 9 4 |" classname="| C S H D C | 4 9 2 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 4 2 9&quot;" classname="| C S H D C | 4 9 4 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 4 2 9 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 4 2 9 |" classname="| C S H D C | 4 9 4 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 4 9 2&quot;" classname="| C S H D C | 4 9 4 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 4 9 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 4 9 2 |" classname="| C S H D C | 4 9 4 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 9 2 4&quot;" classname="| C S H D C | 4 9 9 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 9 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 9 2 4 |" classname="| C S H D C | 4 9 9 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;4 9 9 4 2&quot;" classname="| C S H D C | 4 9 9 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 4 9 9 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 4 9 9 4 2 |" classname="| C S H D C | 4 9 9 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 2 4 4 9&quot;" classname="| C S H D C | 9 2 4 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 2 4 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 9 2 4 4 9 |" classname="| C S H D C | 9 2 4 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 2 4 9 4&quot;" classname="| C S H D C | 9 2 4 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 2 4 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 2 4 9 4 |" classname="| C S H D C | 9 2 4 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 2 9 4 4&quot;" classname="| C S H D C | 9 2 9 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 2 9 4 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 2 9 4 4 |" classname="| C S H D C | 9 2 9 4 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 2 4 9&quot;" classname="| C S H D C | 9 4 2 4 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 2 4 9 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 2 4 9 |" classname="| C S H D C | 9 4 2 4 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 2 9 4&quot;" classname="| C S H D C | 9 4 2 9 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 2 9 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 2 9 4 |" classname="| C S H D C | 9 4 2 9 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 4 2 9&quot;" classname="| C S H D C | 9 4 4 2 9 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 4 2 9 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 4 2 9 |" classname="| C S H D C | 9 4 4 2 9 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 4 9 2&quot;" classname="| C S H D C | 9 4 4 9 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 4 9 2 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 4 9 2 |" classname="| C S H D C | 9 4 4 9 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 9 2 4&quot;" classname="| C S H D C | 9 4 9 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 9 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 9 2 4 |" classname="| C S H D C | 9 4 9 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 4 9 4 2&quot;" classname="| C S H D C | 9 4 9 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 4 9 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 9 4 9 4 2 |" classname="| C S H D C | 9 4 9 4 2 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 9 2 4 4&quot;" classname="| C S H D C | 9 9 2 4 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 9 2 4 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 9 2 4 4 |" classname="| C S H D C | 9 9 2 4 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 9 4 2 4&quot;" classname="| C S H D C | 9 9 4 2 4 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 9 4 2 4 |" time="0"/>
+  <testcase name="| C S H D C | 9 9 4 2 4 |" classname="| C S H D C | 9 9 4 2 4 |" time="0"/>
+  <testcase name="Given A set of cards with &quot;C S H D C&quot; and &quot;9 9 4 4 2&quot;" classname="| C S H D C | 9 9 4 4 2 |" time="0"/>
+  <testcase name="Then the hand should be a two pair in any order" classname="| C S H D C | 9 9 4 4 2 |" time="0"/>
+  <testcase name="| C S H D C | 9 9 4 4 2 |" classname="| C S H D C | 9 9 4 4 2 |" time="0"/>
+  <testcase name="Given I have input files" classname="Scenario: Run The Program" time="0"/>
+  <testcase name="When I run the program" classname="Scenario: Run The Program" time="0"/>
+  <testcase name="Then the result should be that the program is run" classname="Scenario: Run The Program" time="0"/>
+  <testcase name="Scenario: Run The Program" classname="Scenario: Run The Program" time="0"/>
+</testsuite>

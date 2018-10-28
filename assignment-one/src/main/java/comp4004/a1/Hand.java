@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.nio.file.*;
 
@@ -11,13 +12,13 @@ public class Hand {
 
     /* Variables */
 
-    ArrayList<Card> cards;
+    public ArrayList<Card> cards;
 
     /* Constructors */
     Hand() {
     }
 
-    Hand(ArrayList cards) {
+    public Hand(ArrayList cards) {
         if (cards.size() != 5) {
             throw new IllegalArgumentException("The required number of cards in a hand is 5.");
         }
@@ -38,6 +39,23 @@ public class Hand {
 
         if (cards.size() != 5) {
             throw new IllegalArgumentException("The required number of cards in a hand is 5. Cards from " + path);
+        }
+        this.cards = cards;
+    }
+
+    // Reads in file and reads cards from there!
+    public Hand(String cardsAsString, boolean isPath) {
+        ArrayList<Card> cards = new ArrayList<Card>();
+        String[] stringCards = cardsAsString.split(" ");
+        Card card;
+
+        for(int x = 0; x < stringCards.length; x++) {
+            card = new Card(stringCards[x].substring(0, 1), stringCards[x].substring(1));
+            cards.add(card);
+        }
+
+        if (cards.size() != 5) {
+            throw new IllegalArgumentException("The required number of cards in a hand is 5.");
         }
         this.cards = cards;
     }
@@ -121,6 +139,11 @@ public class Hand {
     }
 
     public boolean isStraight() {
+
+        if (cards.size() < 5) {
+            return false;
+        }
+
         int lowestRank = 1000;
         int highestRank = 0;
         HashSet ranks = new HashSet();
@@ -138,7 +161,21 @@ public class Hand {
         if(ranks.size() == 5 && (highestRank - lowestRank) == 4) {
             return true;
         }
-        return false;
+
+        Integer[] lowest = {0, 1, 2, 3, 12};
+        Integer[] myCardsRanks = new Integer[5];
+
+        for (int i = 0; i < 5; i++) {
+            myCardsRanks[i] = cards.get(i).rank;
+        }
+        Arrays.sort(myCardsRanks);
+        Arrays.sort(lowest);
+        for (int i = 0; i < 5; i++) {
+            if (myCardsRanks[i] != lowest[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public boolean isFourOfAKind() {

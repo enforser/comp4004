@@ -6,7 +6,7 @@ public class Card {
     private static String[] suits = {"C", "D", "H", "S"};
     private static String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
 
-    Card(String suit, String value) {
+    public Card(String suit, String value) {
         this.suit = lookupSuit(suit);
         this.rank = lookupRank(value);
     }
