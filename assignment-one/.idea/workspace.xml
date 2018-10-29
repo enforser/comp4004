@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b17b961-90c7-41d1-a340-79dc79aa8dd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/CucumberRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/steps/AnyOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/steps/RunProgramSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber/runProgram.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment-two/PokerGame/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/comp4004/a1/steps/HandPriorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber/handPriorities.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/assignment-one-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comp4004/a1/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp4004/a1/Hand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.CardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.CardTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.DeckTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.DeckTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.GameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.GameTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.HandTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-comp4004.a1.HandTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.CardTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.CardTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.DeckTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.DeckTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.GameTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.GameTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.HandTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/comp4004.a1.HandTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$ForsMatthew-grid.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-two/PokerGame/.idea/vcs.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,33 +38,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="2" />
-          <entry key="java" value="50" />
+          <entry key="feature" value="3" />
+          <entry key="java" value="53" />
           <entry key="txt" value="104" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
+          <entry key="JAVA" value="53" />
           <entry key="PLAIN_TEXT" value="104" />
-          <entry key="Substeps" value="2" />
+          <entry key="Substeps" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="625" />
-          <entry key="java" value="50841" />
+          <entry key="feature" value="1070" />
+          <entry key="java" value="51783" />
           <entry key="txt" value="2796" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="50841" />
+          <entry key="JAVA" value="51783" />
           <entry key="PLAIN_TEXT" value="2796" />
-          <entry key="Substeps" value="625" />
+          <entry key="Substeps" value="1070" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -95,10 +73,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/CucumberRunnerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="28">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/handPriorities.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,19 +115,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/HandPriorites.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/AnyOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+            <state relative-caret-position="28">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#780#781#0" expanded="true" />
@@ -142,43 +153,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
               <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/RunProgramSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/runProgram.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -195,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="5475">
               <caret line="425" column="14" selection-start-line="425" selection-start-column="14" selection-end-line="425" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -234,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spadesStraightFlush.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/heartsStraightFlush.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/lowerRankedStraightFlush.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/higherRankedStraightFlush.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/aceStraightFlush.txt" />
@@ -264,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/highestCardTen.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/highestCardTenWorseSuit.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/highestCardNine.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hands/ai.txt" />
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/CardTest.java" />
@@ -283,8 +258,11 @@
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature" />
         <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/steps/AnyOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java" />
+        <option value="$PROJECT_DIR$/src/test/java/comp4004/a1/steps/HandPriorites.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/cucumber/handPriorities.feature" />
       </list>
     </option>
   </component>
@@ -399,7 +377,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540710409918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540787501583" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -531,34 +509,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 02m 16s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 12m 32s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 08m 13s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 13m 02s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 08m 29s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 18m 17s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 08m 56s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 21m 17s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 15m 17s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 22m 55s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 15m 51s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 24m 22s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 35m 01s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 26m 16s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 46m 21s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 27m 39s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 02h 52m 12s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 28m 58s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberRunnerTest - 2018.10.28 at 03h 01m 15s.xml">
+    <history-entry file="CucumberRunnerTest - 2018.10.29 at 00h 29m 33s.xml">
       <configuration name="CucumberRunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -651,20 +629,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aceStraightFlush.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/betterFullHouse.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fullHouse.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -853,18 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2319#2320#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/royalFlushDifferentOrderTwo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -924,16 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -981,9 +923,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/AnyOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#988#996#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="5475">
           <caret line="425" column="14" selection-start-line="425" selection-start-column="14" selection-end-line="425" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,49 +999,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/HandPriorites.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="278">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Card.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/anyOrder.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/steps/AnyOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+        <state relative-caret-position="116">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#988#996#0" expanded="true" />
-            <element signature="e#3519#3520#0" expanded="true" />
-            <element signature="e#3588#3589#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comp4004/a1/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/handPriorities.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>

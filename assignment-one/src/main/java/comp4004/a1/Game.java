@@ -10,7 +10,7 @@ public class Game {
 
     Hand AIHand, userHand;
 
-    Game(Hand AIHand, Hand userHand) {
+    public Game(Hand AIHand, Hand userHand) {
         this.AIHand = AIHand;
         this.userHand = userHand;
     }
