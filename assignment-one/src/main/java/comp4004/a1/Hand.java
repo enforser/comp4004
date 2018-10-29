@@ -255,8 +255,9 @@ public class Hand {
         return new Hand(cards);
     }
 
-    public void improveHand() {
-        Deck deck = new Deck();
+    public void improveHand() { improveHand(new Deck());}
+
+    public void improveHand(Deck deck) {
         deck.removeCards(this.cards);
         // Don't improve if straight or better. Note that special versions of hands are encompassed
         // by the following. Example: Royal Flush will be caught by a check for a non-Royal Flush.

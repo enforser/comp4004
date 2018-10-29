@@ -1,9 +1,9 @@
 Feature: All given hands beat hands of lesser value
 
-  Scenario: A royal flush beats straight flush
-   Given two hands
+ Scenario: A royal flush beats straight flush
+  Given two hands
    | C10 CJ CQ CK CA | S9 S10 SJ SQ SK |
-   Then hand one beats hand two whether it belongs to AIP or HTB
+  Then hand one beats hand two whether it belongs to AIP or HTB
 
  Scenario: A royal flush beats four of a kind
   Given two hands
@@ -19,7 +19,7 @@ Feature: All given hands beat hands of lesser value
   Given two hands
    | C10 CJ CQ CK CA | S4 S5 S6 S7 S10 |
   Then hand one beats hand two whether it belongs to AIP or HTB
-  
+
  Scenario: A royal flush beats straight
   Given two hands
    | C10 CJ CQ CK CA | S4 C5 D6 S7 H8 | 
@@ -59,7 +59,7 @@ Feature: All given hands beat hands of lesser value
   Given two hands
    | C2 C3 C4 C5 C6 | S4 S5 S6 S7 S10 |
   Then hand one beats hand two whether it belongs to AIP or HTB
-  
+
  Scenario: A straight flush beats straight
   Given two hands
    | C2 C3 C4 C5 C6 | S4 C5 D6 S7 H8 | 
@@ -94,7 +94,7 @@ Feature: All given hands beat hands of lesser value
   Given two hands
    | S2 C2 H2 D2 S3 | S4 S5 S6 S7 S10 |
   Then hand one beats hand two whether it belongs to AIP or HTB
-  
+
  Scenario: A four of a kind beats straight
   Given two hands
    | S2 C2 H2 D2 S3 | S4 C5 D6 S7 H8 | 
@@ -124,7 +124,7 @@ Feature: All given hands beat hands of lesser value
   Given two hands
    | S2 C2 H2 S3 C3 | S4 S5 S6 S7 S10 |
   Then hand one beats hand two whether it belongs to AIP or HTB
-  
+
  Scenario: A full house beats straight
   Given two hands
    | S2 C2 H2 S3 C3 | S4 C5 D6 S7 H8 | 

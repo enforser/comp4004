@@ -19,6 +19,11 @@ public class Deck {
         }
     }
 
+    public Deck(ArrayList<Card> cards) {
+        randomGenerator = new Random();
+        this.cards = cards;
+    }
+
     public void removeCards(ArrayList<Card> cards) {
         ArrayList<Integer> toBeRemoved = new ArrayList<>();
         for (int y = 0; y < cards.size(); y++) {
@@ -32,7 +37,9 @@ public class Deck {
 
     // returns some random card from the remaining cards in the deck
     public Card draw() {
+        System.out.println("Deck size " + cards.size());
         int index = randomGenerator.nextInt(this.cards.size());
+        System.out.println(index);
         Card card = this.cards.get(index);
         this.cards.remove(index);
         return card;

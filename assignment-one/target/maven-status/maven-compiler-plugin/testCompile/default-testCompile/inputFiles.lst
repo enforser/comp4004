@@ -5,5 +5,6 @@
 /Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/AppTest.java
 /Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/HandTest.java
 /Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/Utils.java
+/Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/steps/HandPriorites.java
 /Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/CucumberRunnerTest.java
 /Users/matthew.fors/school/comp4004/assignment-one/src/test/java/comp4004/a1/steps/RunProgramSteps.java

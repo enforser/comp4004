@@ -1,4 +1,2186 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("cucumber/anyOrder.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("cucumber/AIPholds.feature");
+formatter.feature({
+  "line": 1,
+  "name": "When AIP has a straight or better it holds",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 191961,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 9,
+      "value": "# royal flush"
+    }
+  ],
+  "line": 10,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C10 CJ CQ CK CA\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C10 CJ CQ CK CA",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 114264996,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 142400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 105149,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 11,
+      "value": "# straight flush"
+    }
+  ],
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C4 C5 C6 C7 C8\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C4 C5 C6 C7 C8",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 174795,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 43550,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 81719,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 13,
+      "value": "# four of a kind"
+    }
+  ],
+  "line": 14,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C2 H2 D2 S2 C5\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H2 D2 S2 C5",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 183683,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 24911,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 44399,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 15,
+      "value": "# full house"
+    }
+  ],
+  "line": 16,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C2 H2 D2 S3 C3\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H2 D2 S3 C3",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 146248,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 54346,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 102353,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 17,
+      "value": "# flush"
+    }
+  ],
+  "line": 18,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C3 C6 CA C10 CJ\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 C6 CA C10 CJ",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 230437,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 48280,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 40928,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 19,
+      "value": "# straight"
+    }
+  ],
+  "line": 20,
+  "name": "",
+  "description": "",
+  "id": "when-aip-has-a-straight-or-better-it-holds;;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "\"C2 S3 H4 D5 D6\" is a straight or better",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Improved AIP should be unchanged from the initial AIP",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 S3 H4 D5 D6",
+      "offset": 1
+    }
+  ],
+  "location": "ImproveHandAndCompare.is_a_straight_or_better(String)"
+});
+formatter.result({
+  "duration": 180827,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.improved_AIP_is_unchanged()"
+});
+formatter.result({
+  "duration": 54274,
+  "status": "passed"
+});
+formatter.uri("cucumber/aipstrategy.feature");
+formatter.feature({
+  "line": 1,
+  "name": "AIP should be capable of applying a strategy then losing or winning",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 59128,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 11,
+      "value": "# royal flush"
+    }
+  ],
+  "line": 12,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C10 CJ CQ CK H2\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"C2 H3 D4 S5 C6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"CA\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C10 CJ CQ CK H2",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 206704,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H3 D4 S5 C6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 246948,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CA",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 2105451,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 4218220,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 56331,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 13,
+      "value": "# straight flush"
+    }
+  ],
+  "line": 14,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C3 C4 C5 C6 H10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"C2 H3 D4 S5 C6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"C2\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 C4 C5 C6 H10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 230487,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H3 D4 S5 C6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 187596,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 557016,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 321617,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 34688,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 15,
+      "value": "# full house with one triplet"
+    }
+  ],
+  "line": 16,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C3 D3 S3 C4 C2\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"S2 S3 C4 S5 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"H2\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 D3 S3 C4 C2",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 236751,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "S2 S3 C4 S5 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 183156,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H2",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 814423,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 159400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 124229,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 17,
+      "value": "# full house with two pairs"
+    }
+  ],
+  "line": 18,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C3 D3 C4 D4 H8\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"S2 S3 C4 S5 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"H4\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 D3 C4 D4 H8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 177111,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "S2 S3 C4 S5 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 123208,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H4",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 1695386,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 136406,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 66323,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 19,
+      "value": "# flush"
+    }
+  ],
+  "line": 20,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C2 C4 C6 C8 H10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"H2 D2 H3 D3 C5\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"C10\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 C4 C6 C8 H10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 293372,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H2 D2 H3 D3 C5",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 158094,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C10",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 1378878,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 160158,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 38272,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 21,
+      "value": "# straight"
+    }
+  ],
+  "line": 22,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C2 D3 H4 S5 C10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"H2 D2 H3 C3 DA\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"CA\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 D3 H4 S5 C10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 154686,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H2 D2 H3 C3 DA",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 83174,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CA",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 2785557,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 290149,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 51854,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 23,
+      "value": "# three of same suit"
+    }
+  ],
+  "line": 24,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;8",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C2 C5 C7 H10 D3\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"SA SK S2 C5 D8\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"C10 CK\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 C5 C7 H10 D3",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 251719,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SA SK S2 C5 D8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 205428,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C10 CK",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 4505289,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 238831,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 66877,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 25,
+      "value": "# three in sequence"
+    }
+  ],
+  "line": 26,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;9",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C2 S3 H4 D10 SK\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"SA HK D9 C4 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"DA C5\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 S3 H4 D10 SK",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 105475,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SA HK D9 C4 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 3031099,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "DA C5",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 2600226,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 219006,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 72297,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 27,
+      "value": "# one pair"
+    }
+  ],
+  "line": 28,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;10",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"C2 S2 CK DJ HA\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"C5 S5 D2 D3 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"D7 C7 S3\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 S2 CK DJ HA",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 314242,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C5 S5 D2 D3 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 431109,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D7 C7 S3",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 1766865,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 159911,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2151447,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 29,
+      "value": "# highest card"
+    }
+  ],
+  "line": 30,
+  "name": "AIP exchanges cards then wins against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-wins-against-the-htb;;11",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "AIP has an initial hand of \"D2 CK D5 C6 S8\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "HTB has an initial hand of \"SK D3 H5 S6 C8\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "AIP applies the improvement strategy with \"SA H7 D10\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "AIP should win against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D2 CK D5 C6 S8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 13005504,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SK D3 H5 S6 C8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 97084,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SA H7 D10",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 2200355,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_win_against_HTB()"
+});
+formatter.result({
+  "duration": 418490,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 216250,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 40,
+      "value": "# royal flush"
+    }
+  ],
+  "line": 41,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C10 CJ CQ CK H2\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"C2 H3 D4 S5 C6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"D6\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C10 CJ CQ CK H2",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 226365,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H3 D4 S5 C6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 121442,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D6",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 272892,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 194349,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 218211,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 42,
+      "value": "# straight flush"
+    }
+  ],
+  "line": 43,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C3 C4 C5 C6 H10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"C2 H3 D4 S5 C6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"H5\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 C4 C5 C6 H10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 239753,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 H3 D4 S5 C6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 156413,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H5",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 324131,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 84013,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 180449,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 44,
+      "value": "# full house with one triplet"
+    }
+  ],
+  "line": 45,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C3 D3 S3 C4 C2\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"S2 S3 C4 S5 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"H8\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 D3 S3 C4 C2",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 100225,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "S2 S3 C4 S5 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 73138,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H8",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 363314,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 53602,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 77063,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 46,
+      "value": "# full house with two pairs"
+    }
+  ],
+  "line": 47,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C3 D3 C4 D4 H8\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"S2 S3 C4 S5 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"H8 H9\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C3 D3 C4 D4 H8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 109576,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "S2 S3 C4 S5 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 97745,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H8 H9",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 1191955,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 53026,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 58009,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 48,
+      "value": "# flush"
+    }
+  ],
+  "line": 49,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C2 C4 C6 C8 H10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"H2 D2 H3 D3 C5\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"D10\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 C4 C6 C8 H10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 90425,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H2 D2 H3 D3 C5",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 72201,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D10",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 359660,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 57254,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 30045,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 50,
+      "value": "# straight"
+    }
+  ],
+  "line": 51,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C2 D3 H4 S5 C10\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"H2 D2 H3 C3 DA\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"C7\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 D3 H4 S5 C10",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 5382304,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "H2 D2 H3 C3 DA",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 414356,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C7",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 944597,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 54166,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 156364,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 52,
+      "value": "# three of same suit"
+    }
+  ],
+  "line": 53,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;8",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C2 C5 C7 H10 D3\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"SA SK S2 C5 D8\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"HA SQ\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 C5 C7 H10 D3",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 101753,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SA SK S2 C5 D8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 87105,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA SQ",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 988106,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 141195,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 31061,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 54,
+      "value": "# three in sequence"
+    }
+  ],
+  "line": 55,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;9",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C2 S3 H4 D10 SK\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"SA HK D9 C4 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"D8 H6\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 S3 H4 D10 SK",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 123944,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SA HK D9 C4 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 204355,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D8 H6",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 863842,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 65603,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 31502,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 56,
+      "value": "# one pair"
+    }
+  ],
+  "line": 57,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;10",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"C2 S2 CK DJ HA\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"C5 S5 D2 D3 S6\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"D7 C10 S3\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C2 S2 CK DJ HA",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 80941,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "C5 S5 D2 D3 S6",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 75856,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D7 C10 S3",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 814018,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 154352,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 27685,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 58,
+      "value": "# highest card"
+    }
+  ],
+  "line": 59,
+  "name": "AIP exchanges cards then loses against the HTB",
+  "description": "",
+  "id": "aip-should-be-capable-of-applying-a-strategy-then-losing-or-winning;aip-exchanges-cards-then-loses-against-the-htb;;11",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 33,
+  "name": "AIP has an initial hand of \"D2 CK D5 C6 S8\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 34,
+  "name": "HTB has an initial hand of \"SK D3 H5 S6 C8\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "AIP applies the improvement strategy with \"SQ H7 D10\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "AIP should lose against HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "D2 CK D5 C6 S8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 88216,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SK D3 H5 S6 C8",
+      "offset": 28
+    }
+  ],
+  "location": "ImproveHandAndCompare.htb_has_an_initial_hand_of(String)"
+});
+formatter.result({
+  "duration": 67263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SQ H7 D10",
+      "offset": 43
+    }
+  ],
+  "location": "ImproveHandAndCompare.aip_applies_the_improvement_strategy_with(String)"
+});
+formatter.result({
+  "duration": 981483,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ImproveHandAndCompare.aip_should_lose_against_HTB()"
+});
+formatter.result({
+  "duration": 62753,
+  "status": "passed"
+});
+formatter.uri("cucumber/anyOrder.feature");
 formatter.feature({
   "line": 1,
   "name": "All hands can be identified regardless of card order",
@@ -7,7 +2189,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 379666,
+  "duration": 25913,
   "status": "passed"
 });
 formatter.scenario({
@@ -46,18 +2228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 167845028,
+  "duration": 57679087,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_royal_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 44215309,
+  "duration": 28468066,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51691,
+  "duration": 37950,
   "status": "passed"
 });
 formatter.scenario({
@@ -96,18 +2278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 15480497,
+  "duration": 13577795,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_royal_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 7261460,
+  "duration": 13436461,
   "status": "passed"
 });
 formatter.before({
-  "duration": 291135,
+  "duration": 49274,
   "status": "passed"
 });
 formatter.scenario({
@@ -146,18 +2328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 10330399,
+  "duration": 9889403,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_royal_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 8345373,
+  "duration": 12397222,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31536,
+  "duration": 50649,
   "status": "passed"
 });
 formatter.scenario({
@@ -196,18 +2378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8768741,
+  "duration": 7322031,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_royal_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5849279,
+  "duration": 7026310,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79140,
+  "duration": 24794,
   "status": "passed"
 });
 formatter.scenario({
@@ -246,18 +2428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5932904,
+  "duration": 7339814,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 7978302,
+  "duration": 5327198,
   "status": "passed"
 });
 formatter.before({
-  "duration": 86101,
+  "duration": 25857,
   "status": "passed"
 });
 formatter.scenario({
@@ -296,18 +2478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 10223730,
+  "duration": 8050140,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5500719,
+  "duration": 12983724,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42887,
+  "duration": 17680,
   "status": "passed"
 });
 formatter.scenario({
@@ -346,18 +2528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9564495,
+  "duration": 7644190,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4211926,
+  "duration": 3631860,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49220,
+  "duration": 22708,
   "status": "passed"
 });
 formatter.scenario({
@@ -396,18 +2578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8297549,
+  "duration": 5744893,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 18915404,
+  "duration": 3748164,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35079,
+  "duration": 18656,
   "status": "passed"
 });
 formatter.scenario({
@@ -446,18 +2628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8397893,
+  "duration": 6114592,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6135565,
+  "duration": 3412685,
   "status": "passed"
 });
 formatter.before({
-  "duration": 206665,
+  "duration": 18474,
   "status": "passed"
 });
 formatter.scenario({
@@ -496,18 +2678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6259583,
+  "duration": 5579952,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5950851,
+  "duration": 3420997,
   "status": "passed"
 });
 formatter.before({
-  "duration": 147354,
+  "duration": 27462,
   "status": "passed"
 });
 formatter.scenario({
@@ -546,18 +2728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6716498,
+  "duration": 5146847,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4862049,
+  "duration": 3380210,
   "status": "passed"
 });
 formatter.before({
-  "duration": 104821,
+  "duration": 27987,
   "status": "passed"
 });
 formatter.scenario({
@@ -596,18 +2778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5763848,
+  "duration": 4498217,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6615597,
+  "duration": 4003584,
   "status": "passed"
 });
 formatter.before({
-  "duration": 123346,
+  "duration": 24219,
   "status": "passed"
 });
 formatter.scenario({
@@ -646,18 +2828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6171973,
+  "duration": 5411535,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6971108,
+  "duration": 3426908,
   "status": "passed"
 });
 formatter.before({
-  "duration": 120493,
+  "duration": 27804,
   "status": "passed"
 });
 formatter.scenario({
@@ -696,18 +2878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6785281,
+  "duration": 6149923,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 65537030,
+  "duration": 58020375,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46940,
+  "duration": 23021,
   "status": "passed"
 });
 formatter.scenario({
@@ -746,18 +2928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 10313050,
+  "duration": 6473887,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 17038506,
+  "duration": 9016573,
   "status": "passed"
 });
 formatter.before({
-  "duration": 728092,
+  "duration": 19025,
   "status": "passed"
 });
 formatter.scenario({
@@ -796,18 +2978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7715569,
+  "duration": 7690703,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3558399,
+  "duration": 4413762,
   "status": "passed"
 });
 formatter.before({
-  "duration": 108218,
+  "duration": 18839,
   "status": "passed"
 });
 formatter.scenario({
@@ -846,18 +3028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8861891,
+  "duration": 7784955,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 7352189,
+  "duration": 4496579,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35758,
+  "duration": 25271,
   "status": "passed"
 });
 formatter.scenario({
@@ -896,18 +3078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 12016844,
+  "duration": 6411378,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 8603732,
+  "duration": 3723368,
   "status": "passed"
 });
 formatter.before({
-  "duration": 177949,
+  "duration": 27510,
   "status": "passed"
 });
 formatter.scenario({
@@ -946,18 +3128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8095356,
+  "duration": 6005569,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 9495270,
+  "duration": 3963178,
   "status": "passed"
 });
 formatter.before({
-  "duration": 65426,
+  "duration": 19821,
   "status": "passed"
 });
 formatter.scenario({
@@ -996,18 +3178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8286254,
+  "duration": 5614837,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 8923602,
+  "duration": 3889282,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40364,
+  "duration": 17770,
   "status": "passed"
 });
 formatter.scenario({
@@ -1046,18 +3228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 11483994,
+  "duration": 5268305,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 10376396,
+  "duration": 3838155,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56980,
+  "duration": 30061,
   "status": "passed"
 });
 formatter.scenario({
@@ -1096,18 +3278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 11912980,
+  "duration": 4597294,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 12957253,
+  "duration": 3643154,
   "status": "passed"
 });
 formatter.before({
-  "duration": 72297,
+  "duration": 17462,
   "status": "passed"
 });
 formatter.scenario({
@@ -1146,18 +3328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 13677937,
+  "duration": 10988251,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5789054,
+  "duration": 1991585,
   "status": "passed"
 });
 formatter.before({
-  "duration": 66898,
+  "duration": 19522,
   "status": "passed"
 });
 formatter.scenario({
@@ -1196,18 +3378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9551858,
+  "duration": 3149024,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 60045602,
+  "duration": 44486507,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46104,
+  "duration": 30479,
   "status": "passed"
 });
 formatter.scenario({
@@ -1246,18 +3428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 16387540,
+  "duration": 4484651,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2045207,
+  "duration": 19841784,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24292,
+  "duration": 32006,
   "status": "passed"
 });
 formatter.scenario({
@@ -1296,18 +3478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 11131101,
+  "duration": 4107951,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4145823,
+  "duration": 2096217,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41800,
+  "duration": 22928,
   "status": "passed"
 });
 formatter.scenario({
@@ -1346,18 +3528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5747037,
+  "duration": 4058420,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4921282,
+  "duration": 1816060,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35013,
+  "duration": 16566,
   "status": "passed"
 });
 formatter.scenario({
@@ -1396,18 +3578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7647463,
+  "duration": 3795695,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3870247,
+  "duration": 1945184,
   "status": "passed"
 });
 formatter.before({
-  "duration": 88456,
+  "duration": 19343,
   "status": "passed"
 });
 formatter.scenario({
@@ -1446,18 +3628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7282370,
+  "duration": 3975365,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4832222,
+  "duration": 2181346,
   "status": "passed"
 });
 formatter.before({
-  "duration": 77464,
+  "duration": 16705,
   "status": "passed"
 });
 formatter.scenario({
@@ -1496,18 +3678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5835424,
+  "duration": 3901644,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5351212,
+  "duration": 2106133,
   "status": "passed"
 });
 formatter.before({
-  "duration": 100144,
+  "duration": 17790,
   "status": "passed"
 });
 formatter.scenario({
@@ -1546,18 +3728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5945424,
+  "duration": 3564241,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3948332,
+  "duration": 1695607,
   "status": "passed"
 });
 formatter.before({
-  "duration": 133739,
+  "duration": 29291,
   "status": "passed"
 });
 formatter.scenario({
@@ -1596,18 +3778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5362068,
+  "duration": 3293411,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5523668,
+  "duration": 4027743,
   "status": "passed"
 });
 formatter.before({
-  "duration": 103218,
+  "duration": 34121,
   "status": "passed"
 });
 formatter.scenario({
@@ -1646,18 +3828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4807013,
+  "duration": 3473087,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4780596,
+  "duration": 1804086,
   "status": "passed"
 });
 formatter.before({
-  "duration": 174369,
+  "duration": 21750,
   "status": "passed"
 });
 formatter.scenario({
@@ -1696,18 +3878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4378739,
+  "duration": 3658087,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6837293,
+  "duration": 3723064,
   "status": "passed"
 });
 formatter.before({
-  "duration": 141010,
+  "duration": 19397,
   "status": "passed"
 });
 formatter.scenario({
@@ -1746,18 +3928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5528870,
+  "duration": 4288466,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3756404,
+  "duration": 1958921,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64807,
+  "duration": 18274,
   "status": "passed"
 });
 formatter.scenario({
@@ -1796,18 +3978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5921426,
+  "duration": 4107736,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3385072,
+  "duration": 2694209,
   "status": "passed"
 });
 formatter.before({
-  "duration": 224894,
+  "duration": 18244,
   "status": "passed"
 });
 formatter.scenario({
@@ -1846,18 +4028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5545904,
+  "duration": 5284759,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4707629,
+  "duration": 3281496,
   "status": "passed"
 });
 formatter.before({
-  "duration": 116675,
+  "duration": 96625,
   "status": "passed"
 });
 formatter.scenario({
@@ -1896,18 +4078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5809407,
+  "duration": 3639645,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5075596,
+  "duration": 1677925,
   "status": "passed"
 });
 formatter.before({
-  "duration": 113979,
+  "duration": 18068,
   "status": "passed"
 });
 formatter.scenario({
@@ -1946,18 +4128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5976676,
+  "duration": 3236417,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6219939,
+  "duration": 8031918,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41711,
+  "duration": 31316,
   "status": "passed"
 });
 formatter.scenario({
@@ -1996,18 +4178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7168068,
+  "duration": 3140963,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 6329964,
+  "duration": 2587708,
   "status": "passed"
 });
 formatter.before({
-  "duration": 220446,
+  "duration": 117360,
   "status": "passed"
 });
 formatter.scenario({
@@ -2046,18 +4228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6519391,
+  "duration": 3584597,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 17805905,
+  "duration": 1856270,
   "status": "passed"
 });
 formatter.before({
-  "duration": 139122,
+  "duration": 25324,
   "status": "passed"
 });
 formatter.scenario({
@@ -2096,18 +4278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4505754,
+  "duration": 4067472,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 4694674,
+  "duration": 2283850,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49891,
+  "duration": 24486,
   "status": "passed"
 });
 formatter.scenario({
@@ -2146,18 +4328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5262233,
+  "duration": 3446554,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3711604,
+  "duration": 1757500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48209,
+  "duration": 17062,
   "status": "passed"
 });
 formatter.scenario({
@@ -2196,18 +4378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6595632,
+  "duration": 2806427,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 7360836,
+  "duration": 3620602,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40072,
+  "duration": 18878,
   "status": "passed"
 });
 formatter.scenario({
@@ -2246,18 +4428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3981139,
+  "duration": 2530971,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 5405004,
+  "duration": 2149455,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54324,
+  "duration": 27564,
   "status": "passed"
 });
 formatter.scenario({
@@ -2296,18 +4478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3745742,
+  "duration": 3823130,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2484193,
+  "duration": 2616634,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24661,
+  "duration": 22094,
   "status": "passed"
 });
 formatter.scenario({
@@ -2346,18 +4528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4569666,
+  "duration": 2514612,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2355325,
+  "duration": 1711322,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21595,
+  "duration": 24546,
   "status": "passed"
 });
 formatter.scenario({
@@ -2396,18 +4578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3626268,
+  "duration": 3786011,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2719124,
+  "duration": 1522628,
   "status": "passed"
 });
 formatter.before({
-  "duration": 153695,
+  "duration": 16227,
   "status": "passed"
 });
 formatter.scenario({
@@ -2446,18 +4628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6033434,
+  "duration": 3159745,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2721531,
+  "duration": 1333477,
   "status": "passed"
 });
 formatter.before({
-  "duration": 65902,
+  "duration": 29421,
   "status": "passed"
 });
 formatter.scenario({
@@ -2496,18 +4678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6109895,
+  "duration": 2466863,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_four_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2145132,
+  "duration": 497218,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50551,
+  "duration": 27687,
   "status": "passed"
 });
 formatter.scenario({
@@ -2546,18 +4728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3861182,
+  "duration": 2468818,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 6583923,
+  "duration": 3735884,
   "status": "passed"
 });
 formatter.before({
-  "duration": 102317,
+  "duration": 18120,
   "status": "passed"
 });
 formatter.scenario({
@@ -2596,18 +4778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3188128,
+  "duration": 2399057,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 4872414,
+  "duration": 2994241,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39042,
+  "duration": 16006,
   "status": "passed"
 });
 formatter.scenario({
@@ -2646,18 +4828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4938741,
+  "duration": 2203440,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 5727806,
+  "duration": 3123939,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36960,
+  "duration": 17842,
   "status": "passed"
 });
 formatter.scenario({
@@ -2696,18 +4878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3758515,
+  "duration": 2440732,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 3890954,
+  "duration": 2033060,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52271,
+  "duration": 17572,
   "status": "passed"
 });
 formatter.scenario({
@@ -2746,18 +4928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3434099,
+  "duration": 2390745,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 2386780,
+  "duration": 1620723,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70132,
+  "duration": 16526,
   "status": "passed"
 });
 formatter.scenario({
@@ -2796,18 +4978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3690053,
+  "duration": 2161972,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 1445321,
+  "duration": 832039,
   "status": "passed"
 });
 formatter.before({
-  "duration": 43500,
+  "duration": 26246,
   "status": "passed"
 });
 formatter.scenario({
@@ -2846,18 +5028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5014855,
+  "duration": 2456553,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 2164204,
+  "duration": 1169068,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57401,
+  "duration": 17695,
   "status": "passed"
 });
 formatter.scenario({
@@ -2896,18 +5078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3592399,
+  "duration": 2504992,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 1883799,
+  "duration": 894033,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55467,
+  "duration": 16006,
   "status": "passed"
 });
 formatter.scenario({
@@ -2946,18 +5128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5328646,
+  "duration": 2360974,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 2546476,
+  "duration": 969853,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40399,
+  "duration": 16688,
   "status": "passed"
 });
 formatter.scenario({
@@ -2996,18 +5178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3533449,
+  "duration": 2298649,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_full_house_in_any_order()"
 });
 formatter.result({
-  "duration": 1090464,
+  "duration": 832954,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42739,
+  "duration": 17797,
   "status": "passed"
 });
 formatter.scenario({
@@ -3046,18 +5228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4984336,
+  "duration": 4070681,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 5010900,
+  "duration": 2826500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37711,
+  "duration": 17053,
   "status": "passed"
 });
 formatter.scenario({
@@ -3096,18 +5278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3516300,
+  "duration": 2585260,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2881089,
+  "duration": 1505478,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56459,
+  "duration": 15940,
   "status": "passed"
 });
 formatter.scenario({
@@ -3146,18 +5328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4315095,
+  "duration": 2913680,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1844245,
+  "duration": 1675027,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46185,
+  "duration": 16272,
   "status": "passed"
 });
 formatter.scenario({
@@ -3196,18 +5378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4737151,
+  "duration": 3192749,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2071189,
+  "duration": 1545221,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58018,
+  "duration": 16035,
   "status": "passed"
 });
 formatter.scenario({
@@ -3246,18 +5428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5699186,
+  "duration": 2816656,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2128626,
+  "duration": 1533303,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38495,
+  "duration": 16669,
   "status": "passed"
 });
 formatter.scenario({
@@ -3296,18 +5478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4141160,
+  "duration": 2939196,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1023823,
+  "duration": 489213,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59286,
+  "duration": 16206,
   "status": "passed"
 });
 formatter.scenario({
@@ -3346,18 +5528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4867870,
+  "duration": 3057389,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1477707,
+  "duration": 401083,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45333,
+  "duration": 16092,
   "status": "passed"
 });
 formatter.scenario({
@@ -3396,18 +5578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3880688,
+  "duration": 2946773,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1003974,
+  "duration": 443312,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35794,
+  "duration": 16515,
   "status": "passed"
 });
 formatter.scenario({
@@ -3446,18 +5628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4222405,
+  "duration": 2863644,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2745882,
+  "duration": 538915,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50979,
+  "duration": 23272,
   "status": "passed"
 });
 formatter.scenario({
@@ -3496,18 +5678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3942860,
+  "duration": 3116736,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 989028,
+  "duration": 437510,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59756,
+  "duration": 16064,
   "status": "passed"
 });
 formatter.scenario({
@@ -3546,18 +5728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4805294,
+  "duration": 2844566,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1956898,
+  "duration": 587018,
   "status": "passed"
 });
 formatter.before({
-  "duration": 78155,
+  "duration": 20327,
   "status": "passed"
 });
 formatter.scenario({
@@ -3596,18 +5778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4613281,
+  "duration": 2969665,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 571786,
+  "duration": 422686,
   "status": "passed"
 });
 formatter.before({
-  "duration": 87610,
+  "duration": 16448,
   "status": "passed"
 });
 formatter.scenario({
@@ -3646,18 +5828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5057080,
+  "duration": 4125166,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1158555,
+  "duration": 271961,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63395,
+  "duration": 20335,
   "status": "passed"
 });
 formatter.scenario({
@@ -3696,18 +5878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3464812,
+  "duration": 4107619,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 848464,
+  "duration": 362263,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36985,
+  "duration": 19503,
   "status": "passed"
 });
 formatter.scenario({
@@ -3746,18 +5928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4413594,
+  "duration": 2870216,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1800379,
+  "duration": 347191,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47597,
+  "duration": 20296,
   "status": "passed"
 });
 formatter.scenario({
@@ -3796,18 +5978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3495516,
+  "duration": 3015805,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 689666,
+  "duration": 650541,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18201,
+  "duration": 18519,
   "status": "passed"
 });
 formatter.scenario({
@@ -3846,18 +6028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7157080,
+  "duration": 4441143,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1990173,
+  "duration": 231104,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51023,
+  "duration": 16086,
   "status": "passed"
 });
 formatter.scenario({
@@ -3896,18 +6078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6634289,
+  "duration": 4589886,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 355579,
+  "duration": 242561,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55947,
+  "duration": 17175,
   "status": "passed"
 });
 formatter.scenario({
@@ -3946,18 +6128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4641581,
+  "duration": 4839036,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1541885,
+  "duration": 263574,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23537,
+  "duration": 17392,
   "status": "passed"
 });
 formatter.scenario({
@@ -3996,18 +6178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4297475,
+  "duration": 4638163,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1299973,
+  "duration": 233419,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21912,
+  "duration": 20187,
   "status": "passed"
 });
 formatter.scenario({
@@ -4046,18 +6228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8498304,
+  "duration": 4390608,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 790220,
+  "duration": 356943,
   "status": "passed"
 });
 formatter.before({
-  "duration": 53558,
+  "duration": 16188,
   "status": "passed"
 });
 formatter.scenario({
@@ -4096,18 +6278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7324727,
+  "duration": 4516279,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3240581,
+  "duration": 232885,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62039,
+  "duration": 16813,
   "status": "passed"
 });
 formatter.scenario({
@@ -4146,18 +6328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7746396,
+  "duration": 4357238,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 427854,
+  "duration": 358425,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19802,
+  "duration": 30631,
   "status": "passed"
 });
 formatter.scenario({
@@ -4196,18 +6378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8736239,
+  "duration": 4468392,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 343189,
+  "duration": 340918,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22380,
+  "duration": 29251,
   "status": "passed"
 });
 formatter.scenario({
@@ -4246,18 +6428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9143922,
+  "duration": 4276439,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2207489,
+  "duration": 378016,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51432,
+  "duration": 16804,
   "status": "passed"
 });
 formatter.scenario({
@@ -4296,18 +6478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9417851,
+  "duration": 4331089,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1491924,
+  "duration": 221792,
   "status": "passed"
 });
 formatter.before({
-  "duration": 76049,
+  "duration": 15546,
   "status": "passed"
 });
 formatter.scenario({
@@ -4346,18 +6528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9583139,
+  "duration": 4278135,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1512384,
+  "duration": 384172,
   "status": "passed"
 });
 formatter.before({
-  "duration": 98642,
+  "duration": 16185,
   "status": "passed"
 });
 formatter.scenario({
@@ -4396,18 +6578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9370027,
+  "duration": 4254389,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2129035,
+  "duration": 325883,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40493,
+  "duration": 19044,
   "status": "passed"
 });
 formatter.scenario({
@@ -4446,18 +6628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8582325,
+  "duration": 4222693,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1108058,
+  "duration": 371747,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34579,
+  "duration": 16258,
   "status": "passed"
 });
 formatter.scenario({
@@ -4496,18 +6678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9226491,
+  "duration": 4366434,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2953184,
+  "duration": 339860,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44464,
+  "duration": 15420,
   "status": "passed"
 });
 formatter.scenario({
@@ -4546,18 +6728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 10707696,
+  "duration": 4198702,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2311166,
+  "duration": 299806,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25067,
+  "duration": 21162,
   "status": "passed"
 });
 formatter.scenario({
@@ -4596,18 +6778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5521925,
+  "duration": 4705562,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 612064,
+  "duration": 352772,
   "status": "passed"
 });
 formatter.before({
-  "duration": 110430,
+  "duration": 16919,
   "status": "passed"
 });
 formatter.scenario({
@@ -4646,18 +6828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9232864,
+  "duration": 4477396,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 902832,
+  "duration": 212389,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54044,
+  "duration": 15181,
   "status": "passed"
 });
 formatter.scenario({
@@ -4696,18 +6878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9967142,
+  "duration": 4315612,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2081520,
+  "duration": 419703,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51767,
+  "duration": 18851,
   "status": "passed"
 });
 formatter.scenario({
@@ -4746,18 +6928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8668794,
+  "duration": 4280981,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2220598,
+  "duration": 301031,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58695,
+  "duration": 15807,
   "status": "passed"
 });
 formatter.scenario({
@@ -4796,18 +6978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8203457,
+  "duration": 4167629,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2063978,
+  "duration": 323221,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62111,
+  "duration": 15209,
   "status": "passed"
 });
 formatter.scenario({
@@ -4846,18 +7028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5897981,
+  "duration": 4138819,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1159624,
+  "duration": 337011,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22924,
+  "duration": 17619,
   "status": "passed"
 });
 formatter.scenario({
@@ -4896,18 +7078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8775857,
+  "duration": 4371690,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1199589,
+  "duration": 204207,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33262,
+  "duration": 15818,
   "status": "passed"
 });
 formatter.scenario({
@@ -4946,18 +7128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7734231,
+  "duration": 4168107,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1406523,
+  "duration": 246019,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49297,
+  "duration": 14109,
   "status": "passed"
 });
 formatter.scenario({
@@ -4996,18 +7178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9906280,
+  "duration": 4263653,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1527229,
+  "duration": 256835,
   "status": "passed"
 });
 formatter.before({
-  "duration": 93005,
+  "duration": 15135,
   "status": "passed"
 });
 formatter.scenario({
@@ -5046,18 +7228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7437058,
+  "duration": 4067455,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2561118,
+  "duration": 305079,
   "status": "passed"
 });
 formatter.before({
-  "duration": 101569,
+  "duration": 22933,
   "status": "passed"
 });
 formatter.scenario({
@@ -5096,18 +7278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8768526,
+  "duration": 4035763,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1142786,
+  "duration": 313234,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28950,
+  "duration": 22453,
   "status": "passed"
 });
 formatter.scenario({
@@ -5146,18 +7328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7396947,
+  "duration": 4277120,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1716245,
+  "duration": 202427,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47307,
+  "duration": 15482,
   "status": "passed"
 });
 formatter.scenario({
@@ -5196,18 +7378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9704422,
+  "duration": 4111306,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1467270,
+  "duration": 283492,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57650,
+  "duration": 15125,
   "status": "passed"
 });
 formatter.scenario({
@@ -5246,18 +7428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7907274,
+  "duration": 4000964,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1745062,
+  "duration": 268511,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37658,
+  "duration": 17982,
   "status": "passed"
 });
 formatter.scenario({
@@ -5296,18 +7478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6208838,
+  "duration": 4389248,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2665074,
+  "duration": 347472,
   "status": "passed"
 });
 formatter.before({
-  "duration": 65496,
+  "duration": 20443,
   "status": "passed"
 });
 formatter.scenario({
@@ -5346,18 +7528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7090226,
+  "duration": 4378652,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1179181,
+  "duration": 212441,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63797,
+  "duration": 18085,
   "status": "passed"
 });
 formatter.scenario({
@@ -5396,18 +7578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 9484563,
+  "duration": 4372138,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1208152,
+  "duration": 214103,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50580,
+  "duration": 16010,
   "status": "passed"
 });
 formatter.scenario({
@@ -5446,18 +7628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5121151,
+  "duration": 8658496,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3159098,
+  "duration": 215842,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46728,
+  "duration": 19849,
   "status": "passed"
 });
 formatter.scenario({
@@ -5496,18 +7678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5488528,
+  "duration": 2733028,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 432556,
+  "duration": 188647,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30251,
+  "duration": 15897,
   "status": "passed"
 });
 formatter.scenario({
@@ -5546,18 +7728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7545138,
+  "duration": 2835120,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 3038934,
+  "duration": 200693,
   "status": "passed"
 });
 formatter.before({
-  "duration": 74532,
+  "duration": 15975,
   "status": "passed"
 });
 formatter.scenario({
@@ -5596,18 +7778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7569493,
+  "duration": 2740909,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1154836,
+  "duration": 188014,
   "status": "passed"
 });
 formatter.before({
-  "duration": 89556,
+  "duration": 13730,
   "status": "passed"
 });
 formatter.scenario({
@@ -5646,18 +7828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 16794433,
+  "duration": 2879591,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1526447,
+  "duration": 329143,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21146,
+  "duration": 17599,
   "status": "passed"
 });
 formatter.scenario({
@@ -5696,18 +7878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3808204,
+  "duration": 2920916,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 350213,
+  "duration": 271014,
   "status": "passed"
 });
 formatter.before({
-  "duration": 87893,
+  "duration": 18710,
   "status": "passed"
 });
 formatter.scenario({
@@ -5746,18 +7928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3498375,
+  "duration": 2833097,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2208297,
+  "duration": 278444,
   "status": "passed"
 });
 formatter.before({
-  "duration": 101098,
+  "duration": 18154,
   "status": "passed"
 });
 formatter.scenario({
@@ -5796,18 +7978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4245637,
+  "duration": 2885441,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 773998,
+  "duration": 194322,
   "status": "passed"
 });
 formatter.before({
-  "duration": 131924,
+  "duration": 14596,
   "status": "passed"
 });
 formatter.scenario({
@@ -5846,18 +8028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4409990,
+  "duration": 2812425,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 722457,
+  "duration": 206237,
   "status": "passed"
 });
 formatter.before({
-  "duration": 97631,
+  "duration": 24034,
   "status": "passed"
 });
 formatter.scenario({
@@ -5896,18 +8078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4766493,
+  "duration": 2788800,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1569333,
+  "duration": 194238,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46082,
+  "duration": 15016,
   "status": "passed"
 });
 formatter.scenario({
@@ -5946,18 +8128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4146197,
+  "duration": 2892166,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 686052,
+  "duration": 340457,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39126,
+  "duration": 16165,
   "status": "passed"
 });
 formatter.scenario({
@@ -5996,18 +8178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5478379,
+  "duration": 2816353,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1293905,
+  "duration": 239797,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35133,
+  "duration": 15375,
   "status": "passed"
 });
 formatter.scenario({
@@ -6046,18 +8228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4347055,
+  "duration": 2864340,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 240192,
+  "duration": 225904,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15682,
+  "duration": 16933,
   "status": "passed"
 });
 formatter.scenario({
@@ -6096,18 +8278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4038964,
+  "duration": 2773586,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 472624,
+  "duration": 201211,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30384,
+  "duration": 15997,
   "status": "passed"
 });
 formatter.scenario({
@@ -6146,18 +8328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5241623,
+  "duration": 2770178,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 748193,
+  "duration": 203267,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25077,
+  "duration": 16717,
   "status": "passed"
 });
 formatter.scenario({
@@ -6196,18 +8378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4433175,
+  "duration": 2820495,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 948147,
+  "duration": 202262,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28668,
+  "duration": 16840,
   "status": "passed"
 });
 formatter.scenario({
@@ -6246,18 +8428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4845065,
+  "duration": 2802291,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 723313,
+  "duration": 241489,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48853,
+  "duration": 16405,
   "status": "passed"
 });
 formatter.scenario({
@@ -6296,18 +8478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5331073,
+  "duration": 2790316,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 825903,
+  "duration": 198776,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21576,
+  "duration": 15543,
   "status": "passed"
 });
 formatter.scenario({
@@ -6346,18 +8528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4631768,
+  "duration": 2862770,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 729936,
+  "duration": 204103,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28261,
+  "duration": 17017,
   "status": "passed"
 });
 formatter.scenario({
@@ -6396,18 +8578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5686428,
+  "duration": 2869524,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1653538,
+  "duration": 196466,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42895,
+  "duration": 15332,
   "status": "passed"
 });
 formatter.scenario({
@@ -6446,18 +8628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5132286,
+  "duration": 6006937,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 753712,
+  "duration": 339262,
   "status": "passed"
 });
 formatter.before({
-  "duration": 53606,
+  "duration": 22002,
   "status": "passed"
 });
 formatter.scenario({
@@ -6496,18 +8678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6070573,
+  "duration": 3675926,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 614251,
+  "duration": 258146,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38293,
+  "duration": 20469,
   "status": "passed"
 });
 formatter.scenario({
@@ -6546,18 +8728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4460852,
+  "duration": 2830287,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 872343,
+  "duration": 231753,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62354,
+  "duration": 43311,
   "status": "passed"
 });
 formatter.scenario({
@@ -6596,18 +8778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4964352,
+  "duration": 2818295,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 757087,
+  "duration": 233111,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16095,
+  "duration": 26562,
   "status": "passed"
 });
 formatter.scenario({
@@ -6646,18 +8828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4789416,
+  "duration": 2800395,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 412948,
+  "duration": 211720,
   "status": "passed"
 });
 formatter.before({
-  "duration": 83745,
+  "duration": 15919,
   "status": "passed"
 });
 formatter.scenario({
@@ -6696,18 +8878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5582993,
+  "duration": 2815561,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1057126,
+  "duration": 214116,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23821,
+  "duration": 16155,
   "status": "passed"
 });
 formatter.scenario({
@@ -6746,18 +8928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4221595,
+  "duration": 2999421,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 951283,
+  "duration": 223571,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35280,
+  "duration": 17532,
   "status": "passed"
 });
 formatter.scenario({
@@ -6796,18 +8978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6214851,
+  "duration": 2846950,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 908908,
+  "duration": 208520,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33861,
+  "duration": 17225,
   "status": "passed"
 });
 formatter.scenario({
@@ -6846,18 +9028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4292720,
+  "duration": 3225960,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1551376,
+  "duration": 224209,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35666,
+  "duration": 25393,
   "status": "passed"
 });
 formatter.scenario({
@@ -6896,18 +9078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4950198,
+  "duration": 2852616,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1786211,
+  "duration": 251757,
   "status": "passed"
 });
 formatter.before({
-  "duration": 100705,
+  "duration": 19426,
   "status": "passed"
 });
 formatter.scenario({
@@ -6946,18 +9128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4271767,
+  "duration": 3686986,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 995090,
+  "duration": 297389,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27670,
+  "duration": 21006,
   "status": "passed"
 });
 formatter.scenario({
@@ -6996,18 +9178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5158048,
+  "duration": 2970378,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1101335,
+  "duration": 206602,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37503,
+  "duration": 16053,
   "status": "passed"
 });
 formatter.scenario({
@@ -7046,18 +9228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4684743,
+  "duration": 2822207,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 642508,
+  "duration": 309558,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17211,
+  "duration": 37716,
   "status": "passed"
 });
 formatter.scenario({
@@ -7096,18 +9278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4791468,
+  "duration": 2899924,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1643165,
+  "duration": 255653,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44897,
+  "duration": 17603,
   "status": "passed"
 });
 formatter.scenario({
@@ -7146,18 +9328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4097388,
+  "duration": 3081647,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1163290,
+  "duration": 221398,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32102,
+  "duration": 17146,
   "status": "passed"
 });
 formatter.scenario({
@@ -7196,18 +9378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5800482,
+  "duration": 3029076,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 883179,
+  "duration": 218690,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25196,
+  "duration": 17709,
   "status": "passed"
 });
 formatter.scenario({
@@ -7246,18 +9428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6097946,
+  "duration": 2808070,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1027023,
+  "duration": 292375,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34529,
+  "duration": 19163,
   "status": "passed"
 });
 formatter.scenario({
@@ -7296,18 +9478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4888624,
+  "duration": 2885993,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 589774,
+  "duration": 340287,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50100,
+  "duration": 16582,
   "status": "passed"
 });
 formatter.scenario({
@@ -7346,18 +9528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5492607,
+  "duration": 3236675,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 616133,
+  "duration": 219178,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50270,
+  "duration": 23654,
   "status": "passed"
 });
 formatter.scenario({
@@ -7396,18 +9578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5909573,
+  "duration": 3234073,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1836509,
+  "duration": 232272,
   "status": "passed"
 });
 formatter.before({
-  "duration": 220352,
+  "duration": 22031,
   "status": "passed"
 });
 formatter.scenario({
@@ -7446,18 +9628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7268714,
+  "duration": 3124304,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1578944,
+  "duration": 230794,
   "status": "passed"
 });
 formatter.before({
-  "duration": 176667,
+  "duration": 18316,
   "status": "passed"
 });
 formatter.scenario({
@@ -7496,18 +9678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5243759,
+  "duration": 2972350,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 904726,
+  "duration": 216848,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50630,
+  "duration": 18484,
   "status": "passed"
 });
 formatter.scenario({
@@ -7546,18 +9728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6370454,
+  "duration": 2877309,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1324353,
+  "duration": 228710,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64081,
+  "duration": 17588,
   "status": "passed"
 });
 formatter.scenario({
@@ -7596,18 +9778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6259773,
+  "duration": 2851032,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1832846,
+  "duration": 217983,
   "status": "passed"
 });
 formatter.before({
-  "duration": 94775,
+  "duration": 17474,
   "status": "passed"
 });
 formatter.scenario({
@@ -7646,18 +9828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4461555,
+  "duration": 5206910,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 381622,
+  "duration": 229193,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31373,
+  "duration": 18004,
   "status": "passed"
 });
 formatter.scenario({
@@ -7696,18 +9878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6229359,
+  "duration": 3946736,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2741258,
+  "duration": 864065,
   "status": "passed"
 });
 formatter.before({
-  "duration": 92778,
+  "duration": 33157,
   "status": "passed"
 });
 formatter.scenario({
@@ -7746,18 +9928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5473561,
+  "duration": 3201792,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 749425,
+  "duration": 276088,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45271,
+  "duration": 18567,
   "status": "passed"
 });
 formatter.scenario({
@@ -7796,18 +9978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5796345,
+  "duration": 2980925,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1452821,
+  "duration": 218640,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60052,
+  "duration": 17793,
   "status": "passed"
 });
 formatter.scenario({
@@ -7846,18 +10028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4500373,
+  "duration": 3006789,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 804323,
+  "duration": 257123,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39878,
+  "duration": 18685,
   "status": "passed"
 });
 formatter.scenario({
@@ -7896,18 +10078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6474216,
+  "duration": 2990765,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 913079,
+  "duration": 213762,
   "status": "passed"
 });
 formatter.before({
-  "duration": 89269,
+  "duration": 19443,
   "status": "passed"
 });
 formatter.scenario({
@@ -7946,18 +10128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5495013,
+  "duration": 3046079,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1627410,
+  "duration": 224218,
   "status": "passed"
 });
 formatter.before({
-  "duration": 81485,
+  "duration": 18713,
   "status": "passed"
 });
 formatter.scenario({
@@ -7996,18 +10178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7039600,
+  "duration": 3083391,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 251822,
+  "duration": 221594,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20000,
+  "duration": 17518,
   "status": "passed"
 });
 formatter.scenario({
@@ -8046,18 +10228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4935243,
+  "duration": 2867730,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 729765,
+  "duration": 213704,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31191,
+  "duration": 20418,
   "status": "passed"
 });
 formatter.scenario({
@@ -8096,18 +10278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6058614,
+  "duration": 4387426,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 777855,
+  "duration": 216053,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56486,
+  "duration": 17912,
   "status": "passed"
 });
 formatter.scenario({
@@ -8146,18 +10328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4582866,
+  "duration": 2929675,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1568378,
+  "duration": 206096,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71716,
+  "duration": 16127,
   "status": "passed"
 });
 formatter.scenario({
@@ -8196,18 +10378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5633440,
+  "duration": 2908349,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1359118,
+  "duration": 201183,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50056,
+  "duration": 27013,
   "status": "passed"
 });
 formatter.scenario({
@@ -8246,18 +10428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4305900,
+  "duration": 2786618,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 783502,
+  "duration": 389789,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27522,
+  "duration": 16586,
   "status": "passed"
 });
 formatter.scenario({
@@ -8296,18 +10478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4451655,
+  "duration": 3556294,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1740336,
+  "duration": 542285,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55675,
+  "duration": 29867,
   "status": "passed"
 });
 formatter.scenario({
@@ -8346,18 +10528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4082400,
+  "duration": 3925219,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1063985,
+  "duration": 748436,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60902,
+  "duration": 75590,
   "status": "passed"
 });
 formatter.scenario({
@@ -8396,18 +10578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4407985,
+  "duration": 2935430,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1352159,
+  "duration": 223407,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42328,
+  "duration": 17199,
   "status": "passed"
 });
 formatter.scenario({
@@ -8446,18 +10628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3690525,
+  "duration": 2902472,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 585323,
+  "duration": 353642,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27498,
+  "duration": 18528,
   "status": "passed"
 });
 formatter.scenario({
@@ -8496,18 +10678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4227905,
+  "duration": 2817125,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2370980,
+  "duration": 254946,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64264,
+  "duration": 16885,
   "status": "passed"
 });
 formatter.scenario({
@@ -8546,18 +10728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4831080,
+  "duration": 2791007,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 601815,
+  "duration": 208787,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70779,
+  "duration": 16384,
   "status": "passed"
 });
 formatter.scenario({
@@ -8596,18 +10778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4864069,
+  "duration": 2838049,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1481404,
+  "duration": 236320,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48259,
+  "duration": 17270,
   "status": "passed"
 });
 formatter.scenario({
@@ -8646,18 +10828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4433942,
+  "duration": 2891561,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 444583,
+  "duration": 219332,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16633,
+  "duration": 30043,
   "status": "passed"
 });
 formatter.scenario({
@@ -8696,18 +10878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3227562,
+  "duration": 2825376,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 826604,
+  "duration": 215750,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34229,
+  "duration": 34739,
   "status": "passed"
 });
 formatter.scenario({
@@ -8746,18 +10928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4358832,
+  "duration": 2903926,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1517074,
+  "duration": 366849,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48095,
+  "duration": 15739,
   "status": "passed"
 });
 formatter.scenario({
@@ -8796,18 +10978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4174144,
+  "duration": 2834140,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 785497,
+  "duration": 326101,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31977,
+  "duration": 15128,
   "status": "passed"
 });
 formatter.scenario({
@@ -8846,18 +11028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4327986,
+  "duration": 2811031,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 2132964,
+  "duration": 211895,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71608,
+  "duration": 18014,
   "status": "passed"
 });
 formatter.scenario({
@@ -8896,18 +11078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4148283,
+  "duration": 2958482,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 544129,
+  "duration": 217205,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36553,
+  "duration": 16714,
   "status": "passed"
 });
 formatter.scenario({
@@ -8946,18 +11128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3508914,
+  "duration": 2777444,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 230506,
+  "duration": 228990,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25525,
+  "duration": 17379,
   "status": "passed"
 });
 formatter.scenario({
@@ -8996,18 +11178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5917375,
+  "duration": 2786265,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 757733,
+  "duration": 200287,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20303,
+  "duration": 14349,
   "status": "passed"
 });
 formatter.scenario({
@@ -9046,18 +11228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4287740,
+  "duration": 2775758,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 638061,
+  "duration": 208088,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18363,
+  "duration": 15523,
   "status": "passed"
 });
 formatter.scenario({
@@ -9096,18 +11278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6574454,
+  "duration": 2881900,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 1483719,
+  "duration": 210665,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33355,
+  "duration": 15532,
   "status": "passed"
 });
 formatter.scenario({
@@ -9146,18 +11328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3958065,
+  "duration": 2863776,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_flush_in_any_order()"
 });
 formatter.result({
-  "duration": 340694,
+  "duration": 211137,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50700,
+  "duration": 15408,
   "status": "passed"
 });
 formatter.scenario({
@@ -9196,18 +11378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5177998,
+  "duration": 3085027,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6044299,
+  "duration": 8786695,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34435,
+  "duration": 26866,
   "status": "passed"
 });
 formatter.scenario({
@@ -9246,18 +11428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4377875,
+  "duration": 3613236,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6256370,
+  "duration": 3139622,
   "status": "passed"
 });
 formatter.before({
-  "duration": 88008,
+  "duration": 16946,
   "status": "passed"
 });
 formatter.scenario({
@@ -9296,18 +11478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5557820,
+  "duration": 3056956,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 18825784,
+  "duration": 2812716,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26112,
+  "duration": 18390,
   "status": "passed"
 });
 formatter.scenario({
@@ -9346,18 +11528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6745317,
+  "duration": 3269409,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3750043,
+  "duration": 3464453,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22431,
+  "duration": 20698,
   "status": "passed"
 });
 formatter.scenario({
@@ -9396,18 +11578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4594751,
+  "duration": 3542322,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6204863,
+  "duration": 2333249,
   "status": "passed"
 });
 formatter.before({
-  "duration": 103962,
+  "duration": 15684,
   "status": "passed"
 });
 formatter.scenario({
@@ -9446,18 +11628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4290560,
+  "duration": 3134871,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3153411,
+  "duration": 1842025,
   "status": "passed"
 });
 formatter.before({
-  "duration": 72833,
+  "duration": 15308,
   "status": "passed"
 });
 formatter.scenario({
@@ -9496,18 +11678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5365003,
+  "duration": 3077601,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3997200,
+  "duration": 1850283,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58374,
+  "duration": 17104,
   "status": "passed"
 });
 formatter.scenario({
@@ -9546,18 +11728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3936037,
+  "duration": 3406239,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5007108,
+  "duration": 2237494,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61482,
+  "duration": 19995,
   "status": "passed"
 });
 formatter.scenario({
@@ -9596,18 +11778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4660905,
+  "duration": 3383517,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2846730,
+  "duration": 2266849,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52791,
+  "duration": 19471,
   "status": "passed"
 });
 formatter.scenario({
@@ -9646,18 +11828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5903674,
+  "duration": 3442427,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2685357,
+  "duration": 2423751,
   "status": "passed"
 });
 formatter.before({
-  "duration": 123287,
+  "duration": 24294,
   "status": "passed"
 });
 formatter.scenario({
@@ -9696,18 +11878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3725914,
+  "duration": 4638191,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 1690449,
+  "duration": 2635863,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31594,
+  "duration": 23968,
   "status": "passed"
 });
 formatter.scenario({
@@ -9746,18 +11928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4786587,
+  "duration": 4845655,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2029750,
+  "duration": 2806897,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17858,
+  "duration": 23529,
   "status": "passed"
 });
 formatter.scenario({
@@ -9796,18 +11978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3553048,
+  "duration": 4869843,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2676926,
+  "duration": 2810790,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17531,
+  "duration": 26267,
   "status": "passed"
 });
 formatter.scenario({
@@ -9846,18 +12028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3970731,
+  "duration": 4812595,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3974015,
+  "duration": 2784109,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58198,
+  "duration": 31550,
   "status": "passed"
 });
 formatter.scenario({
@@ -9896,18 +12078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4241099,
+  "duration": 3378473,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4561904,
+  "duration": 2144062,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61057,
+  "duration": 21840,
   "status": "passed"
 });
 formatter.scenario({
@@ -9946,18 +12128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4171984,
+  "duration": 3449350,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6417683,
+  "duration": 1965350,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64336,
+  "duration": 18426,
   "status": "passed"
 });
 formatter.scenario({
@@ -9996,18 +12178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4371577,
+  "duration": 3239373,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2881205,
+  "duration": 1643913,
   "status": "passed"
 });
 formatter.before({
-  "duration": 94722,
+  "duration": 18710,
   "status": "passed"
 });
 formatter.scenario({
@@ -10046,18 +12228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5291507,
+  "duration": 3260757,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3216445,
+  "duration": 1601767,
   "status": "passed"
 });
 formatter.before({
-  "duration": 43660,
+  "duration": 24121,
   "status": "passed"
 });
 formatter.scenario({
@@ -10096,18 +12278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4055002,
+  "duration": 3395010,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4942878,
+  "duration": 1879546,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50041,
+  "duration": 18693,
   "status": "passed"
 });
 formatter.scenario({
@@ -10146,18 +12328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3752113,
+  "duration": 3778398,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3424501,
+  "duration": 1581196,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19485,
+  "duration": 15749,
   "status": "passed"
 });
 formatter.scenario({
@@ -10196,18 +12378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5258860,
+  "duration": 3286343,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3930653,
+  "duration": 1578206,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36946,
+  "duration": 15559,
   "status": "passed"
 });
 formatter.scenario({
@@ -10246,18 +12428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5091617,
+  "duration": 3062472,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5161387,
+  "duration": 1593439,
   "status": "passed"
 });
 formatter.before({
-  "duration": 90835,
+  "duration": 17834,
   "status": "passed"
 });
 formatter.scenario({
@@ -10296,18 +12478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4700714,
+  "duration": 3037375,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3648177,
+  "duration": 1622045,
   "status": "passed"
 });
 formatter.before({
-  "duration": 83333,
+  "duration": 20375,
   "status": "passed"
 });
 formatter.scenario({
@@ -10346,18 +12528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5008737,
+  "duration": 3082074,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3377260,
+  "duration": 1585078,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31349,
+  "duration": 15689,
   "status": "passed"
 });
 formatter.scenario({
@@ -10396,18 +12578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4147675,
+  "duration": 3036887,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5020235,
+  "duration": 1547464,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70067,
+  "duration": 19837,
   "status": "passed"
 });
 formatter.scenario({
@@ -10446,18 +12628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4130532,
+  "duration": 3273610,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3171131,
+  "duration": 1620128,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31548,
+  "duration": 16719,
   "status": "passed"
 });
 formatter.scenario({
@@ -10496,18 +12678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4503659,
+  "duration": 3020306,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5675690,
+  "duration": 1643245,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58343,
+  "duration": 27106,
   "status": "passed"
 });
 formatter.scenario({
@@ -10546,18 +12728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3864932,
+  "duration": 3338757,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3329269,
+  "duration": 1797197,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44415,
+  "duration": 16718,
   "status": "passed"
 });
 formatter.scenario({
@@ -10596,18 +12778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5658215,
+  "duration": 3148702,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3135769,
+  "duration": 1546590,
   "status": "passed"
 });
 formatter.before({
-  "duration": 43256,
+  "duration": 15912,
   "status": "passed"
 });
 formatter.scenario({
@@ -10646,18 +12828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4151086,
+  "duration": 3031399,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3882846,
+  "duration": 1718309,
   "status": "passed"
 });
 formatter.before({
-  "duration": 133675,
+  "duration": 15135,
   "status": "passed"
 });
 formatter.scenario({
@@ -10696,18 +12878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4631739,
+  "duration": 3250207,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3304550,
+  "duration": 1530820,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57218,
+  "duration": 16362,
   "status": "passed"
 });
 formatter.scenario({
@@ -10746,18 +12928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5076711,
+  "duration": 3064935,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3870395,
+  "duration": 1660110,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41672,
+  "duration": 17017,
   "status": "passed"
 });
 formatter.scenario({
@@ -10796,18 +12978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4488025,
+  "duration": 3059314,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5007016,
+  "duration": 1698403,
   "status": "passed"
 });
 formatter.before({
-  "duration": 85467,
+  "duration": 17431,
   "status": "passed"
 });
 formatter.scenario({
@@ -10846,18 +13028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3804989,
+  "duration": 3253371,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3296829,
+  "duration": 1521221,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60299,
+  "duration": 17295,
   "status": "passed"
 });
 formatter.scenario({
@@ -10896,18 +13078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4652030,
+  "duration": 3832219,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3928779,
+  "duration": 1643726,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18863,
+  "duration": 16603,
   "status": "passed"
 });
 formatter.scenario({
@@ -10946,18 +13128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3806156,
+  "duration": 3099315,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3481071,
+  "duration": 2964622,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31012,
+  "duration": 18920,
   "status": "passed"
 });
 formatter.scenario({
@@ -10996,18 +13178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4354988,
+  "duration": 3899680,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5262993,
+  "duration": 1617498,
   "status": "passed"
 });
 formatter.before({
-  "duration": 66249,
+  "duration": 22884,
   "status": "passed"
 });
 formatter.scenario({
@@ -11046,18 +13228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4640070,
+  "duration": 4042054,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6388264,
+  "duration": 3818125,
   "status": "passed"
 });
 formatter.before({
-  "duration": 108722,
+  "duration": 18920,
   "status": "passed"
 });
 formatter.scenario({
@@ -11096,18 +13278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5431053,
+  "duration": 4758069,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2815794,
+  "duration": 3585566,
   "status": "passed"
 });
 formatter.before({
-  "duration": 104154,
+  "duration": 18846,
   "status": "passed"
 });
 formatter.scenario({
@@ -11146,18 +13328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8248323,
+  "duration": 5014037,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8288826,
+  "duration": 3608708,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33532,
+  "duration": 20097,
   "status": "passed"
 });
 formatter.scenario({
@@ -11196,18 +13378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8257001,
+  "duration": 4821988,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4564509,
+  "duration": 3523034,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25317,
+  "duration": 18365,
   "status": "passed"
 });
 formatter.scenario({
@@ -11246,18 +13428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7686426,
+  "duration": 4625355,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3879761,
+  "duration": 3868962,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21904,
+  "duration": 17157,
   "status": "passed"
 });
 formatter.scenario({
@@ -11296,18 +13478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6540617,
+  "duration": 5531277,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8310653,
+  "duration": 5386479,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70886,
+  "duration": 28407,
   "status": "passed"
 });
 formatter.scenario({
@@ -11346,18 +13528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8361337,
+  "duration": 5913203,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 7164908,
+  "duration": 4513151,
   "status": "passed"
 });
 formatter.before({
-  "duration": 86843,
+  "duration": 46174,
   "status": "passed"
 });
 formatter.scenario({
@@ -11396,18 +13578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8413118,
+  "duration": 6602561,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5095044,
+  "duration": 4132554,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20072,
+  "duration": 19879,
   "status": "passed"
 });
 formatter.scenario({
@@ -11446,18 +13628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7695449,
+  "duration": 5437767,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6194700,
+  "duration": 4189992,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27660,
+  "duration": 28096,
   "status": "passed"
 });
 formatter.scenario({
@@ -11496,18 +13678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7791409,
+  "duration": 5430669,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6415054,
+  "duration": 3564773,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30198,
+  "duration": 19355,
   "status": "passed"
 });
 formatter.scenario({
@@ -11546,18 +13728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6099479,
+  "duration": 4588124,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 9390064,
+  "duration": 3521985,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39898,
+  "duration": 18893,
   "status": "passed"
 });
 formatter.scenario({
@@ -11596,18 +13778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7754178,
+  "duration": 5344940,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 9161904,
+  "duration": 3517881,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63394,
+  "duration": 29984,
   "status": "passed"
 });
 formatter.scenario({
@@ -11646,18 +13828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8416760,
+  "duration": 4562374,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6792766,
+  "duration": 3896857,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59887,
+  "duration": 19997,
   "status": "passed"
 });
 formatter.scenario({
@@ -11696,18 +13878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8137309,
+  "duration": 5221933,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6540545,
+  "duration": 3828490,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52219,
+  "duration": 20238,
   "status": "passed"
 });
 formatter.scenario({
@@ -11746,18 +13928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7338892,
+  "duration": 4610842,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5885239,
+  "duration": 3786907,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22457,
+  "duration": 18955,
   "status": "passed"
 });
 formatter.scenario({
@@ -11796,18 +13978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7443171,
+  "duration": 4587184,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6699752,
+  "duration": 3675581,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57355,
+  "duration": 19274,
   "status": "passed"
 });
 formatter.scenario({
@@ -11846,18 +14028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7895359,
+  "duration": 5074136,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 9080937,
+  "duration": 3649789,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33532,
+  "duration": 25050,
   "status": "passed"
 });
 formatter.scenario({
@@ -11896,18 +14078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8576006,
+  "duration": 4961610,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5083907,
+  "duration": 3801914,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21792,
+  "duration": 19595,
   "status": "passed"
 });
 formatter.scenario({
@@ -11946,18 +14128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6154980,
+  "duration": 4932548,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 9636779,
+  "duration": 3808443,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36266,
+  "duration": 18013,
   "status": "passed"
 });
 formatter.scenario({
@@ -11996,18 +14178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7091937,
+  "duration": 5543879,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 10307564,
+  "duration": 3484471,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50815,
+  "duration": 23252,
   "status": "passed"
 });
 formatter.scenario({
@@ -12046,18 +14228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7782966,
+  "duration": 5589745,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 7418303,
+  "duration": 3655024,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61107,
+  "duration": 23655,
   "status": "passed"
 });
 formatter.scenario({
@@ -12096,18 +14278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7293035,
+  "duration": 5431841,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5298758,
+  "duration": 4403339,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21379,
+  "duration": 20321,
   "status": "passed"
 });
 formatter.scenario({
@@ -12146,18 +14328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6485413,
+  "duration": 4544668,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 7319235,
+  "duration": 3718350,
   "status": "passed"
 });
 formatter.before({
-  "duration": 96589,
+  "duration": 25941,
   "status": "passed"
 });
 formatter.scenario({
@@ -12196,18 +14378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7688706,
+  "duration": 4767273,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 7341495,
+  "duration": 3649696,
   "status": "passed"
 });
 formatter.before({
-  "duration": 93736,
+  "duration": 18270,
   "status": "passed"
 });
 formatter.scenario({
@@ -12246,18 +14428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5854733,
+  "duration": 4472322,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8280538,
+  "duration": 3642317,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46858,
+  "duration": 37767,
   "status": "passed"
 });
 formatter.scenario({
@@ -12296,18 +14478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7916824,
+  "duration": 5980964,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8950274,
+  "duration": 4230041,
   "status": "passed"
 });
 formatter.before({
-  "duration": 99550,
+  "duration": 41546,
   "status": "passed"
 });
 formatter.scenario({
@@ -12346,18 +14528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8403722,
+  "duration": 5125494,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 6723978,
+  "duration": 3764224,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60517,
+  "duration": 16885,
   "status": "passed"
 });
 formatter.scenario({
@@ -12396,18 +14578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8276457,
+  "duration": 4892943,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4961018,
+  "duration": 3589126,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21656,
+  "duration": 17643,
   "status": "passed"
 });
 formatter.scenario({
@@ -12446,18 +14628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5601889,
+  "duration": 4837341,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 7630300,
+  "duration": 5074174,
   "status": "passed"
 });
 formatter.before({
-  "duration": 77650,
+  "duration": 27230,
   "status": "passed"
 });
 formatter.scenario({
@@ -12496,18 +14678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8580804,
+  "duration": 4861572,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8044259,
+  "duration": 3663352,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38787,
+  "duration": 18363,
   "status": "passed"
 });
 formatter.scenario({
@@ -12546,18 +14728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8667459,
+  "duration": 5174158,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5771211,
+  "duration": 3747202,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23951,
+  "duration": 17173,
   "status": "passed"
 });
 formatter.scenario({
@@ -12596,18 +14778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7469475,
+  "duration": 5000243,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 8008583,
+  "duration": 9490709,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30399,
+  "duration": 23070,
   "status": "passed"
 });
 formatter.scenario({
@@ -12646,18 +14828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 7410416,
+  "duration": 3067750,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 9967555,
+  "duration": 1734269,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55425,
+  "duration": 25987,
   "status": "passed"
 });
 formatter.scenario({
@@ -12696,18 +14878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 8038754,
+  "duration": 3294450,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 17755589,
+  "duration": 1597649,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23061,
+  "duration": 19106,
   "status": "passed"
 });
 formatter.scenario({
@@ -12746,18 +14928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3127004,
+  "duration": 4537766,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2835479,
+  "duration": 1602443,
   "status": "passed"
 });
 formatter.before({
-  "duration": 96080,
+  "duration": 17559,
   "status": "passed"
 });
 formatter.scenario({
@@ -12796,18 +14978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4637749,
+  "duration": 3111548,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3909685,
+  "duration": 1630023,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27424,
+  "duration": 16907,
   "status": "passed"
 });
 formatter.scenario({
@@ -12846,18 +15028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4555249,
+  "duration": 3101771,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4790410,
+  "duration": 2106242,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56288,
+  "duration": 17402,
   "status": "passed"
 });
 formatter.scenario({
@@ -12896,18 +15078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3921262,
+  "duration": 4380403,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3649424,
+  "duration": 1581262,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70922,
+  "duration": 18309,
   "status": "passed"
 });
 formatter.scenario({
@@ -12946,18 +15128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3183409,
+  "duration": 3168839,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5414825,
+  "duration": 1604914,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39601,
+  "duration": 31022,
   "status": "passed"
 });
 formatter.scenario({
@@ -12996,18 +15178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3875584,
+  "duration": 3088621,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2900063,
+  "duration": 1682017,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25973,
+  "duration": 18840,
   "status": "passed"
 });
 formatter.scenario({
@@ -13046,18 +15228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4257273,
+  "duration": 3143797,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4405351,
+  "duration": 1565594,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45350,
+  "duration": 48382,
   "status": "passed"
 });
 formatter.scenario({
@@ -13096,18 +15278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5804509,
+  "duration": 3215129,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2926087,
+  "duration": 1642606,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60513,
+  "duration": 17289,
   "status": "passed"
 });
 formatter.scenario({
@@ -13146,18 +15328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4399713,
+  "duration": 3072917,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4578275,
+  "duration": 1605433,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62088,
+  "duration": 17575,
   "status": "passed"
 });
 formatter.scenario({
@@ -13196,18 +15378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5258278,
+  "duration": 3201272,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3930418,
+  "duration": 1580791,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70388,
+  "duration": 16589,
   "status": "passed"
 });
 formatter.scenario({
@@ -13246,18 +15428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4885519,
+  "duration": 3084664,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2837157,
+  "duration": 1587839,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57358,
+  "duration": 15542,
   "status": "passed"
 });
 formatter.scenario({
@@ -13296,18 +15478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5390375,
+  "duration": 3087887,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5405168,
+  "duration": 1538936,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64081,
+  "duration": 15150,
   "status": "passed"
 });
 formatter.scenario({
@@ -13346,18 +15528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5488474,
+  "duration": 3049996,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4636545,
+  "duration": 1640623,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51981,
+  "duration": 15849,
   "status": "passed"
 });
 formatter.scenario({
@@ -13396,18 +15578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5772902,
+  "duration": 3081732,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5386545,
+  "duration": 1589016,
   "status": "passed"
 });
 formatter.before({
-  "duration": 95446,
+  "duration": 16305,
   "status": "passed"
 });
 formatter.scenario({
@@ -13446,18 +15628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5100225,
+  "duration": 3135212,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2656976,
+  "duration": 1741883,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33696,
+  "duration": 17282,
   "status": "passed"
 });
 formatter.scenario({
@@ -13496,18 +15678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6289392,
+  "duration": 3171431,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4570144,
+  "duration": 1711196,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71433,
+  "duration": 15027,
   "status": "passed"
 });
 formatter.scenario({
@@ -13546,18 +15728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6669059,
+  "duration": 3065167,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2806533,
+  "duration": 1571983,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37546,
+  "duration": 16249,
   "status": "passed"
 });
 formatter.scenario({
@@ -13596,18 +15778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3279695,
+  "duration": 3122980,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 1857169,
+  "duration": 1607765,
   "status": "passed"
 });
 formatter.before({
-  "duration": 90479,
+  "duration": 15515,
   "status": "passed"
 });
 formatter.scenario({
@@ -13646,18 +15828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6953289,
+  "duration": 3030273,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4309470,
+  "duration": 1564347,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60246,
+  "duration": 15656,
   "status": "passed"
 });
 formatter.scenario({
@@ -13696,18 +15878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6168883,
+  "duration": 3094447,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4892254,
+  "duration": 1610633,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54601,
+  "duration": 15272,
   "status": "passed"
 });
 formatter.scenario({
@@ -13746,18 +15928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5153459,
+  "duration": 3091275,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5768328,
+  "duration": 1594348,
   "status": "passed"
 });
 formatter.before({
-  "duration": 66246,
+  "duration": 15983,
   "status": "passed"
 });
 formatter.scenario({
@@ -13796,18 +15978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5025351,
+  "duration": 3184536,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3313722,
+  "duration": 1589236,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26085,
+  "duration": 16341,
   "status": "passed"
 });
 formatter.scenario({
@@ -13846,18 +16028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6289320,
+  "duration": 3043258,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3190078,
+  "duration": 1575847,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26981,
+  "duration": 15563,
   "status": "passed"
 });
 formatter.scenario({
@@ -13896,18 +16078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4069301,
+  "duration": 3173753,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 1602243,
+  "duration": 1582859,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18003,
+  "duration": 15558,
   "status": "passed"
 });
 formatter.scenario({
@@ -13946,18 +16128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5692922,
+  "duration": 3151204,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2715808,
+  "duration": 1745214,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47272,
+  "duration": 16727,
   "status": "passed"
 });
 formatter.scenario({
@@ -13996,18 +16178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5093434,
+  "duration": 3245304,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5824880,
+  "duration": 1577389,
   "status": "passed"
 });
 formatter.before({
-  "duration": 94615,
+  "duration": 17434,
   "status": "passed"
 });
 formatter.scenario({
@@ -14046,18 +16228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5772963,
+  "duration": 3111917,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3072594,
+  "duration": 1587493,
   "status": "passed"
 });
 formatter.before({
-  "duration": 98602,
+  "duration": 15637,
   "status": "passed"
 });
 formatter.scenario({
@@ -14096,18 +16278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6415414,
+  "duration": 3116429,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4207846,
+  "duration": 1571969,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51232,
+  "duration": 15600,
   "status": "passed"
 });
 formatter.scenario({
@@ -14146,18 +16328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4275065,
+  "duration": 3410601,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4459039,
+  "duration": 1572674,
   "status": "passed"
 });
 formatter.before({
-  "duration": 80235,
+  "duration": 15863,
   "status": "passed"
 });
 formatter.scenario({
@@ -14196,18 +16378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5132476,
+  "duration": 3160142,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3658593,
+  "duration": 1625925,
   "status": "passed"
 });
 formatter.before({
-  "duration": 85646,
+  "duration": 16426,
   "status": "passed"
 });
 formatter.scenario({
@@ -14246,18 +16428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5942516,
+  "duration": 3083224,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5319152,
+  "duration": 1577723,
   "status": "passed"
 });
 formatter.before({
-  "duration": 92471,
+  "duration": 16277,
   "status": "passed"
 });
 formatter.scenario({
@@ -14296,18 +16478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4183271,
+  "duration": 3120322,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4610916,
+  "duration": 1583282,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60541,
+  "duration": 14917,
   "status": "passed"
 });
 formatter.scenario({
@@ -14346,18 +16528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4479832,
+  "duration": 3146020,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4723099,
+  "duration": 1703171,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61251,
+  "duration": 39056,
   "status": "passed"
 });
 formatter.scenario({
@@ -14396,18 +16578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5593644,
+  "duration": 3200913,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3202955,
+  "duration": 1565759,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19721,
+  "duration": 17538,
   "status": "passed"
 });
 formatter.scenario({
@@ -14446,18 +16628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5283775,
+  "duration": 3181465,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4470864,
+  "duration": 1713846,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18953,
+  "duration": 17109,
   "status": "passed"
 });
 formatter.scenario({
@@ -14496,18 +16678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5818450,
+  "duration": 3040127,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 2967781,
+  "duration": 1724593,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63229,
+  "duration": 17094,
   "status": "passed"
 });
 formatter.scenario({
@@ -14546,18 +16728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6730170,
+  "duration": 3076913,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4586074,
+  "duration": 1989325,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58231,
+  "duration": 16889,
   "status": "passed"
 });
 formatter.scenario({
@@ -14596,18 +16778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5938896,
+  "duration": 3108659,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5490307,
+  "duration": 1562897,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39270,
+  "duration": 15026,
   "status": "passed"
 });
 formatter.scenario({
@@ -14646,18 +16828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5463838,
+  "duration": 3096220,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5182503,
+  "duration": 1613830,
   "status": "passed"
 });
 formatter.before({
-  "duration": 88771,
+  "duration": 15846,
   "status": "passed"
 });
 formatter.scenario({
@@ -14696,18 +16878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5325730,
+  "duration": 3064402,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4781912,
+  "duration": 1666845,
   "status": "passed"
 });
 formatter.before({
-  "duration": 129386,
+  "duration": 16302,
   "status": "passed"
 });
 formatter.scenario({
@@ -14746,18 +16928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6537583,
+  "duration": 3176825,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4435244,
+  "duration": 1569657,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70063,
+  "duration": 15616,
   "status": "passed"
 });
 formatter.scenario({
@@ -14796,18 +16978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6421609,
+  "duration": 3132347,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3863241,
+  "duration": 1559061,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34354,
+  "duration": 14232,
   "status": "passed"
 });
 formatter.scenario({
@@ -14846,18 +17028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4996168,
+  "duration": 3034471,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5875244,
+  "duration": 1577891,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62967,
+  "duration": 13989,
   "status": "passed"
 });
 formatter.scenario({
@@ -14896,18 +17078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5836876,
+  "duration": 2993610,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3658270,
+  "duration": 1805244,
   "status": "passed"
 });
 formatter.before({
-  "duration": 82157,
+  "duration": 15287,
   "status": "passed"
 });
 formatter.scenario({
@@ -14946,18 +17128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5277547,
+  "duration": 3227547,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4145453,
+  "duration": 1587273,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44700,
+  "duration": 14849,
   "status": "passed"
 });
 formatter.scenario({
@@ -14996,18 +17178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6558692,
+  "duration": 3081508,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 5200415,
+  "duration": 1536715,
   "status": "passed"
 });
 formatter.before({
-  "duration": 78840,
+  "duration": 14564,
   "status": "passed"
 });
 formatter.scenario({
@@ -15046,18 +17228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4685882,
+  "duration": 3114804,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4347984,
+  "duration": 1529147,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62080,
+  "duration": 13698,
   "status": "passed"
 });
 formatter.scenario({
@@ -15096,18 +17278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5835324,
+  "duration": 3084127,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 4328416,
+  "duration": 1721013,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35578,
+  "duration": 15707,
   "status": "passed"
 });
 formatter.scenario({
@@ -15146,18 +17328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5965377,
+  "duration": 3019747,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_straight_in_any_order()"
 });
 formatter.result({
-  "duration": 3696001,
+  "duration": 1546485,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45936,
+  "duration": 24387,
   "status": "passed"
 });
 formatter.scenario({
@@ -15196,18 +17378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5678592,
+  "duration": 2395688,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 5083477,
+  "duration": 1742470,
   "status": "passed"
 });
 formatter.before({
-  "duration": 29787,
+  "duration": 16074,
   "status": "passed"
 });
 formatter.scenario({
@@ -15246,18 +17428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5919257,
+  "duration": 2374095,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 3364819,
+  "duration": 1650120,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58418,
+  "duration": 15106,
   "status": "passed"
 });
 formatter.scenario({
@@ -15296,18 +17478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4937160,
+  "duration": 2440106,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 3891533,
+  "duration": 1630163,
   "status": "passed"
 });
 formatter.before({
-  "duration": 75643,
+  "duration": 14516,
   "status": "passed"
 });
 formatter.scenario({
@@ -15346,18 +17528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3976088,
+  "duration": 2360075,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1702943,
+  "duration": 1625312,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15643,
+  "duration": 15118,
   "status": "passed"
 });
 formatter.scenario({
@@ -15396,18 +17578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4783090,
+  "duration": 2530478,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2650334,
+  "duration": 1295687,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61426,
+  "duration": 20908,
   "status": "passed"
 });
 formatter.scenario({
@@ -15446,18 +17628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4823298,
+  "duration": 2365845,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1174305,
+  "duration": 515392,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14437,
+  "duration": 15407,
   "status": "passed"
 });
 formatter.scenario({
@@ -15496,18 +17678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5184347,
+  "duration": 2397103,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2420417,
+  "duration": 518260,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40907,
+  "duration": 29115,
   "status": "passed"
 });
 formatter.scenario({
@@ -15546,18 +17728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3628836,
+  "duration": 2420866,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1296574,
+  "duration": 545249,
   "status": "passed"
 });
 formatter.before({
-  "duration": 118843,
+  "duration": 14034,
   "status": "passed"
 });
 formatter.scenario({
@@ -15596,18 +17778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3842527,
+  "duration": 2923886,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1372249,
+  "duration": 652028,
   "status": "passed"
 });
 formatter.before({
-  "duration": 96400,
+  "duration": 15612,
   "status": "passed"
 });
 formatter.scenario({
@@ -15646,18 +17828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4996845,
+  "duration": 2378055,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 786767,
+  "duration": 513475,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18825,
+  "duration": 13879,
   "status": "passed"
 });
 formatter.scenario({
@@ -15696,18 +17878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5257915,
+  "duration": 2733237,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1399208,
+  "duration": 534484,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59476,
+  "duration": 15363,
   "status": "passed"
 });
 formatter.scenario({
@@ -15746,18 +17928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6017313,
+  "duration": 2632977,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1160881,
+  "duration": 524064,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30920,
+  "duration": 15513,
   "status": "passed"
 });
 formatter.scenario({
@@ -15796,18 +17978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3824280,
+  "duration": 2381459,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1246821,
+  "duration": 278251,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42952,
+  "duration": 15501,
   "status": "passed"
 });
 formatter.scenario({
@@ -15846,18 +18028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5673326,
+  "duration": 2513365,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1452558,
+  "duration": 284868,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31432,
+  "duration": 16268,
   "status": "passed"
 });
 formatter.scenario({
@@ -15896,18 +18078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3672464,
+  "duration": 2417793,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 734866,
+  "duration": 273790,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14417,
+  "duration": 14443,
   "status": "passed"
 });
 formatter.scenario({
@@ -15946,18 +18128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5888502,
+  "duration": 2455598,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2618514,
+  "duration": 584228,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18738,
+  "duration": 13493,
   "status": "passed"
 });
 formatter.scenario({
@@ -15996,18 +18178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4326247,
+  "duration": 2432863,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 905760,
+  "duration": 287093,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18676,
+  "duration": 14816,
   "status": "passed"
 });
 formatter.scenario({
@@ -16046,18 +18228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3325365,
+  "duration": 2431706,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 514332,
+  "duration": 275076,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14429,
+  "duration": 14553,
   "status": "passed"
 });
 formatter.scenario({
@@ -16096,18 +18278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3777879,
+  "duration": 2443223,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1231768,
+  "duration": 277471,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56726,
+  "duration": 14221,
   "status": "passed"
 });
 formatter.scenario({
@@ -16146,18 +18328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6270183,
+  "duration": 2437762,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1400744,
+  "duration": 290355,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28293,
+  "duration": 15463,
   "status": "passed"
 });
 formatter.scenario({
@@ -16196,18 +18378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6101026,
+  "duration": 2398939,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_three_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1674433,
+  "duration": 279612,
   "status": "passed"
 });
 formatter.before({
-  "duration": 63811,
+  "duration": 15425,
   "status": "passed"
 });
 formatter.scenario({
@@ -16246,18 +18428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6217931,
+  "duration": 3183630,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 8658544,
+  "duration": 3913776,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49454,
+  "duration": 15930,
   "status": "passed"
 });
 formatter.scenario({
@@ -16296,18 +18478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5931486,
+  "duration": 3125555,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 5933450,
+  "duration": 2200040,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20533,
+  "duration": 15248,
   "status": "passed"
 });
 formatter.scenario({
@@ -16346,18 +18528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5584709,
+  "duration": 2883907,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 5936575,
+  "duration": 2070438,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34108,
+  "duration": 15581,
   "status": "passed"
 });
 formatter.scenario({
@@ -16396,18 +18578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5216602,
+  "duration": 3018356,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 4896917,
+  "duration": 2236439,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60062,
+  "duration": 16380,
   "status": "passed"
 });
 formatter.scenario({
@@ -16446,18 +18628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5238543,
+  "duration": 3066925,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 4255642,
+  "duration": 1567156,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30037,
+  "duration": 15727,
   "status": "passed"
 });
 formatter.scenario({
@@ -16496,18 +18678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5796973,
+  "duration": 2943797,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 5424753,
+  "duration": 899008,
   "status": "passed"
 });
 formatter.before({
-  "duration": 85241,
+  "duration": 21857,
   "status": "passed"
 });
 formatter.scenario({
@@ -16546,18 +18728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3779592,
+  "duration": 2956948,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 4002208,
+  "duration": 896975,
   "status": "passed"
 });
 formatter.before({
-  "duration": 81295,
+  "duration": 15565,
   "status": "passed"
 });
 formatter.scenario({
@@ -16596,18 +18778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5561265,
+  "duration": 2945883,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3689551,
+  "duration": 891844,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64608,
+  "duration": 20748,
   "status": "passed"
 });
 formatter.scenario({
@@ -16646,18 +18828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5688266,
+  "duration": 3248849,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3141750,
+  "duration": 885966,
   "status": "passed"
 });
 formatter.before({
-  "duration": 66858,
+  "duration": 16092,
   "status": "passed"
 });
 formatter.scenario({
@@ -16696,18 +18878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5579343,
+  "duration": 2876329,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 5074198,
+  "duration": 907552,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62422,
+  "duration": 14356,
   "status": "passed"
 });
 formatter.scenario({
@@ -16746,18 +18928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5389595,
+  "duration": 3037905,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3925670,
+  "duration": 919210,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55092,
+  "duration": 15353,
   "status": "passed"
 });
 formatter.scenario({
@@ -16796,18 +18978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6234457,
+  "duration": 3339336,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3040317,
+  "duration": 1045700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52946,
+  "duration": 15195,
   "status": "passed"
 });
 formatter.scenario({
@@ -16846,18 +19028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4620313,
+  "duration": 3098264,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3699778,
+  "duration": 891583,
   "status": "passed"
 });
 formatter.before({
-  "duration": 81206,
+  "duration": 14801,
   "status": "passed"
 });
 formatter.scenario({
@@ -16896,18 +19078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5074661,
+  "duration": 2844989,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3076510,
+  "duration": 703430,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60708,
+  "duration": 12705,
   "status": "passed"
 });
 formatter.scenario({
@@ -16946,18 +19128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6761316,
+  "duration": 2947101,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3519433,
+  "duration": 699784,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32758,
+  "duration": 16315,
   "status": "passed"
 });
 formatter.scenario({
@@ -16996,18 +19178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4218215,
+  "duration": 3071869,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3764775,
+  "duration": 988050,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59489,
+  "duration": 14514,
   "status": "passed"
 });
 formatter.scenario({
@@ -17046,18 +19228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3917581,
+  "duration": 5104612,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 2237136,
+  "duration": 883819,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13952,
+  "duration": 15719,
   "status": "passed"
 });
 formatter.scenario({
@@ -17096,18 +19278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4707362,
+  "duration": 2894994,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3079595,
+  "duration": 832304,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55224,
+  "duration": 15929,
   "status": "passed"
 });
 formatter.scenario({
@@ -17146,18 +19328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5744744,
+  "duration": 2946466,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 4016227,
+  "duration": 852689,
   "status": "passed"
 });
 formatter.before({
-  "duration": 73584,
+  "duration": 15972,
   "status": "passed"
 });
 formatter.scenario({
@@ -17196,18 +19378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4787904,
+  "duration": 2947408,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3980012,
+  "duration": 835620,
   "status": "passed"
 });
 formatter.before({
-  "duration": 58518,
+  "duration": 25301,
   "status": "passed"
 });
 formatter.scenario({
@@ -17246,18 +19428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4811637,
+  "duration": 2929394,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 5229308,
+  "duration": 837353,
   "status": "passed"
 });
 formatter.before({
-  "duration": 53249,
+  "duration": 16443,
   "status": "passed"
 });
 formatter.scenario({
@@ -17296,18 +19478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4064544,
+  "duration": 2980572,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3171216,
+  "duration": 906589,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48923,
+  "duration": 18377,
   "status": "passed"
 });
 formatter.scenario({
@@ -17346,18 +19528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5352911,
+  "duration": 2997388,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 3581620,
+  "duration": 846223,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48066,
+  "duration": 15455,
   "status": "passed"
 });
 formatter.scenario({
@@ -17396,18 +19578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5103261,
+  "duration": 2886676,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 4204645,
+  "duration": 669308,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54615,
+  "duration": 14838,
   "status": "passed"
 });
 formatter.scenario({
@@ -17446,18 +19628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4921499,
+  "duration": 2899700,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 2977084,
+  "duration": 739858,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62391,
+  "duration": 14674,
   "status": "passed"
 });
 formatter.scenario({
@@ -17496,18 +19678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5885015,
+  "duration": 2867716,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 2239359,
+  "duration": 665112,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15365,
+  "duration": 13114,
   "status": "passed"
 });
 formatter.scenario({
@@ -17546,18 +19728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 2953454,
+  "duration": 3046109,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 2606845,
+  "duration": 698142,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56152,
+  "duration": 14974,
   "status": "passed"
 });
 formatter.scenario({
@@ -17596,18 +19778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 6573948,
+  "duration": 2813487,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 2234494,
+  "duration": 688399,
   "status": "passed"
 });
 formatter.before({
-  "duration": 65209,
+  "duration": 14328,
   "status": "passed"
 });
 formatter.scenario({
@@ -17646,18 +19828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5718418,
+  "duration": 2960669,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 1655285,
+  "duration": 670110,
   "status": "passed"
 });
 formatter.before({
-  "duration": 67274,
+  "duration": 14140,
   "status": "passed"
 });
 formatter.scenario({
@@ -17696,18 +19878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5691955,
+  "duration": 2916130,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_pair_in_any_order()"
 });
 formatter.result({
-  "duration": 1688362,
+  "duration": 665840,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44683,
+  "duration": 13275,
   "status": "passed"
 });
 formatter.scenario({
@@ -17746,18 +19928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4302945,
+  "duration": 3356479,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 4358120,
+  "duration": 1990857,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55888,
+  "duration": 16884,
   "status": "passed"
 });
 formatter.scenario({
@@ -17796,18 +19978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3843936,
+  "duration": 3204879,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2310023,
+  "duration": 1816609,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16772,
+  "duration": 15405,
   "status": "passed"
 });
 formatter.scenario({
@@ -17846,18 +20028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4381169,
+  "duration": 3473082,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 3760933,
+  "duration": 1708048,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55026,
+  "duration": 52113,
   "status": "passed"
 });
 formatter.scenario({
@@ -17896,18 +20078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3906982,
+  "duration": 3142316,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2296613,
+  "duration": 2583699,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24500,
+  "duration": 119922,
   "status": "passed"
 });
 formatter.scenario({
@@ -17946,18 +20128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3856234,
+  "duration": 5417973,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2467703,
+  "duration": 1507019,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62600,
+  "duration": 17337,
   "status": "passed"
 });
 formatter.scenario({
@@ -17996,18 +20178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4124486,
+  "duration": 3211446,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1130110,
+  "duration": 623979,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15437,
+  "duration": 32427,
   "status": "passed"
 });
 formatter.scenario({
@@ -18046,18 +20228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3838578,
+  "duration": 2989950,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 736985,
+  "duration": 630249,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17029,
+  "duration": 12576,
   "status": "passed"
 });
 formatter.scenario({
@@ -18096,18 +20278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4119732,
+  "duration": 3114425,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2284324,
+  "duration": 609883,
   "status": "passed"
 });
 formatter.before({
-  "duration": 118103,
+  "duration": 13130,
   "status": "passed"
 });
 formatter.scenario({
@@ -18146,18 +20328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3933368,
+  "duration": 2991725,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 713128,
+  "duration": 592857,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14448,
+  "duration": 13086,
   "status": "passed"
 });
 formatter.scenario({
@@ -18196,18 +20378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3719575,
+  "duration": 3123888,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1482700,
+  "duration": 597434,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33752,
+  "duration": 14889,
   "status": "passed"
 });
 formatter.scenario({
@@ -18246,18 +20428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3646686,
+  "duration": 3042632,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 992088,
+  "duration": 566081,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24217,
+  "duration": 12399,
   "status": "passed"
 });
 formatter.scenario({
@@ -18296,18 +20478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3894640,
+  "duration": 2985822,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1390814,
+  "duration": 623229,
   "status": "passed"
 });
 formatter.before({
-  "duration": 75565,
+  "duration": 14138,
   "status": "passed"
 });
 formatter.scenario({
@@ -18346,18 +20528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3934529,
+  "duration": 3038941,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 920393,
+  "duration": 321523,
   "status": "passed"
 });
 formatter.before({
-  "duration": 56702,
+  "duration": 13473,
   "status": "passed"
 });
 formatter.scenario({
@@ -18396,18 +20578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4780837,
+  "duration": 3161461,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1692678,
+  "duration": 352033,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25810,
+  "duration": 14060,
   "status": "passed"
 });
 formatter.scenario({
@@ -18446,18 +20628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3610388,
+  "duration": 3302021,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 395163,
+  "duration": 322697,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13516,
+  "duration": 13776,
   "status": "passed"
 });
 formatter.scenario({
@@ -18496,18 +20678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3292179,
+  "duration": 3104463,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 820356,
+  "duration": 634685,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25527,
+  "duration": 11837,
   "status": "passed"
 });
 formatter.scenario({
@@ -18546,18 +20728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4663723,
+  "duration": 3256092,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1506333,
+  "duration": 338929,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16137,
+  "duration": 12332,
   "status": "passed"
 });
 formatter.scenario({
@@ -18596,18 +20778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4738614,
+  "duration": 3123126,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1683864,
+  "duration": 599901,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37015,
+  "duration": 16011,
   "status": "passed"
 });
 formatter.scenario({
@@ -18646,18 +20828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3636913,
+  "duration": 3187955,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1169951,
+  "duration": 353578,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30171,
+  "duration": 39955,
   "status": "passed"
 });
 formatter.scenario({
@@ -18696,18 +20878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4145864,
+  "duration": 3323895,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 828054,
+  "duration": 530767,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14793,
+  "duration": 17533,
   "status": "passed"
 });
 formatter.scenario({
@@ -18746,18 +20928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5275000,
+  "duration": 2939392,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1077220,
+  "duration": 477390,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23690,
+  "duration": 11017,
   "status": "passed"
 });
 formatter.scenario({
@@ -18796,18 +20978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4178005,
+  "duration": 2997996,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1170664,
+  "duration": 523132,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27273,
+  "duration": 12531,
   "status": "passed"
 });
 formatter.scenario({
@@ -18846,18 +21028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3788051,
+  "duration": 3003777,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 2863858,
+  "duration": 439544,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64921,
+  "duration": 9943,
   "status": "passed"
 });
 formatter.scenario({
@@ -18896,18 +21078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4236124,
+  "duration": 2991039,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 773809,
+  "duration": 542029,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59785,
+  "duration": 14434,
   "status": "passed"
 });
 formatter.scenario({
@@ -18946,18 +21128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3268551,
+  "duration": 3485965,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 485394,
+  "duration": 378031,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13582,
+  "duration": 13349,
   "status": "passed"
 });
 formatter.scenario({
@@ -18996,18 +21178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4216151,
+  "duration": 3168549,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1329750,
+  "duration": 354895,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34145,
+  "duration": 12765,
   "status": "passed"
 });
 formatter.scenario({
@@ -19046,18 +21228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3052432,
+  "duration": 3344204,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 453564,
+  "duration": 453305,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13343,
+  "duration": 11662,
   "status": "passed"
 });
 formatter.scenario({
@@ -19096,18 +21278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3082356,
+  "duration": 3050162,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1187469,
+  "duration": 474675,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24024,
+  "duration": 12007,
   "status": "passed"
 });
 formatter.scenario({
@@ -19146,18 +21328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4598387,
+  "duration": 2979887,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1201446,
+  "duration": 323125,
   "status": "passed"
 });
 formatter.before({
-  "duration": 74035,
+  "duration": 9659,
   "status": "passed"
 });
 formatter.scenario({
@@ -19196,18 +21378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4517168,
+  "duration": 2981646,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1019536,
+  "duration": 451200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27681,
+  "duration": 16997,
   "status": "passed"
 });
 formatter.scenario({
@@ -19246,18 +21428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4058965,
+  "duration": 3061857,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1006720,
+  "duration": 317905,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62144,
+  "duration": 11036,
   "status": "passed"
 });
 formatter.scenario({
@@ -19296,18 +21478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5074186,
+  "duration": 2960328,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1692497,
+  "duration": 339855,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27472,
+  "duration": 11174,
   "status": "passed"
 });
 formatter.scenario({
@@ -19346,18 +21528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3809122,
+  "duration": 3139136,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 548330,
+  "duration": 318624,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16328,
+  "duration": 11692,
   "status": "passed"
 });
 formatter.scenario({
@@ -19396,18 +21578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5396349,
+  "duration": 2929455,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1431409,
+  "duration": 425260,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18732,
+  "duration": 13872,
   "status": "passed"
 });
 formatter.scenario({
@@ -19446,18 +21628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3715997,
+  "duration": 3172272,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 359968,
+  "duration": 367695,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14114,
+  "duration": 15716,
   "status": "passed"
 });
 formatter.scenario({
@@ -19496,18 +21678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4113826,
+  "duration": 2948181,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 837669,
+  "duration": 327436,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62898,
+  "duration": 11475,
   "status": "passed"
 });
 formatter.scenario({
@@ -19546,18 +21728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5335210,
+  "duration": 3670521,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1451738,
+  "duration": 565065,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18553,
+  "duration": 14544,
   "status": "passed"
 });
 formatter.scenario({
@@ -19596,18 +21778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4167905,
+  "duration": 3373043,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 737173,
+  "duration": 472706,
   "status": "passed"
 });
 formatter.before({
-  "duration": 73109,
+  "duration": 12059,
   "status": "passed"
 });
 formatter.scenario({
@@ -19646,18 +21828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4368857,
+  "duration": 3035307,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1959094,
+  "duration": 341503,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52563,
+  "duration": 10381,
   "status": "passed"
 });
 formatter.scenario({
@@ -19696,18 +21878,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3894619,
+  "duration": 3038162,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 718016,
+  "duration": 316338,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44758,
+  "duration": 10181,
   "status": "passed"
 });
 formatter.scenario({
@@ -19746,18 +21928,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4071673,
+  "duration": 3024180,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1089297,
+  "duration": 425622,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50661,
+  "duration": 13577,
   "status": "passed"
 });
 formatter.scenario({
@@ -19796,18 +21978,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4247686,
+  "duration": 3026884,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 853321,
+  "duration": 423498,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18637,
+  "duration": 14202,
   "status": "passed"
 });
 formatter.scenario({
@@ -19846,18 +22028,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3335691,
+  "duration": 3194484,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 344290,
+  "duration": 519941,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13298,
+  "duration": 12916,
   "status": "passed"
 });
 formatter.scenario({
@@ -19896,18 +22078,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4306691,
+  "duration": 3022887,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1183532,
+  "duration": 476636,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26885,
+  "duration": 23157,
   "status": "passed"
 });
 formatter.scenario({
@@ -19946,18 +22128,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3730715,
+  "duration": 3024480,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 924847,
+  "duration": 461430,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51339,
+  "duration": 10506,
   "status": "passed"
 });
 formatter.scenario({
@@ -19996,18 +22178,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4407676,
+  "duration": 2961325,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 996307,
+  "duration": 464926,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20924,
+  "duration": 52533,
   "status": "passed"
 });
 formatter.scenario({
@@ -20046,18 +22228,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4933755,
+  "duration": 3057824,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 3001965,
+  "duration": 325079,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41658,
+  "duration": 11466,
   "status": "passed"
 });
 formatter.scenario({
@@ -20096,18 +22278,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4127953,
+  "duration": 2960918,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 921977,
+  "duration": 374175,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26445,
+  "duration": 12729,
   "status": "passed"
 });
 formatter.scenario({
@@ -20146,18 +22328,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4648302,
+  "duration": 3426471,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1213661,
+  "duration": 411401,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24931,
+  "duration": 17823,
   "status": "passed"
 });
 formatter.scenario({
@@ -20196,18 +22378,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4955013,
+  "duration": 3495852,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1212277,
+  "duration": 384347,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20521,
+  "duration": 11331,
   "status": "passed"
 });
 formatter.scenario({
@@ -20246,18 +22428,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3810973,
+  "duration": 3030149,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1223923,
+  "duration": 319840,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23172,
+  "duration": 10659,
   "status": "passed"
 });
 formatter.scenario({
@@ -20296,18 +22478,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4808565,
+  "duration": 2968022,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1645883,
+  "duration": 314217,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36543,
+  "duration": 10688,
   "status": "passed"
 });
 formatter.scenario({
@@ -20346,18 +22528,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3814627,
+  "duration": 3131261,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 956157,
+  "duration": 344249,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18248,
+  "duration": 13126,
   "status": "passed"
 });
 formatter.scenario({
@@ -20396,18 +22578,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4088746,
+  "duration": 2999979,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 836638,
+  "duration": 387901,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23379,
+  "duration": 14394,
   "status": "passed"
 });
 formatter.scenario({
@@ -20446,18 +22628,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5042863,
+  "duration": 3042121,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1420895,
+  "duration": 352444,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45917,
+  "duration": 13219,
   "status": "passed"
 });
 formatter.scenario({
@@ -20496,18 +22678,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4086277,
+  "duration": 2971670,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 701844,
+  "duration": 387215,
   "status": "passed"
 });
 formatter.before({
-  "duration": 59266,
+  "duration": 17652,
   "status": "passed"
 });
 formatter.scenario({
@@ -20546,18 +22728,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4653551,
+  "duration": 2961776,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1440345,
+  "duration": 361591,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38801,
+  "duration": 10477,
   "status": "passed"
 });
 formatter.scenario({
@@ -20596,18 +22778,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 3780028,
+  "duration": 2931772,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 808200,
+  "duration": 320925,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17906,
+  "duration": 10525,
   "status": "passed"
 });
 formatter.scenario({
@@ -20646,18 +22828,18 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 4006753,
+  "duration": 3147264,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1417050,
+  "duration": 381921,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27998,
+  "duration": 10290,
   "status": "passed"
 });
 formatter.scenario({
@@ -20696,14 +22878,14 @@ formatter.match({
   "location": "AnyOrder.a_set_of_cards_with(String,String)"
 });
 formatter.result({
-  "duration": 5213661,
+  "duration": 2958138,
   "status": "passed"
 });
 formatter.match({
   "location": "AnyOrder.the_hand_should_be_a_two_of_a_kind_in_any_order()"
 });
 formatter.result({
-  "duration": 1373740,
+  "duration": 366927,
   "status": "passed"
 });
 formatter.uri("cucumber/handPriorities.feature");
@@ -20715,7 +22897,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 31354,
+  "duration": 13448,
   "status": "passed"
 });
 formatter.scenario({
@@ -20749,18 +22931,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 1276113,
+  "duration": 1103982,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 86906,
+  "duration": 115683,
   "status": "passed"
 });
 formatter.before({
-  "duration": 12178,
+  "duration": 23999,
   "status": "passed"
 });
 formatter.scenario({
@@ -20794,18 +22976,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 60131,
+  "duration": 63777,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 152376,
+  "duration": 44014,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10926,
+  "duration": 10931,
   "status": "passed"
 });
 formatter.scenario({
@@ -20839,18 +23021,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 127805,
+  "duration": 42450,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 306024,
+  "duration": 19465,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22392,
+  "duration": 8909,
   "status": "passed"
 });
 formatter.scenario({
@@ -20884,18 +23066,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 112799,
+  "duration": 28372,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 403114,
+  "duration": 27802,
   "status": "passed"
 });
 formatter.before({
-  "duration": 72984,
+  "duration": 8292,
   "status": "passed"
 });
 formatter.scenario({
@@ -20929,18 +23111,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 115023,
+  "duration": 45154,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 173572,
+  "duration": 70395,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26901,
+  "duration": 9140,
   "status": "passed"
 });
 formatter.scenario({
@@ -20974,18 +23156,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 93322,
+  "duration": 37497,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 203750,
+  "duration": 20374,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10908,
+  "duration": 8648,
   "status": "passed"
 });
 formatter.scenario({
@@ -21019,18 +23201,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 53911,
+  "duration": 28771,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 96995,
+  "duration": 20391,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17304,
+  "duration": 8465,
   "status": "passed"
 });
 formatter.scenario({
@@ -21064,18 +23246,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 57371,
+  "duration": 28681,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 133357,
+  "duration": 55543,
   "status": "passed"
 });
 formatter.before({
-  "duration": 130194,
+  "duration": 12599,
   "status": "passed"
 });
 formatter.scenario({
@@ -21109,18 +23291,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 127674,
+  "duration": 30348,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 151557,
+  "duration": 21858,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34343,
+  "duration": 8703,
   "status": "passed"
 });
 formatter.scenario({
@@ -21154,18 +23336,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 90122,
+  "duration": 30150,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 98142,
+  "duration": 15997,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16574,
+  "duration": 9216,
   "status": "passed"
 });
 formatter.scenario({
@@ -21199,18 +23381,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 61298,
+  "duration": 28816,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 50033,
+  "duration": 41905,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13342,
+  "duration": 10170,
   "status": "passed"
 });
 formatter.scenario({
@@ -21244,18 +23426,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 86911,
+  "duration": 29148,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 71239,
+  "duration": 17942,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41545,
+  "duration": 8626,
   "status": "passed"
 });
 formatter.scenario({
@@ -21289,18 +23471,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 101508,
+  "duration": 32420,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 39192,
+  "duration": 15110,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27245,
+  "duration": 61592,
   "status": "passed"
 });
 formatter.scenario({
@@ -21334,18 +23516,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 160895,
+  "duration": 36462,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 134087,
+  "duration": 16405,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20705,
+  "duration": 9408,
   "status": "passed"
 });
 formatter.scenario({
@@ -21379,18 +23561,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 73792,
+  "duration": 29292,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 55372,
+  "duration": 17312,
   "status": "passed"
 });
 formatter.before({
-  "duration": 17336,
+  "duration": 8858,
   "status": "passed"
 });
 formatter.scenario({
@@ -21424,18 +23606,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 1535660,
+  "duration": 487378,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 551959,
+  "duration": 244494,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42259,
+  "duration": 10396,
   "status": "passed"
 });
 formatter.scenario({
@@ -21469,18 +23651,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 103975,
+  "duration": 42680,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 90751,
+  "duration": 64539,
   "status": "passed"
 });
 formatter.before({
-  "duration": 23068,
+  "duration": 51014,
   "status": "passed"
 });
 formatter.scenario({
@@ -21514,18 +23696,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 147336,
+  "duration": 44593,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 64412,
+  "duration": 14167,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33661,
+  "duration": 13951,
   "status": "passed"
 });
 formatter.scenario({
@@ -21559,18 +23741,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 117432,
+  "duration": 37096,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 60334,
+  "duration": 13510,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30549,
+  "duration": 13857,
   "status": "passed"
 });
 formatter.scenario({
@@ -21604,18 +23786,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 165285,
+  "duration": 39658,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 58995,
+  "duration": 17515,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38336,
+  "duration": 14029,
   "status": "passed"
 });
 formatter.scenario({
@@ -21649,18 +23831,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 106686,
+  "duration": 40108,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 82355,
+  "duration": 11368,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31857,
+  "duration": 9721,
   "status": "passed"
 });
 formatter.scenario({
@@ -21694,18 +23876,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 160819,
+  "duration": 27591,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 45763,
+  "duration": 12461,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19042,
+  "duration": 8589,
   "status": "passed"
 });
 formatter.scenario({
@@ -21739,18 +23921,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 52591,
+  "duration": 27169,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 38670,
+  "duration": 13497,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62788,
+  "duration": 9335,
   "status": "passed"
 });
 formatter.scenario({
@@ -21784,18 +23966,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 91320,
+  "duration": 26597,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 56592,
+  "duration": 12439,
   "status": "passed"
 });
 formatter.before({
-  "duration": 27709,
+  "duration": 8498,
   "status": "passed"
 });
 formatter.scenario({
@@ -21829,18 +24011,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 124240,
+  "duration": 25845,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 50823,
+  "duration": 9215,
   "status": "passed"
 });
 formatter.before({
-  "duration": 24069,
+  "duration": 8481,
   "status": "passed"
 });
 formatter.scenario({
@@ -21874,18 +24056,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 126372,
+  "duration": 24219,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 105504,
+  "duration": 11830,
   "status": "passed"
 });
 formatter.before({
-  "duration": 26252,
+  "duration": 8328,
   "status": "passed"
 });
 formatter.scenario({
@@ -21919,18 +24101,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 67976,
+  "duration": 24280,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 41423,
+  "duration": 9850,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30217,
+  "duration": 8348,
   "status": "passed"
 });
 formatter.scenario({
@@ -21964,18 +24146,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 87175,
+  "duration": 25958,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 53395,
+  "duration": 13050,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15654,
+  "duration": 18474,
   "status": "passed"
 });
 formatter.scenario({
@@ -22009,18 +24191,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 93727,
+  "duration": 28246,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 58692,
+  "duration": 13372,
   "status": "passed"
 });
 formatter.before({
-  "duration": 30319,
+  "duration": 8904,
   "status": "passed"
 });
 formatter.scenario({
@@ -22054,18 +24236,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 49589,
+  "duration": 23336,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 39534,
+  "duration": 11881,
   "status": "passed"
 });
 formatter.before({
-  "duration": 14042,
+  "duration": 8229,
   "status": "passed"
 });
 formatter.scenario({
@@ -22099,18 +24281,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 119281,
+  "duration": 24051,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 124199,
+  "duration": 11739,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42154,
+  "duration": 8237,
   "status": "passed"
 });
 formatter.scenario({
@@ -22144,18 +24326,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 111978,
+  "duration": 22812,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 114313,
+  "duration": 9931,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31999,
+  "duration": 8346,
   "status": "passed"
 });
 formatter.scenario({
@@ -22189,18 +24371,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 113682,
+  "duration": 23775,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 93821,
+  "duration": 12108,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34973,
+  "duration": 8221,
   "status": "passed"
 });
 formatter.scenario({
@@ -22234,18 +24416,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 88950,
+  "duration": 23013,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 102048,
+  "duration": 14366,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42664,
+  "duration": 8299,
   "status": "passed"
 });
 formatter.scenario({
@@ -22279,18 +24461,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 75801,
+  "duration": 25056,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 133975,
+  "duration": 12371,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35393,
+  "duration": 8322,
   "status": "passed"
 });
 formatter.scenario({
@@ -22324,18 +24506,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 78384,
+  "duration": 24102,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 78767,
+  "duration": 13353,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22512,
+  "duration": 14814,
   "status": "passed"
 });
 formatter.scenario({
@@ -22369,18 +24551,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 104107,
+  "duration": 23353,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 48685,
+  "duration": 14552,
   "status": "passed"
 });
 formatter.before({
-  "duration": 19120,
+  "duration": 14445,
   "status": "passed"
 });
 formatter.scenario({
@@ -22414,18 +24596,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 49836,
+  "duration": 23820,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 84381,
+  "duration": 15058,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52210,
+  "duration": 7929,
   "status": "passed"
 });
 formatter.scenario({
@@ -22459,18 +24641,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 47541,
+  "duration": 22903,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 36409,
+  "duration": 14649,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40925,
+  "duration": 8190,
   "status": "passed"
 });
 formatter.scenario({
@@ -22504,18 +24686,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 81519,
+  "duration": 23920,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 50535,
+  "duration": 12449,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16027,
+  "duration": 7940,
   "status": "passed"
 });
 formatter.scenario({
@@ -22549,18 +24731,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 44460,
+  "duration": 35152,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 35282,
+  "duration": 23548,
   "status": "passed"
 });
 formatter.before({
-  "duration": 13988,
+  "duration": 8280,
   "status": "passed"
 });
 formatter.scenario({
@@ -22594,18 +24776,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 87672,
+  "duration": 24369,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 55197,
+  "duration": 12738,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25198,
+  "duration": 7899,
   "status": "passed"
 });
 formatter.scenario({
@@ -22639,18 +24821,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 101497,
+  "duration": 22648,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 53366,
+  "duration": 12903,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47406,
+  "duration": 7593,
   "status": "passed"
 });
 formatter.scenario({
@@ -22684,18 +24866,18 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 155321,
+  "duration": 26534,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 61887,
+  "duration": 25413,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20120,
+  "duration": 8362,
   "status": "passed"
 });
 formatter.scenario({
@@ -22729,14 +24911,14 @@ formatter.match({
   "location": "HandPriorites.two_hands(DataTable)"
 });
 formatter.result({
-  "duration": 67874,
+  "duration": 26658,
   "status": "passed"
 });
 formatter.match({
   "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
 });
 formatter.result({
-  "duration": 147715,
+  "duration": 14448,
   "status": "passed"
 });
 formatter.uri("cucumber/runProgram.feature");
@@ -22748,7 +24930,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 84080,
+  "duration": 11531,
   "status": "passed"
 });
 formatter.scenario({
@@ -22778,21 +24960,884 @@ formatter.match({
   "location": "RunProgramSteps.i_have_input_files()"
 });
 formatter.result({
-  "duration": 213289,
+  "duration": 47476,
   "status": "passed"
 });
 formatter.match({
   "location": "RunProgramSteps.i_run_the_program()"
 });
 formatter.result({
-  "duration": 45580,
+  "duration": 9325,
   "status": "passed"
 });
 formatter.match({
   "location": "RunProgramSteps.the_result_should_be_that_the_program_is_run()"
 });
 formatter.result({
-  "duration": 19930,
+  "duration": 8185,
+  "status": "passed"
+});
+formatter.uri("cucumber/sameHandCompare.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Hands with the same ranking have their own rules to distinguish which is better. i.e. a royal flush is evaluated as better based off of suit.",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 9502,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "A royal flush is determined by suit",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;a-royal-flush-is-determined-by-suit",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "D10 DJ DQ DK DA",
+        "C10 CJ CQ CK CA"
+      ],
+      "line": 5
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 30129,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 28799,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8140,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 8,
+  "name": "Straight flush wins with highest ranked card",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;straight-flush-wins-with-highest-ranked-card",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 9,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C3 C4 C5 C6 C7",
+        "S2 S3 S4 S5 S6"
+      ],
+      "line": 10
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 11,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 64009,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 45835,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8234,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "Straight flush with the same highest card wins by suit",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;straight-flush-with-the-same-highest-card-wins-by-suit",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 14,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "H2 H3 H4 H5 H6",
+        "C2 C3 C4 C5 C6"
+      ],
+      "line": 15
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 16,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24940,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 43322,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8247,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Four of a kind is decided by highest card of the four of a kinds",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;four-of-a-kind-is-decided-by-highest-card-of-the-four-of-a-kinds",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 19,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C3 D3 H3 S3 C4",
+        "C2 D2 H2 S2 SA"
+      ],
+      "line": 20
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 21,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24630,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 28313,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8101,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 23,
+  "name": "Highest card of two triplets in a full house is the winner",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;highest-card-of-two-triplets-in-a-full-house-is-the-winner",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 24,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "CK DK C3 H3 S3",
+        "SA HA C2 H2 S2"
+      ],
+      "line": 25
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 23905,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 36109,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 7969,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "Highest card of triplets wins",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;highest-card-of-triplets-wins",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 29,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C3 H3 S3 C2 H5",
+        "D2 S2 H2 SA SK"
+      ],
+      "line": 30
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 31,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24932,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 15286,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8077,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 33,
+  "name": "Straight with same rank of highest card is determined by suit of highest card",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;straight-with-same-rank-of-highest-card-is-determined-by-suit-of-highest-card",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 34,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C3 C4 D5 H6 S7",
+        "D3 H4 S5 S6 C7"
+      ],
+      "line": 35
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 36,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 25917,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 16047,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8409,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 38,
+  "name": "Straight with differently ranked highest cards are win based off the rank of the high card",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;straight-with-differently-ranked-highest-cards-are-win-based-off-the-rank-of-the-high-card",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 39,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "D3 H4 D5 H6 D7",
+        "S2 C3 S4 C5 S6"
+      ],
+      "line": 40
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 41,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 23716,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 12362,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8073,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 43,
+  "name": "If there are two pairs in each hand then the highest suit of the highest ranked one wins",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;if-there-are-two-pairs-in-each-hand-then-the-highest-suit-of-the-highest-ranked-one-wins",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 44,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "D2 C2 H5 S5 SK",
+        "S2 H2 C5 D5 SA"
+      ],
+      "line": 45
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 46,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 23468,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 115938,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8405,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 48,
+  "name": "If there are two pairs in each hand then the highest ranked wins",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;if-there-are-two-pairs-in-each-hand-then-the-highest-ranked-wins",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 49,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "D2 C2 S10 C10 SK",
+        "H8 D8 S9 C9 SA"
+      ],
+      "line": 50
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 51,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 25233,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 95769,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8631,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 53,
+  "name": "Both hands with same ranked pair then highest suit wins",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;both-hands-with-same-ranked-pair-then-highest-suit-wins",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 54,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "S2 C2 CQ CK CA",
+        "D2 H2 SQ SK SA"
+      ],
+      "line": 55
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 56,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24670,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 55694,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8083,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 58,
+  "name": "Both hands with different ranked pair then highest rank of pair wins",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;both-hands-with-different-ranked-pair-then-highest-rank-of-pair-wins",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 59,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "S3 C3 CQ CK CA",
+        "C2 D2 SQ SK SA"
+      ],
+      "line": 60
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 61,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 25190,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 46210,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8187,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 63,
+  "name": "High card hands are determined by suit if highest cards have same rank",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;high-card-hands-are-determined-by-suit-if-highest-cards-have-same-rank",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 64,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C2 S4 H5 D7 D8",
+        "S2 S3 H6 S7 C8"
+      ],
+      "line": 65
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 66,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 34838,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 21117,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 13098,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 68,
+  "name": "High card wins based off rank regardless of suit",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;high-card-wins-based-off-rank-regardless-of-suit",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 69,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C2 D3 CK CQ CA",
+        "S2 H3 SJ SQ SK"
+      ],
+      "line": 70
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 71,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 45147,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 21573,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9725,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 73,
+  "name": "Flush with 5 cards of the same rank is determined by suit",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;flush-with-5-cards-of-the-same-rank-is-determined-by-suit",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 74,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "D2 D4 D6 D8 D10",
+        "C2 C4 C6 C8 C10"
+      ],
+      "line": 75
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 76,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 26062,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 39727,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8539,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 78,
+  "name": "Flush with 4 highest cards being the same rank then the 5th is the determining one",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;flush-with-4-highest-cards-being-the-same-rank-then-the-5th-is-the-determining-one",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 79,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C3 C4 C6 C8 C10",
+        "D2 D4 D6 D8 D10"
+      ],
+      "line": 80
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 81,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24905,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 27234,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8287,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 83,
+  "name": "Flush with 3 highest cards being the same rank then the best of remaining 4 win",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;flush-with-3-highest-cards-being-the-same-rank-then-the-best-of-remaining-4-win",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 84,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C4 C6 C7 C9 C10",
+        "S4 S5 S7 S9 S10"
+      ],
+      "line": 85
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 86,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 25618,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 40218,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 8767,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 88,
+  "name": "Flush with 2 highest cards being the same rank then the best of remaining 6 win",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;flush-with-2-highest-cards-being-the-same-rank-then-the-best-of-remaining-6-win",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 89,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C4 C5 C7 C9 C10",
+        "S4 S5 S6 S9 S10"
+      ],
+      "line": 90
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 91,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24721,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 26526,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 11521,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 93,
+  "name": "Flush with 1 highest card being the same rank then the best of remaining 8 win",
+  "description": "",
+  "id": "hands-with-the-same-ranking-have-their-own-rules-to-distinguish-which-is-better.-i.e.-a-royal-flush-is-evaluated-as-better-based-off-of-suit.;flush-with-1-highest-card-being-the-same-rank-then-the-best-of-remaining-8-win",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 94,
+  "name": "two hands",
+  "rows": [
+    {
+      "cells": [
+        "C4 C5 C7 C9 C10",
+        "S4 S5 S7 S8 S10"
+      ],
+      "line": 95
+    }
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 96,
+  "name": "hand one beats hand two whether it belongs to AIP or HTB",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HandPriorites.two_hands(DataTable)"
+});
+formatter.result({
+  "duration": 24356,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HandPriorites.hand_one_beats_hand_two_whether_it_belongs_to_AIP_or_HTB()"
+});
+formatter.result({
+  "duration": 22825,
   "status": "passed"
 });
 });
