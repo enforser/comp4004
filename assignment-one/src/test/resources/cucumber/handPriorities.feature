@@ -1,5 +1,14 @@
 Feature: All given hands beat hands of lesser value
 
+ ### Description ###
+ # These tests verify that two hands of different values will be properly 
+ # compared against each other. Note that it does only covers different hands.
+ # By this I mean that this feature file does not encompass comparisons between 
+ # the same hand types (ex. royal flush vs. royal flush). 
+ # The tests here involve testing the various possible types of hands against each other.
+ # For each comparison made the tests will ensure that the winner of the game is that
+ # with the better hand - regardless of if it belongs to AIP or HTB. 
+
  Scenario: A royal flush beats straight flush
   Given two hands
    | C10 CJ CQ CK CA | S9 S10 SJ SQ SK |

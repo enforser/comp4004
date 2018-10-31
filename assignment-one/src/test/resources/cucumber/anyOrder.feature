@@ -1,4 +1,14 @@
-Feature: All hands can be identified regardless of card order
+Feature: All hands can be identified regardless of card order. 
+
+ ### Description ###
+ # These tests use an example table to test each permutation of a hand. 
+ # Most hand types are only tested with one particular instance of the hand.
+ # For example, we test S10, SJ, SQ, SK, and SA for royal flush - but 
+ # it is tested in all 120 possible permutations. 
+ # There are up to 120 permutations for hands with distinct cards and less 
+ # for hands which have repeated ranks. 
+ # To generate permutations I used: 
+ # https://www.dcode.fr/permutations-generator
 
  Scenario Outline: A Royal Flush can be determined given any order
   Given A set of cards with "<available suits>" and "<available ranks>"
@@ -10,6 +20,125 @@ Feature: All hands can be identified regardless of card order
    | C C C C C | 10 J Q K A |
    | H H H H H | 10 J Q K A |
    | D D D D D | 10 J Q K A |
+   | S S S S S | J 10 Q K A |
+   | S S S S S | Q 10 J K A |
+   | S S S S S | 10 Q J K A |
+   | S S S S S | J Q 10 K A |
+   | S S S S S | Q J 10 K A |
+   | S S S S S | Q J K 10 A |
+   | S S S S S | J Q K 10 A |
+   | S S S S S | K Q J 10 A |
+   | S S S S S | Q K J 10 A |
+   | S S S S S | J K Q 10 A |
+   | S S S S S | K J Q 10 A |
+   | S S S S S | K 10 Q J A |
+   | S S S S S | 10 K Q J A |
+   | S S S S S | Q K 10 J A |
+   | S S S S S | K Q 10 J A |
+   | S S S S S | 10 Q K J A |
+   | S S S S S | Q 10 K J A |
+   | S S S S S | J 10 K Q A |
+   | S S S S S | 10 J K Q A |
+   | S S S S S | K J 10 Q A |
+   | S S S S S | J K 10 Q A |
+   | S S S S S | 10 K J Q A |
+   | S S S S S | K 10 J Q A |
+   | S S S S S | A 10 J Q K |
+   | S S S S S | 10 A J Q K |
+   | S S S S S | J A 10 Q K |
+   | S S S S S | A J 10 Q K |
+   | S S S S S | 10 J A Q K |
+   | S S S S S | J 10 A Q K |
+   | S S S S S | J 10 Q A K |
+   | S S S S S | 10 J Q A K |
+   | S S S S S | Q J 10 A K |
+   | S S S S S | J Q 10 A K |
+   | S S S S S | 10 Q J A K |
+   | S S S S S | Q 10 J A K |
+   | S S S S S | Q A J 10 K |
+   | S S S S S | A Q J 10 K |
+   | S S S S S | J Q A 10 K |
+   | S S S S S | Q J A 10 K |
+   | S S S S S | A J Q 10 K |
+   | S S S S S | J A Q 10 K |
+   | S S S S S | 10 A Q J K |
+   | S S S S S | A 10 Q J K |
+   | S S S S S | Q 10 A J K |
+   | S S S S S | 10 Q A J K |
+   | S S S S S | A Q 10 J K |
+   | S S S S S | Q A 10 J K |
+   | S S S S S | K A 10 J Q |
+   | S S S S S | A K 10 J Q |
+   | S S S S S | 10 K A J Q |
+   | S S S S S | K 10 A J Q |
+   | S S S S S | A 10 K J Q |
+   | S S S S S | 10 A K J Q |
+   | S S S S S | 10 A J K Q |
+   | S S S S S | A 10 J K Q |
+   | S S S S S | J 10 A K Q |
+   | S S S S S | 10 J A K Q |
+   | S S S S S | A J 10 K Q |
+   | S S S S S | J A 10 K Q |
+   | S S S S S | J K 10 A Q |
+   | S S S S S | K J 10 A Q |
+   | S S S S S | 10 J K A Q |
+   | S S S S S | J 10 K A Q |
+   | S S S S S | K 10 J A Q |
+   | S S S S S | 10 K J A Q |
+   | S S S S S | A K J 10 Q |
+   | S S S S S | K A J 10 Q |
+   | S S S S S | J A K 10 Q |
+   | S S S S S | A J K 10 Q |
+   | S S S S S | K J A 10 Q |
+   | S S S S S | J K A 10 Q |
+   | S S S S S | Q K A 10 J |
+   | S S S S S | K Q A 10 J |
+   | S S S S S | A Q K 10 J |
+   | S S S S S | Q A K 10 J |
+   | S S S S S | K A Q 10 J |
+   | S S S S S | A K Q 10 J |
+   | S S S S S | A K 10 Q J |
+   | S S S S S | K A 10 Q J |
+   | S S S S S | 10 A K Q J |
+   | S S S S S | A 10 K Q J |
+   | S S S S S | K 10 A Q J |
+   | S S S S S | 10 K A Q J |
+   | S S S S S | 10 Q A K J |
+   | S S S S S | Q 10 A K J |
+   | S S S S S | A 10 Q K J |
+   | S S S S S | 10 A Q K J |
+   | S S S S S | Q A 10 K J |
+   | S S S S S | A Q 10 K J |
+   | S S S S S | K Q 10 A J |
+   | S S S S S | Q K 10 A J |
+   | S S S S S | 10 K Q A J |
+   | S S S S S | K 10 Q A J |
+   | S S S S S | Q 10 K A J |
+   | S S S S S | 10 Q K A J |
+   | S S S S S | J Q K A 10 |
+   | S S S S S | Q J K A 10 |
+   | S S S S S | K J Q A 10 |
+   | S S S S S | J K Q A 10 |
+   | S S S S S | Q K J A 10 |
+   | S S S S S | K Q J A 10 |
+   | S S S S S | K Q A J 10 |
+   | S S S S S | Q K A J 10 |
+   | S S S S S | A K Q J 10 |
+   | S S S S S | K A Q J 10 |
+   | S S S S S | Q A K J 10 |
+   | S S S S S | A Q K J 10 |
+   | S S S S S | A J K Q 10 |
+   | S S S S S | J A K Q 10 |
+   | S S S S S | K A J Q 10 |
+   | S S S S S | A K J Q 10 |
+   | S S S S S | J K A Q 10 |
+   | S S S S S | K J A Q 10 |
+   | S S S S S | Q J A K 10 |
+   | S S S S S | J Q A K 10 |
+   | S S S S S | A Q J K 10 |
+   | S S S S S | Q A J K 10 |
+   | S S S S S | J A Q K 10 |
+   | S S S S S | A J Q K 10 |
 
  Scenario Outline: A Straight Flush can be determined given any order
   Given A set of cards with "<available suits>" and "<available ranks>"

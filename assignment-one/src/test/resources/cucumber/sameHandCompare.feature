@@ -1,5 +1,11 @@
 Feature: Hands with the same ranking have their own rules to distinguish which is better. i.e. a royal flush is evaluated as better based off of suit.
 
+ ### Description ###
+ # This file contains the tests which determine how a hands which are the same value 
+ # are compared against each other. For example, we don't test if a royal flush beats
+ # a straight flush - instead we test how a royal flush beats (or loses) against other 
+ # royal flushes! 
+
  Scenario: A royal flush is determined by suit
   Given two hands
    | D10 DJ DQ DK DA | C10 CJ CQ CK CA |

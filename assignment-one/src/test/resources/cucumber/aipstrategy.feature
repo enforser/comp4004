@@ -1,5 +1,18 @@
 Feature: AIP should be capable of applying a strategy then losing or winning
 
+ ### Description ###
+ # These tests use example tables to ensure that AIP will properly implement the 
+ # improvement strategy, then lose or win based off which cards it ends up with, 
+ # given the available cards in 'deck'. 
+ # This allows tests to be written for specific game situations. Note that in real 
+ # usage of the application the deck will always contain all cards except those which
+ # have been discarded or are in a hand. Doing the deck this way is simply a way 
+ # to fake game situations to better test how AIP will react when presented certain
+ # cards from the deck. 
+ # The first set of Scenarios represents moves that AIP makes to win the game. 
+ # The second set represents the same moves but with different cards being given
+ # to AIP, such that it loses. 
+
  Scenario Outline: AIP exchanges cards then wins against the HTB
   Given AIP has an initial hand of "<AIP cards>" 
   And HTB has an initial hand of "<HTB cards>"
