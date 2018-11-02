@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5364bfd-3efe-4430-bfc2-9c804779275e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MatthewForsA1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/ForsMatthew-grid.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/java/comp4004/a1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/java/comp4004/a1/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/java/comp4004/a1/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/java/comp4004/a1/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/java/comp4004/a1/Hand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/aceStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/allSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/betterFullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/betterPairOfFives.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/betterSuitStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fixture1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/flush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/flushWithJokerHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/flushWithTenHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/flushWithTenHighCardBetterSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fourOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fourOfAKindHigherCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fourOrderedRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fromHighestToLowestRank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/fullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithFourOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithNoPairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithPairNotTogether.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithPairTogether.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithThreeOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/handWithTwoPairsBetterSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/hands/ai.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/hands/user.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/hasOneBetterPair.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/hasTwoPairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/hasTwoWorsePairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/heartsRoyalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/heartsStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/highRankStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/higherRankedStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/highestCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/highestCardNine.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/highestCardTen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/highestCardTenWorseSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/keepTwoHighestCards.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/lowRankStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/lowerRankedStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/noOrderedRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/noSimilarRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/oneDifferentSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/oneOffFromFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/oneOffFromFullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/oneOffFromStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/orderedStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/pairOfFives.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/pairOfFours.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/pairOfFoursWithOtherHighCards.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/royalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/royalFlushDifferentOrderOne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/royalFlushDifferentOrderTwo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/royalWithDifferentSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/sameSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/spadesRoyalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/spadesStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/straightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/straightFlushRandom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/straightWithFourSameSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/testInputFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeCardsInSequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeCardsInSequenceAtEnd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeCardsInSequenceUnordered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeOfAKindWithKing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/threeOfSameSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/unorderedStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/worseSuitStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/main/resources/worseflushWithTenHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/CardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/CucumberRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/DeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/GameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/HandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/steps/AnyOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/steps/HandPriorites.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/steps/ImproveHandAndCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/java/comp4004/a1/steps/RunProgramSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/AIPholds.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/aipstrategy.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/anyOrder.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/handPriorities.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/runProgram.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/src/test/resources/cucumber/sameHandCompare.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/aceStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/allSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/betterFullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/betterPairOfFives.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/betterSuitStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/comp4004/a1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/comp4004/a1/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/comp4004/a1/Deck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/comp4004/a1/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/comp4004/a1/Hand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fixture1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/flush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/flushWithJokerHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/flushWithTenHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/flushWithTenHighCardBetterSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fourOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fourOfAKindHigherCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fourOrderedRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fromHighestToLowestRank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/fullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithFourOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithNoPairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithPairNotTogether.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithPairTogether.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithThreeOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/handWithTwoPairsBetterSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/hands/ai.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/hands/user.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/hasOneBetterPair.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/hasTwoPairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/hasTwoWorsePairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/heartsRoyalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/heartsStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/highRankStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/higherRankedStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/highestCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/highestCardNine.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/highestCardTen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/highestCardTenWorseSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/keepTwoHighestCards.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/lowRankStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/lowerRankedStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/noOrderedRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/noSimilarRanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/oneDifferentSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/oneOffFromFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/oneOffFromFullHouse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/oneOffFromStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/orderedStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/pairOfFives.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/pairOfFours.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/pairOfFoursWithOtherHighCards.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/royalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/royalFlushDifferentOrderOne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/royalFlushDifferentOrderTwo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/royalWithDifferentSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/sameSuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/spadesRoyalFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/spadesStraightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/straightFlush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/straightFlushRandom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/straightWithFourSameSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/testInputFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeCardsInSequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeCardsInSequenceAtEnd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeCardsInSequenceUnordered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeOfAKind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeOfAKindWithKing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/threeOfSameSuit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/unorderedStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/worseSuitStraight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/classes/worseflushWithTenHighCard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/cucumber/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/cucumber/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/cucumber/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/cucumber/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/cucumber/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.CardTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.CucumberRunnerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.DeckTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.GameTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/TEST-comp4004.a1.HandTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.CardTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.CucumberRunnerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.DeckTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.GameTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/surefire-reports/comp4004.a1.HandTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/CucumberRunnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/DeckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/GameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/HandTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/steps/AnyOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/steps/HandPriorites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/steps/ImproveHandAndCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/comp4004/a1/steps/RunProgramSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/AIPholds.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/aipstrategy.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/anyOrder.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/handPriorities.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/runProgram.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/target/test-classes/cucumber/sameHandCompare.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-one/user-stories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-two/PokerGame/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1127074679">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/CardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerGame" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541116512944" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp4004.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="comp4004.a1" />
+      <option name="MAIN_CLASS_NAME" value="comp4004.a1.CardTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CardTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5364bfd-3efe-4430-bfc2-9c804779275e" name="Default Changelist" comment="" />
+      <created>1541115699429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541115699429</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CardTest - 2018.11.01 at 19h 42m 21s.xml">
+      <configuration name="CardTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/comp4004/a1/CardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
